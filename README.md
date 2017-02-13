@@ -18,23 +18,54 @@
        
          * [Specification](https://www.ecma-international.org/ecma-262/7.0/)
          * Rauschmayer, [Summary of features](http://www.2ality.com/2016/01/ecmascript-2016.html)
-         * [Reference on ES2015 features](http://babeljs.io/learn-es2015/)
-         * [Reference on ES2017 ("ecma262")](https://tc39.github.io/ecma262/)
-         * [Rauschmayer books on new ES version](http://exploringjs.com/)
+         * Rauschmayer, [_Exploring ES2016 and ES2017_](http://exploringjs.com/es2016-es2017.html)
          * Zakas, [_Understanding ECMAScript 6_](https://leanpub.com/understandinges6/read)
 
-       * Other JS
+       * ES6 (ES2015)
+       
+         * Babel.JS, [Reference on ES2015 features](http://babeljs.io/learn-es2015/)
+         * Rauschmayer, [_Exploring ES6_](http://exploringjs.com/es6.html)
+         * Rauschmayer, [_Setting up ES6_](http://exploringjs.com/setting-up-es6.html)
+
+       * ES2017 ("ecma262")
+       
+         * [Reference on ES2017](https://tc39.github.io/ecma262/)
+       
+       * Other JS books not yet examined
 
          * Fogus, [_Functional JavaScript_](https://github.com/classicemi/ebooks/blob/master/Functional%20JavaScript.pdf)
          * Rauschmayer, [_Speaking JavaScript_](https://github.com/classicemi/ebooks/blob/master/Speaking%20JavaScript.pdf)
        
     2. projects
+    
+       (blank)
 
  1. The Graph abstract data-type and the Tree data-structure
 
-    2. Cormen et al. (2009)
-    2. Aho et al. (1983)
-    2. Wirth (1976)
+    2. **Niklaus Wirth**, _Algorithms + Data Structures = Programs_. Englewood Cliffs, NJ: Prentice-Hall, Inc., 1976.
+    
+       Examples are written in **PASCAL**, with a parser introduced in Chapter 5 for **PL/0**. Topics of special interest:
+       
+       * Chapter 4, "Dynamic Information Structures"
+       
+         * 4.4 "Tree Structures"
+         * 4.5 "Multiway Trees"
+
+       * Chapter 5, "Language Structures and Compilers"
+       
+         * 5.3 "Constructing a Syntax Graph"
+
+    2. **Alfred V. Aho, John E. Hopcroft, and Jeffrey D. Ullman**, _Data Structures and Algorithms_. Reading, Mass.: Addison-Wesley Publishing Company, 1983.
+    
+       Examples are written in "**super Pascal**", a superset of Pascal with three additional features: non-numeric labels, return statements, and expressions as names of types. Topics of interest to me are integrated with the treatment of sets, but the chapters of immediate interest to me are:
+    
+       * Chapter 3, "Trees"
+       * Chapter 5, "Advanced Set Representation Methods" (includes binary search trees, tries, balanced tree implementations of sets)
+       * Chapter 6, "Directed Graphs"
+       * Chapter 6, "Undirected Graphs"
+    
+    2. **Cormen** et al. (2009)
+
 
  1. Environment
  
