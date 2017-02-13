@@ -34,11 +34,13 @@ I want very much to work in a pure Linux environment. During my first batch, I u
     
        * http://www.zdnet.com/article/2017s-best-linux-laptop-the-latest-dell-xps-13/, accessed 20170213
 
-    2. Acer Chromebook 15 CB5-571 C1DZ
+    2. Acer Chromebook 15 CB5-571-C1DZ
     
        * http://www.linux-netbook.com/acer-chromebook-15-cb5-571-c1dz/, accessed 20170213
+       * http://www.computerworld.com/article/2898232/acer-chromebook-15-review-a-large-laptop-with-ample-appeal.html
+       * https://www.cnet.com/products/acer-chromebook-15/
  
-    2. Acer Chromebook for Work CP5-471-312N (14")
+    2. Acer Chromebook for Work CP5-471-312N (14") or CP5-471-581N
     
        * http://notebooks.com/2016/09/24/acer-chromebook-14-for-work-review/, accessed 20170213
        * http://www.laptopmag.com/reviews/laptops/acer-chromebook-14-work, accessed 20170213
