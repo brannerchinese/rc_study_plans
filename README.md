@@ -42,7 +42,8 @@ I want very much to work in a pure Linux environment. During my first batch, I u
     
        * http://notebooks.com/2016/09/24/acer-chromebook-14-for-work-review/, accessed 20170213
        * http://www.laptopmag.com/reviews/laptops/acer-chromebook-14-work, accessed 20170213
- 
+       * http://www.pcmag.com/review/347362/acer-chromebook-14-for-work, accessed 20170213
+
  1. OS options
  
     2. Crouton
