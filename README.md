@@ -39,7 +39,7 @@ I want very much to work in a pure Linux environment. During my first batch, I u
        * http://www.linux-netbook.com/acer-chromebook-15-cb5-571-362q/, accessed 20170213
        * https://laptopninja.io/laptops/acer-chromebook-15-cb5-571-362q-15-6-inch/, accessed 20170213
        * https://www.reddit.com/r/chromeos/comments/47zyif/first_thoughts_on_recent_purchase_of_acer/, accessed 20170213
-       * https://pcverge.com/acer-chromebook-15-cb5-571-58hf-laptop-review/
+       * https://pcverge.com/acer-chromebook-15-cb5-571-58hf-laptop-review/, accessed 20170213
  
     2. Acer Chromebook for Work (14") CP5-471-312N (Intel Core i3) or CP5-471-581N (Intel Core i5)
     
