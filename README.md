@@ -26,7 +26,7 @@ I want very much to work in a pure Linux environment. During my first batch, I u
     
     One option is to use a dedicated Linux machine and another is to work on remote Linux instance. Of the dedicated Linux machines, Dell machines seem more reliable than System 76. If I'm to work on remote instance, one option is to use my old MacBook and another is to get an inexpensive machine — a Chromebook is a cheaper option than Dell.
 
-    Acer Chromebook for Work has significantly fewer bad reviews on Amazon than Acer Chromebook 15. 
+    [Acer Chromebook for Work](https://www.amazon.com/Acer-Chromebook-Memory-Storage-CP5-471-581N/product-reviews/B01EPZIMD2/ref=cm_cr_arp_d_viewpnt_rgt?ie=UTF8&filterByStar=critical&reviewerType=avp_only_reviews&pageNumber=1) has less noticeably bad reviews on Amazon than [Acer Chromebook 15](https://www.amazon.com/Acer-Chromebook-CB5-571-362Q-15-6-Inch-Intel/product-reviews/B00X5X30V0/ref=cm_cr_arp_d_viewpnt_rgt?ie=UTF8&reviewerType=avp_only_reviews&filterByStar=critical&pageNumber=1). The 15 is clearly a more cheaply made machine, in any case.
     
     I'm not sure how happy I will be working full-time on a laptop again, but it's only for six weeks.
  
