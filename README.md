@@ -12,6 +12,12 @@
  
     2. [The Graph abstract data-type and the Tree data-structure](philosophy_graphs_trees.md)
 
+ 1. Other topics of interest
+
+    2. composing makefiles
+    2. fluency in Bash scripting
+    2. use of Docker containers
+
 ### Environment
  
  1. Laptop options
@@ -37,14 +43,5 @@
        > There are several releases of Linux Mint available, and MATE and Xfce are tied for best lightweight Linux Mint release. Both are well suited to Atom processors, and most under-powered CPUs for that matter. Of all the distributions on this list, Mint offers arguably the best looking environment. (http://www.makeuseof.com/tag/5-lightweight-linux-distros-ideal-intel-atom-processor-pc/)
 
        > There is a handy thing called Crouton that can be used to run Ubuntu alongside ChromeOS. In this article, I will walk through the steps required for accomplishing this. Crouton does not support Mate (my preferred desktop environment) out-of-the-box, so I will also walk through how to get Mate as well. (https://medium.com/power-user/ubuntu-mate-on-a-chromebook-with-crouton-2cebd167382#.f308fpsf3)
-
- 1. Other projects of interest
-
-    2. composing makefiles
-    2. fluency in Bash scripting
-    2. use of Docker containers
-    2. distributed hash table (DHT)
-    2. chat server
-    2. bittorrent client
 
 [end]
