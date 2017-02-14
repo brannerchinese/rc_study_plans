@@ -57,6 +57,12 @@ I want very much to work in a pure Linux environment. During my first batch, I u
        >
        > **chroot**: A chroot on Unix operating systems is an operation that changes the apparent root directory for the current running process and its children. A program that is run in such a modified environment cannot name (and therefore normally cannot access) files outside the designated directory tree. The term "chroot" may refer to the chroot(2) system call or the chroot(8) wrapper program. The modified environment is called a chroot jail. (https://en.wikipedia.org/wiki/Chroot, accessed 20170213)
 
+    2. i3
+    
+       > i3 is a tiling window manager, completely written from scratch. The target platforms are GNU/Linux and BSD operating systems, our code is Free and Open Source Software (FOSS) under the BSD license. i3 is primarily targeted at advanced users and developers. (https://i3wm.org/, accessed 20170214)
+       
+       Will i3 stand in for a desktop environment, too?
+
     2. MATE
 
        > There are several releases of Linux Mint available, and MATE and Xfce are tied for best lightweight Linux Mint release. Both are well suited to Atom processors, and most under-powered CPUs for that matter. Of all the distributions on this list, Mint offers arguably the best looking environment. (http://www.makeuseof.com/tag/5-lightweight-linux-distros-ideal-intel-atom-processor-pc/, accessed 20170213)
