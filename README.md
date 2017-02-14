@@ -60,6 +60,8 @@ I want very much to work in a pure Linux environment. During my first batch, I u
     2. i3
     
        > i3 is a tiling window manager, completely written from scratch. The target platforms are GNU/Linux and BSD operating systems, our code is Free and Open Source Software (FOSS) under the BSD license. i3 is primarily targeted at advanced users and developers. (https://i3wm.org/, accessed 20170214)
+       >
+       > i3 is a tiling window manager designed for X11, inspired by wmii, and written in C. It supports tiling, stacking, and tabbing layouts, which it handles dynamically. Configuration is achieved via plain text file and extending i3 is possible using its Unix domain socket and JSON based IPC interface from many programming languages. Like wmii, i3 uses a control system very similar to vi. By default, window focus is controlled by the 'Mod1' (Alt key/Win key) plus the right hand home row keys (Mod1+J,K,L,;), while window movement is controlled by the addition of the Shift key (Mod1+Shift+J,K,L,;). (https://en.wikipedia.org/wiki/I3_(window_manager), accessed 20170214)
        
        Will i3 stand in for a desktop environment, too?
 
