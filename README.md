@@ -63,12 +63,12 @@ I want very much to work in a pure Linux environment. During my first batch, I u
        >
        > i3 is a tiling window manager designed for X11, inspired by wmii, and written in C. It supports tiling, stacking, and tabbing layouts, which it handles dynamically. Configuration is achieved via plain text file and extending i3 is possible using its Unix domain socket and JSON based IPC interface from many programming languages. Like wmii, i3 uses a control system very similar to vi. By default, window focus is controlled by the 'Mod1' (Alt key/Win key) plus the right hand home row keys (Mod1+J,K,L,;), while window movement is controlled by the addition of the Shift key (Mod1+Shift+J,K,L,;). (https://en.wikipedia.org/wiki/I3_(window_manager), accessed 20170214)
        
-       Will i3 stand in for a desktop environment, too?
+       Will i3 stand in for a desktop environment, too? Based on what I've read on line — and of course much will become clearer when I have a machine in front of me — a lot of people install only ubuntu-server in the chroot, with i3 but no desktop at all.
 
-    2. MATE
+    2. ~~MATE~~
 
-       > There are several releases of Linux Mint available, and MATE and Xfce are tied for best lightweight Linux Mint release. Both are well suited to Atom processors, and most under-powered CPUs for that matter. Of all the distributions on this list, Mint offers arguably the best looking environment. (http://www.makeuseof.com/tag/5-lightweight-linux-distros-ideal-intel-atom-processor-pc/, accessed 20170213)
-       >
-       > There is a handy thing called Crouton that can be used to run Ubuntu alongside ChromeOS. In this article, I will walk through the steps required for accomplishing this. Crouton does not support Mate (my preferred desktop environment) out-of-the-box, so I will also walk through how to get Mate as well. (https://medium.com/power-user/ubuntu-mate-on-a-chromebook-with-crouton-2cebd167382#.f308fpsf3, accessed 20170213)
+       > ~~There are several releases of Linux Mint available, and MATE and Xfce are tied for best lightweight Linux Mint release. Both are well suited to Atom processors, and most under-powered CPUs for that matter. Of all the distributions on this list, Mint offers arguably the best looking environment. (http://www.makeuseof.com/tag/5-lightweight-linux-distros-ideal-intel-atom-processor-pc/, accessed 20170213)~~
+       > ~~~~
+       > ~~There is a handy thing called Crouton that can be used to run Ubuntu alongside ChromeOS. In this article, I will walk through the steps required for accomplishing this. Crouton does not support Mate (my preferred desktop environment) out-of-the-box, so I will also walk through how to get Mate as well. (https://medium.com/power-user/ubuntu-mate-on-a-chromebook-with-crouton-2cebd167382#.f308fpsf3, accessed 20170213)~~
 
 [end]
