@@ -8,6 +8,11 @@
     >
     > **chroot**: A chroot on Unix operating systems is an operation that changes the apparent root directory for the current running process and its children. A program that is run in such a modified environment cannot name (and therefore normally cannot access) files outside the designated directory tree. The term "chroot" may refer to the chroot(2) system call or the chroot(8) wrapper program. The modified environment is called a chroot jail. (https://en.wikipedia.org/wiki/Chroot, accessed 20170213)
 
+    2. Debian
+    
+       * [Installation instructions](http://grephaxs.com/chromebook-install-debian-on-chromebook-with-crouton/)
+       * [Installation instructions with i3](http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html)
+
  1. i3
     
     > i3 is a tiling window manager, completely written from scratch. The target platforms are GNU/Linux and BSD operating systems, our code is Free and Open Source Software (FOSS) under the BSD license. i3 is primarily targeted at advanced users and developers. (https://i3wm.org/, accessed 20170214)
