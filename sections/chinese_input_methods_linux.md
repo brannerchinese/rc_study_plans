@@ -34,4 +34,6 @@
       
         > `ibus-table`, developed by Yu Wei Yu, is an IME that loads tables of input methods which do not need complicated logic to select words. Many structure-based Chinese input methods such as Cangjie and Wubi are supported this way. (https://en.wikipedia.org/wiki/Intelligent_Input_Bus#ibus-table, accessed 20170217)
 
+ 1. [Review of options generally](https://blogs.gnome.org/happyaron/2011/01/15/linux-input-method-brief-summary/), including SCIM.
+
 [end]
