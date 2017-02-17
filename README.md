@@ -26,4 +26,6 @@ I want very much to work in a pure Linux environment. During my first batch, I u
     
  1. [OS options](sections/os_options.md)
  
+ 1. [Chinese input methods for Linux](sections/chinese_input_methods_linux.md)
+ 
 [end]
