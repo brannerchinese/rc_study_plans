@@ -8,10 +8,14 @@
     
     * input methods
     
+      `ibus-cangjie` seems the best documented, followed by `ibus-chewing`. 
+    
       * Juhin 注音
     
-        * `ibus-libzhuyin`
-        * `ibus-chewing`
+        LibZhuyin has a better reputation, but Chewing is much better documented.
+    
+        * [`ibus-libzhuyin`](https://github.com/libzhuyin/ibus-libzhuyin)
+        * [`ibus-chewing`](https://github.com/definite/ibus-chewing), [user guide](https://github.com/definite/ibus-chewing/blob/master/USER-GUIDE)
         
         > `ibus-m17n` and `ibus-anthy` both provide BoPoMoFo input methods. (http://askubuntu.com/a/281820/41401, accessed 20170217)
     
@@ -19,12 +23,12 @@
     
         > Pinyin is the transcription of the spoken Chinese language in Latin characters. Each character has a tone which can be entered via the keyboard's various layers. E.g. on a German keyboard, buttons for `'` and <code>&#96;</code> are available which allows to write the second (e.g. _má_) and fourth tone (e.g. _mà_). The first tone can be composed by holding `<alt gr> + <shift> + <+>` then the character (e.g. _mā_), the third by `<alt gr> + <shift> + <ä>` then the character (e.g. _mǎ_).  (https://wiki.debian.org/gnome-chinese-input, accessed 20170217)
     
-        * `ibus-libpinyin`
-        * `ibus-pinyin`
+        * [`ibus-libpinyin`](https://github.com/libpinyin/ibus-libpinyin)
+        * [`ibus-pinyin`](https://github.com/ibus/ibus-pinyin)
       
       * Tsangjye 倉頡
     
-        * `ibus-cangjie`
+        * [`ibus-cangjie`](https://github.com/Cangjians/libcangjie), [documentation](http://cangjians.github.io/projects/ibus-cangjie/documentation/)
 
       * Gwoyeu Romatzyh 國語羅馬字
     
