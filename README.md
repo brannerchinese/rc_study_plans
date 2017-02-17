@@ -28,4 +28,6 @@ I want very much to work in a pure Linux environment. During my first batch, I u
  
  1. [Chinese input methods for Linux](sections/chinese_input_methods_linux.md)
  
+ 1. [Chinese fonts in Debian](sections/debian_fonts.md)
+ 
 [end]
