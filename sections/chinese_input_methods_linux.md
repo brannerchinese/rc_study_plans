@@ -19,7 +19,7 @@
     
       * Pin'in 漢語拼音
     
-        > Pinyin is the transcription of the spoken Chinese language in latin characters. Each character has a tone which can be entered via the keyboard's various layers. E.g. on a German keyboard, buttons for `'` and <code>&#96;</code> are available which allows to write the second (e.g. _má_) and forth tone (e.g. _mà_). The first tone can be composed by holding `<alt gr> + <shift> + <+>` then the character (e.g. _mā_), the third by `<alt gr> + <shift> + <ä>` then the character (e.g. _mǎ_).  (https://wiki.debian.org/gnome-chinese-input, accessed 20170217)
+        > Pinyin is the transcription of the spoken Chinese language in Latin characters. Each character has a tone which can be entered via the keyboard's various layers. E.g. on a German keyboard, buttons for `'` and <code>&#96;</code> are available which allows to write the second (e.g. _má_) and fourth tone (e.g. _mà_). The first tone can be composed by holding `<alt gr> + <shift> + <+>` then the character (e.g. _mā_), the third by `<alt gr> + <shift> + <ä>` then the character (e.g. _mǎ_).  (https://wiki.debian.org/gnome-chinese-input, accessed 20170217)
     
         * `ibus-libpinyin`
         * `ibus-pinyin`
