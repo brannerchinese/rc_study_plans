@@ -30,6 +30,13 @@ I want very much to work in a pure Linux environment. During my first batch, I u
     
     I'm not sure how happy I will be working full-time on a laptop again, but it's only for six weeks.
  
+    2. Acer Chromebook for Work (14") CP5-471-312N (Intel Core i3) or CP5-471-581N (Intel Core i5)
+    
+       * http://notebooks.com/2016/09/24/acer-chromebook-14-for-work-review/, accessed 20170213
+       * http://www.laptopmag.com/reviews/laptops/acer-chromebook-14-work, accessed 20170213
+       * http://www.pcmag.com/review/347362/acer-chromebook-14-for-work, accessed 20170213
+       * Acer says [this model accepts cards up to 128 GB](https://www.amazon.com/forum/-/Tx3HV1VJYQH4WG5), v1.0 / v2.0 / SDHC.
+
     2. Dell XPS 13.
     
        * http://www.zdnet.com/article/2017s-best-linux-laptop-the-latest-dell-xps-13/, accessed 20170213
@@ -41,12 +48,6 @@ I want very much to work in a pure Linux environment. During my first batch, I u
        * https://www.reddit.com/r/chromeos/comments/47zyif/first_thoughts_on_recent_purchase_of_acer/, accessed 20170213
        * https://pcverge.com/acer-chromebook-15-cb5-571-58hf-laptop-review/, accessed 20170213
  
-    2. Acer Chromebook for Work (14") CP5-471-312N (Intel Core i3) or CP5-471-581N (Intel Core i5)
-    
-       * http://notebooks.com/2016/09/24/acer-chromebook-14-for-work-review/, accessed 20170213
-       * http://www.laptopmag.com/reviews/laptops/acer-chromebook-14-work, accessed 20170213
-       * http://www.pcmag.com/review/347362/acer-chromebook-14-for-work, accessed 20170213
-
  1. OS options
  
     2. Crouton
