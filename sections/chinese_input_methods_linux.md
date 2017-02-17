@@ -4,7 +4,7 @@
  
     > The Intelligent Input Bus (IBus, pronounced as I-Bus) is an input method (IM) framework for multilingual input in Unix-like operating-systems. The name "Bus" comes from its bus-like architecture. (https://en.wikipedia.org/wiki/Intelligent_Input_Bus, accessed 20170217)
     
-    * [documentation](https://wiki.debian.org/I18n/ibus, accessed 20170217)
+    * [documentation](https://wiki.debian.org/I18n/ibus, accessed 20170217); [Arch Linux user-guide](https://wiki.archlinux.org/index.php/IBus)
     
     * input methods
     
@@ -17,7 +17,7 @@
         * [`ibus-libzhuyin`](https://github.com/libzhuyin/ibus-libzhuyin)
         * [`ibus-chewing`](https://github.com/definite/ibus-chewing), [user guide](https://github.com/definite/ibus-chewing/blob/master/USER-GUIDE)
         
-        > `ibus-m17n` and `ibus-anthy` both provide BoPoMoFo input methods. (http://askubuntu.com/a/281820/41401, accessed 20170217)
+        > [`ibus-m17n`](https://github.com/phuang/ibus-m17n) and [`ibus-anthy`](https://github.com/phuang/ibus-anthy) both provide BoPoMoFo input methods. (http://askubuntu.com/a/281820/41401, accessed 20170217)
     
       * Pin'in 漢語拼音
     
