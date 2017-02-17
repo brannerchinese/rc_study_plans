@@ -32,7 +32,7 @@
 
       * Gwoyeu Romatzyh 國語羅馬字
     
-        Consider trying to prepare, using `ibus-table`? 
+        Consider trying to prepare, using `ibus-table`? Only good for an initial, syllable-by-syllable approach. For connected words, there is logic required.
       
         > `ibus-table`, developed by Yu Wei Yu, is an IME that loads tables of input methods which do not need complicated logic to select words. Many structure-based Chinese input methods such as Cangjie and Wubi are supported this way. (https://en.wikipedia.org/wiki/Intelligent_Input_Bus#ibus-table, accessed 20170217)
 
