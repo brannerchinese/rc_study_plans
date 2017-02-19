@@ -28,6 +28,11 @@ From https://www.sdcard.org/developers/overview/speed_class/, accessed 20170219:
 
    > UHS Speed Class is designed for UHS** devices only and designates minimum writing performance to record video on UHS products. The UHS Speed Classes defined by the SD Association are UHS Speed Class 1 (U1) and UHS Speed Class 3 (U3).
 
- 
+### Formatting
+
+ * http://www.makeuseof.com/tag/write-format-manage-sd-card-linux/
+ * http://askubuntu.com/questions/44557/how-to-format-partition-sd-card
+ * https://www.techwalla.com/articles/how-to-format-an-sd-card-in-debian-linux
+ * http://www.linuxquestions.org/questions/linux-newbie-8/sd-card-partition-and-formatting-using-debian-894847/
 
 [end]
