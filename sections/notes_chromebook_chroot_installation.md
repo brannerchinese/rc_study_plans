@@ -80,7 +80,7 @@ In the chroot, install
 
 Clone the vim_configuration repo: https://github.com/brannerchinese/vim_configuration.
 
-Clone the crouton installation notes file (includes this file).
+Clone the `rc_study_plans` repo, which includes the present file.
 
 In the Chrome OS, create a link to that file, so that it can be accessed outside of the chroot (below, assuming `dpb` is the your username.
 
@@ -92,7 +92,7 @@ ln -s /mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/crouton_install
 
 It may be possible to use Git outside of developer mode if the [Git-Browser](https://chrome.google.com/webstore/detail/git-browser/cladogmhjppclibenkdbnjcogiaifnbd) Chrome extension is installed. (This has yet to be tested.)
 
-In order to get `crosh` to run a script automatically, follow the instructions [here](https://groups.google.com/a/chromium.org/d/msg/chromium-os-discuss/rdzA2gfTMWM/KROV8m19wZ0J):
+In order to get `crosh` to run a script automatically, it may be possible to follow the instructions [here](https://groups.google.com/a/chromium.org/d/msg/chromium-os-discuss/rdzA2gfTMWM/KROV8m19wZ0J). However, doing this may put the filesystem at risk of corruption, and I haven't done this yet.
 
 ```bash
 # 1. Remove rootfs verification
