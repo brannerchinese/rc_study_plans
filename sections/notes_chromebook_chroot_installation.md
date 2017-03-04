@@ -82,15 +82,19 @@ Clone the vim_configuration repo: https://github.com/brannerchinese/vim_configur
 
 Clone the `rc_study_plans` repo, which includes the present file.
 
-In the Chrome OS, create a link to that file, so that it can be accessed outside of the chroot (below, assuming `dpb` is the your username.
+In the Chrome OS, create a symlink to that file, so that it can be accessed outside of the chroot (below, assuming `dpb` is the your username.
 
 ```bash
-ln -s /mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/crouton_installation_notes/notes.md notes
+ln -s /mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/repos_rc_study_plans/sections notes
 ```
+
+Make a similar symlink in Debian.
 
 ### Software for the Chrome OS
 
 It may be possible to use Git outside of developer mode if the [Git-Browser](https://chrome.google.com/webstore/detail/git-browser/cladogmhjppclibenkdbnjcogiaifnbd) Chrome extension is installed. (This has yet to be tested.)
+
+There is a `chromebrew` Ruby script that aims to serve as a _de facto_ package manager.
 
 In order to get `crosh` to run a script automatically, it may be possible to follow the instructions [here](https://groups.google.com/a/chromium.org/d/msg/chromium-os-discuss/rdzA2gfTMWM/KROV8m19wZ0J). However, doing this may put the filesystem at risk of corruption, and I haven't done this yet.
 
