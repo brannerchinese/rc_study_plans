@@ -60,7 +60,7 @@ Configure `/etc/default/keyboard`:
 XKBMAP="chromebook"
 ```
 
-Configure `i3` so that no mouseclick is needed to exit, by commenting out the existing line mentioning `exit` and adding to `/mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/.config/ie/config` the line:
+Configure `i3` so that no mouseclick is needed to exit, by commenting out the existing line mentioning `exit` and adding to `/mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/.config/i3/config` the line:
 
 ```bash
 bindsym $mod+Shift+e exit
