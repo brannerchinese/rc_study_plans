@@ -2,13 +2,26 @@
 
 To enter Unicode characters on Linux, enter `ctrl-shift-u` and the codepoint, and then return or space.
 
-I will have to learn by heart the codepoints of the characters I use most often.
+I will have to learn by heart the codepoints of the characters I use most often. It seems I can drop nay number of initial zeros.
 
-ã: 3000
-ï¼¸: ff38
-
-
-
+　: u3000
+Ｘ: uff38
+Á: u00c1
+á: u00e1
+Ǎ: u01cd
+ǎ: u01ce
+É: u00c9
+é: u00e9
+Ě: u011a
+ě: u011b
+Ǐ: u01cf
+ǐ: u01d0
+Ǒ: u01d1
+ǒ: u01d2
+Ǔ: u01d3
+ǔ: u01d4
+Ǚ: u01d9
+ǚ: u01da
 ---
 
 ### Older efforts
