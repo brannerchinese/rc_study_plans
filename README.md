@@ -5,12 +5,20 @@
  1. Fluency in JavaScript
  
     2. [reference](sections/fluency_in_js_reference.md)
-    
-    2. [projects](sections/fluency_in_js_projects.md)
+
+    2. [actual projects](sections/fluency_in_js_projects.md)
 
  1. Philosophy
  
-    2. [The Graph abstract data-type and the Tree data-structure](philosophy_graphs_trees.md)
+    2. [JS specialized libraries of interest](sections/js_libraries_of_interest.md)
+    
+    2. [The Graph abstract data-type and the Tree data-structure](sections/philosophy_graphs_trees.md)
+
+    2. [Concurrency](sections/concurrency.md)
+
+    2. [Distributed computing](sections/distributed_computing.md)
+
+    2. [Raft algorithm](sections/raft_algorithm.md)
 
  1. Other topics of interest
 
@@ -22,7 +30,7 @@
  
 I want very much to work in a pure Linux environment. During my first batch, I used Ubuntu under VirtualBox on Mac OS X, but I had a lot of trouble with the environment at times — I suppose I lost two weeks of the batch to pointless fiddling with problems I couldn't find the solutions to. Never again.
 
- 1. [Installation notes](notes_chromebook_chroot_installation.md)
+ 1. [Installation notes](sections/snotes_chromebook_chroot_installation.md)
  
  1. [Laptop options](sections/laptop_options.md)
  
@@ -33,5 +41,7 @@ I want very much to work in a pure Linux environment. During my first batch, I u
  1. [Chinese input methods for Linux](sections/chinese_input_methods_linux.md)
  
  1. [Chinese fonts in Debian](sections/debian_fonts.md)
+
+ 1. [Chrome key-bindings](sections/chrome_key-bindings.md)
  
 [end]
