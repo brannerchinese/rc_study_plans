@@ -2,9 +2,19 @@
 
 ### Graphical
 
- 1. d3.JS
+ 1. d3.js
 
- 1. p5.JS
+ 1. p5.js
+
+ 1. paper.js
+
+ 1. three.js
+
+ 1. `canvas`
+
+### Node
+
+Network services.
 
 ### Functional
 
