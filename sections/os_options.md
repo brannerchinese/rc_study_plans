@@ -1,6 +1,8 @@
 ## OS options
 
  1. Crouton
+
+    **20170328: I installed Crouton and it turns out to be easier to use and better documented than I had thought it would be.**
     
     > Crouton allows you to install Ubuntu on your Chromebook (https://chromebook.guide/crouton/, accessed 20170213)
     > 
@@ -14,6 +16,8 @@
        * [Installation instructions with i3](http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html)
 
  1. i3
+
+    **20170328: In the end, I uninstalled `i3` because it's easier to run separate Debian processes in different Chrome windows.**
     
     > i3 is a tiling window manager, completely written from scratch. The target platforms are GNU/Linux and BSD operating systems, our code is Free and Open Source Software (FOSS) under the BSD license. i3 is primarily targeted at advanced users and developers. (https://i3wm.org/, accessed 20170214)
     >

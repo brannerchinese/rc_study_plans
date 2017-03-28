@@ -1,5 +1,14 @@
 ## Micro SD options
 
+**20170328: I ended up getting** a Samsung 128 Pro+. 
+
+### Set `/home` always to be on the SD
+
+ 1. Method: apparently use `bind` in the `fstab`.
+ 1. Issues: If the SD is lost, can the system boot and how do I recover my content?
+
+---
+
 ### Brands
 
 These reviews date from 2015-16 and feature 64GB and smaller models. The newest brand names ("SanDisk Ultra", "Samsung Pro+") did not yet exist. Also, reliability is not tested for. It appears that Samsung and SanDisk have the best reputations.

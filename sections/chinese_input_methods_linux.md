@@ -1,5 +1,7 @@
 ## Chinese Input Methods for Linux
 
+**20170328: It appears that what I am using is Chrome's own built-in input methods. I never installed a Debian input method and it seems unnecessary.**
+
  1. Intelligent Input Bus (ibus)
  
     > The Intelligent Input Bus (IBus, pronounced as I-Bus) is an input method (IM) framework for multilingual input in Unix-like operating-systems. The name "Bus" comes from its bus-like architecture. (https://en.wikipedia.org/wiki/Intelligent_Input_Bus, accessed 20170217)

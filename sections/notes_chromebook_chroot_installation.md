@@ -12,14 +12,15 @@ Add some basic tools to `~/.bashrc`:
 export EDITOR=vi
 export HISTSIZE=''
 set -o vi
-alias i3='sudo enter-chroot -n debian-i3 xinit'
+alias d='sudo enter-chroot -n debian-i3'
+# alias i3='sudo enter-chroot -n debian-i3 xinit' # Note 20170328: I uninstalled i3; Running separate Debian processes in separate Chrome windows is sufficient for my needs.
 ```
 
 Create a user password, using `passwd`.
 
 Download Crouton (to ~/Downloads) by pointing Chrome browser to https://goo.gl/fd3zc.
 
-Initial installation (note that Debian `stretch` is needed; `jessie` seems to have a bug that prevents i3 from opening in Debian under the current version of Chrome OS:
+Initial installation (note that Debian `stretch` is needed; `jessie` seems to have a bug that prevents i3 (initially part of my installation) from opening in Debian under the current version of Chrome OS:
 
 ```bash
 sudo sh ~/Downloads/crouton -n debian-i3 -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra
@@ -31,7 +32,7 @@ You will be asked for a password if you have not already set one up.
 
 ### Environment
 
-Enter the chroot by means of the `i3` alias added to the Chrome OS earlier.
+Enter the chroot by means of the `d` alias added to the Chrome OS earlier.
 
 Add some basic tools to `~/.bashrc`:
 
@@ -41,34 +42,13 @@ export HISTSIZE=''
 export TERM='xfce4'
 set -o vi
 ```
-Install `i3`:
 
-```bash
-sudo apt install i3
-```
 
-Configure `.xinitrc`:
-
-```
-exec i3
-setxkbmap -layout us
-```
-
-Configure `/etc/default/keyboard`:
+Configure `/etc/default/keyboard`: (**EDIT**: Is this part of `i3`? If so, delete.)
 
 ```
 XKBMAP="chromebook"
 ```
-
-Configure `i3` so that no mouseclick is needed to exit, by commenting out the existing line mentioning `exit` and adding to `/mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/.config/i3/config` the line:
-
-```bash
-bindsym $mod+Shift+e exit
-```
-
-and restarting.
-
----
 
 ### Software for the chroot
 

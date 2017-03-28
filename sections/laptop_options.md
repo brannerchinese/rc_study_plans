@@ -7,6 +7,11 @@ One option is to use a dedicated Linux machine and another is to work on remote 
 I'm not sure how happy I will be working full-time on a laptop again, but it's only for six weeks.
  
  1. **Acer Chromebook for Work (14") CP5-471-312N (Intel Core i3)** or CP5-471-581N (Intel Core i5)
+
+    2. **20170328: I ended up choosing this model. It is light and generally fun to use.** My only complaints are:
+    
+       * the trackpad is a little hesitant about clicks
+       * the lightness of the machine itself makes it wobbly on my yoga-block standing-desk arrangement.
     
     2. Reviews
     
