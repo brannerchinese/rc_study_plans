@@ -21,6 +21,8 @@
 ### Environment
  
 I want very much to work in a pure Linux environment. During my first batch, I used Ubuntu under VirtualBox on Mac OS X, but I had a lot of trouble with the environment at times — I suppose I lost two weeks of the batch to pointless fiddling with problems I couldn't find the solutions to. Never again.
+
+ 1. [Installation notes](notes_chromebook_chroot_installation.md)
  
  1. [Laptop options](sections/laptop_options.md)
  
