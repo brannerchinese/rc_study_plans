@@ -45,5 +45,9 @@ I want very much to work in a pure Linux environment. During my first batch, I u
  1. [Chrome key-bindings](sections/chrome_key-bindings.md)
 
  1. [Chinese Pinyin input on Chrome](/sections/chinese_pinyin_input_on_chrome.md)
+
+### Other materials
+
+ 1. [Notes from one-on-one conversations](one-on-ones)
  
 [end]
