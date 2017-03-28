@@ -1,5 +1,11 @@
 ## JS specialized libraries of interest
 
+### Graphical
+
+ 1. d3.JS
+
+ 1. p5.JS
+
 ### Functional
 
  1. **Underscore.JS**. Seems very practical, but some people say it's not as good as replacements.
