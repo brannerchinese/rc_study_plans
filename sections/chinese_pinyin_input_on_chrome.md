@@ -6,22 +6,42 @@ I will have to learn by heart the codepoints of the characters I use most often.
 
  * 　: u3000
  * Ｘ: uff38
+ 
+ * ā: a101
+ * á: ue1
+ * ǎ: u1ce
+ * à: ua0
+ * ē: u113
+ * é: ue9
+ * ě: u11b
+ * è: ue8
+ * ī: u12b
+ * í: ued
+ * ǐ: u1d0
+ * ì: uec
+ * ō: u14d
+ * ó: uf3
+ * ǒ: u1d2
+ * ò: uf2
+ * ū: u16b
+ * ú: ufa
+ * ǔ: u1d4
+ * ù: uf9
+ * ǖ: u1d6
+ * ǘ: u1d8
+ * ǚ: u1da
+ * ǜ: u1dc
+
+Below is unfinished
+
  * Á: u00c1
- * á: u00e1
  * Ǎ: u01cd
- * ǎ: u01ce
  * É: u00c9
- * é: u00e9
  * Ě: u011a
- * ě: u011b
  * Ǐ: u01cf
- * ǐ: u01d0
  * Ǒ: u01d1
- * ǒ: u01d2
  * Ǔ: u01d3
- * ǔ: u01d4
  * Ǚ: u01d9
- * ǚ: u01da
 
 ---
 
