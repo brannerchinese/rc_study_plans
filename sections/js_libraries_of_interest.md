@@ -19,5 +19,9 @@
 
  1. **Ramda.JS**. Documentation appears to be fuller than for Bilby.JS.
 
+    * Based on the [author's introductory blog post](https://buzzdecafe.github.io/code/2014/05/16/introducing-ramda), it seems that handling currying is the most important innovation in Ramda. (Other items [here](https://buzzdecafe.github.io/categories.html))
+ 
+Norm Kabir always warns me about using libraries that don't have permanence and enough eyes on them. I'd be a lot more sanguine about Bilby and Ramda if there were fewer typos in their write-ups.
+
 
 [end]
