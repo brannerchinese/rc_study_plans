@@ -4,33 +4,17 @@ To enter Unicode characters on Linux, enter `ctrl-shift-u` and the codepoint, an
 
 I will have to learn by heart the codepoints of the characters I use most often. It seems I can drop nay number of initial zeros.
 
- * 　: u3000
- * Ｘ: uff38
- 
- * ā: a101
- * á: ue1
- * ǎ: u1ce
- * à: ua0
- * ē: u113
- * é: ue9
- * ě: u11b
- * è: ue8
- * ī: u12b
- * í: ued
- * ǐ: u1d0
- * ì: uec
- * ō: u14d
- * ó: uf3
- * ǒ: u1d2
- * ò: uf2
- * ū: u16b
- * ú: ufa
- * ǔ: u1d4
- * ù: uf9
- * ǖ: u1d6
- * ǘ: u1d8
- * ǚ: u1da
- * ǜ: u1dc
+ * 　: 3000
+ * Ｘ: ff38
+
+| macron | acute | caron | grave |
+|--------|-------|-------|-------|
+| ā: a101 | á: e1 | ǎ: 1ce | à: e0
+| ē: 113 | é: e9 | ě: 11b | è: e8
+| ī: 12b | í: ed | ǐ: 1d0 | ì: ec
+| ō: 14d | ó: f3 | ǒ: 1d2 | ò: f2
+| ū: 16b | ú: fa | ǔ: 1d4 | ù: f9
+| ǖ: 1d6 | ǘ: 1d8 | ǚ: 1da | ǜ: 1dc
 
 Below is unfinished
 
