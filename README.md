@@ -3,14 +3,14 @@
 ### Goals
 
  1. Fluency in JavaScript
- 
-    2. [reference](sections/fluency_in_js_reference.md)
+
+    1. [reference](sections/fluency_in_js_reference.md)
 
     2. [actual projects](sections/fluency_in_js_projects.md)
 
  1. Philosophy
  
-    2. [JS specialized libraries of interest](sections/js_libraries_of_interest.md)
+    1. [JS specialized libraries of interest](sections/js_libraries_of_interest.md)
     
     2. [The Graph abstract data-type and the Tree data-structure](sections/philosophy_graphs_trees.md)
 
@@ -22,7 +22,7 @@
 
  1. Other topics of interest
 
-    2. composing makefiles
+    1. composing makefiles
     2. fluency in Bash scripting
     2. use of Docker containers
 
