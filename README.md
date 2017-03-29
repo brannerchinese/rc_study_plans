@@ -49,5 +49,7 @@ I want very much to work in a pure Linux environment. During my first batch, I u
 ### Other materials
 
  1. [Notes from one-on-one conversations](one-on-ones)
+
+ 1. [Pīnyīn to UTF codepoint flashcards](pinyin) (must be printed double-sided)
  
 [end]

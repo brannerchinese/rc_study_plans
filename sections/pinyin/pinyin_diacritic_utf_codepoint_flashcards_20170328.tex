@@ -1,0 +1,123 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+% Version of 20161029. Derived from file ``Math flashcard template 20111118.tex''
+% Packages loaded may be more numerous than needed. Pruning pending.
+
+% Uses a custom command \fl{question}{answer} to generate flashcards. 
+% Intended for printing on double-sided paper.
+
+\documentclass[avery5371,grid]{flashcards}
+\usepackage{geometry}             % See geometry.pdf to learn the layout options.
+\geometry{letterpaper}            % ... or a4paper or a5paper or ... 
+\usepackage{mathtools}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{mathspec}			% replaces amssymb; do not use unicode-math
+\usepackage{fontspec}
+\usepackage{mdwtab}				% allows the use of footnotes in tables
+\usepackage[normalem]{ulem}		% underlining (with ``normal emphasis'' retained)
+
+\usepackage{datetime}		% allows \currenttime
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% CJK SUPPORT
+\usepackage{xeCJK}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Scale=1,Mapping=tex-text]{TeX Gyre Termes}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{TeX Gyre Heros Cn}
+\setCJKmainfont[Scale=1]{SimSun}
+\newfontfamily\songextb{PMingLiU-ExtB}
+\def\CJKsymbol#1{%
+  \iffontchar\font`#1%
+    #1%
+  \else
+    {\songextb#1}%
+  \fi}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[noendash,italic]{mathastext}	% propagates document text font to math mode; use option italic to get italic text in math mode
+
+
+
+\setlength{\parindent}{0cm}	% no paragraph indent
+\setlength{\doublerulesep}{\arrayrulewidth}
+
+\cardfrontstyle{headings}
+\cardfrontfoot{(Pīnyīn diacritic UTF codepoints) \today}
+\cardfrontfootstyle[\footnotesize]{right}
+\cardbackstyle{empty}
+
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%
+
+%normal card: \fl
+\newcommand{\fl}[2]{\begin{flashcard}{#1}{#2}\end{flashcard}}
+
+\newcommand\gr[2]{\scalebox{#2}{\includegraphics{#1}}}
+
+\newcommand\doubleplus{+\kern-1.1ex+\kern0.5ex}
+
+%\title{flashcards}
+%\author{David Prager Branner}
+
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\begin{document}
+
+\fl{(ideographic　full-width　space)}{3000}
+
+\fl{ideographic full-width Ｘ}{ff38}
+
+\fl{ā}{a101}
+
+\fl{á}{e1}
+
+\fl{ǎ}{1ce}
+
+\fl{à}{e0}
+
+\fl{ē}{113}
+
+\fl{é}{e9}
+
+\fl{ě}{11b}
+
+\fl{è}{e8}
+
+\fl{ī}{12b}
+
+\fl{í}{ed}
+
+\fl{ǐ}{1d0}
+
+\fl{ì}{ec}
+
+\fl{ō}{14d}
+
+\fl{ó}{f3}
+
+\fl{ǒ}{1d2}
+
+\fl{ò}{f2}
+
+\fl{ū}{16b}
+
+\fl{ú}{fa}
+
+\fl{ǔ}{1d4}
+
+\fl{ù}{f9}
+
+\fl{ǖ}{1d6}
+
+\fl{ǘ}{1d8}
+
+\fl{ǚ}{1da}
+
+\fl{ǜ}{1dc}
+
+\end{document}
