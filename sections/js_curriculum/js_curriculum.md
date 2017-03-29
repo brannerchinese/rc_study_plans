@@ -6,6 +6,8 @@
  
  * Asynchrony and callbacks
  
+ * Prototype inheritance
+ 
  * Node networking services
 
 [end]
