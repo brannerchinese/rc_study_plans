@@ -46,4 +46,19 @@
 
  * How can I see what something will be coerced to?
 
+### 20170329. Reading Kyle Simpson, _You Don't Know JavaScript: Types & Grammar_
+
+ 1. Types
+
+    * `Symbol()`
+    * undefined does not mean undeclared
+    * "Safe existence check for variable that may not be defined:
+    
+      ```js
+      if (typeof n !== "undefined) {}
+
+ 1. Values
+ 
+    * 
+
 [end]
