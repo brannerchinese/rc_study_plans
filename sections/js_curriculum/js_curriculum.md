@@ -2,12 +2,16 @@
 
  * Things differing from Python
  
+   * Asynchrony and callbacks
+ 
+   * Prototype inheritance
+ 
+   * Node networking services
+
  * Things like in Python, but implemented differently
  
- * Asynchrony and callbacks
- 
- * Prototype inheritance
- 
- * Node networking services
+   * `for..in`
 
+   * generators
+ 
 [end]
