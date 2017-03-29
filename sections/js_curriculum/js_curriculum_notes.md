@@ -1,25 +1,23 @@
-20170329. Reading Kyle Simpson, _You Don't Know JavaScript: Up & Going_
+## 20170329. Reading Kyle Simpson, _You Don't Know JavaScript: Up & Going_
 
+ * Void operator
 
-Void operator
+ * Fn that returns no value can set variable to `"undefined"`
 
-Fn that returns no value can set variable to undefined
+ * `typeof`
 
-typeof
+ * type of `null` is `"undefined"`
 
-type of null == undefined
+ * "Properties": object's elements. Also called "keys" when accessed by bracket operator.
 
-"Properties": object's elements. Also called " keys" when accessed by
-bracket operator.
+ * Arrays and functions are subtypes of the object.
 
-Arrays and functions are subtypes of the object.
+ * "Native": object wrapper around a primitive type. Capitalized.
 
-"Native": object wrapper around a primitive type. Capitalized.
+ * "boxing": conversion of a primitive type to a native type.
 
-"boxing": conversion of a primitive type to a native type.
+ * Empty objects are `true`, not `false`.
 
-Empty objects are true, not false.
-
-Difference between == and ===: == includes type coercion and === does not.
+ * Difference between `==` and `===`: `==` includes type coercion and `===` does not.
 
 [end]
