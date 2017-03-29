@@ -24,7 +24,9 @@
  
  * In comparisons, arrays are coerced to `,`-separated strings.
  
- * "Hoisting": moving a variable declaration to the top of its scope. Most commonly used with functions and their declarations.
+ * "Hoisting": moving a variable declaration to the top of its scope. Most commonly used with functions and their declarations. Hoisting can be prevented (ES6) with `let`, which restricts a variable to "block scoping".
+ 
+ * `switch`/`case`/`default` and the need for `break` to prevent "fall through"; utility of "fall through"
 
 ### Questions
 
