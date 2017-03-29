@@ -2,7 +2,7 @@
 
  * JS proper:
  
-   * Recommendations for constructing my own "menu" of : _Effective JavaScript_ and the _You Don't Know JS_ series.
+   * Recommendations for constructing my own "menu" of items to cover (curriculum): _Effective JavaScript_ and the _You Don't Know JS_ series.
    * Consider whether features familiar from Python may be implemented differently.
    * Node: very good for writing network services and especially glue between different network services.
 
