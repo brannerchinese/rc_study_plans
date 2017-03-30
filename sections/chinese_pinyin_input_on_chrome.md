@@ -9,7 +9,7 @@ I will have to learn by heart the codepoints of the characters I use most often.
 
 | macron | acute | caron | grave |
 |--------|-------|-------|-------|
-| ā: a101 | á: e1 | ǎ: 1ce | à: e0
+| ā:101 | á: e1 | ǎ: 1ce | à: e0
 | ē: 113 | é: e9 | ě: 11b | è: e8
 | ī: 12b | í: ed | ǐ: 1d0 | ì: ec
 | ō: 14d | ó: f3 | ǒ: 1d2 | ò: f2
