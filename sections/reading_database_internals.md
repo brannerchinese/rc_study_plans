@@ -4,7 +4,7 @@
 
  * [Christophe Kalenzaga, How does a relational database work](materials/Christophe_Kalenzaga,_How_does_a_relational_database_work_-_Coding_Geek.pdf)
 
- * [Conrad Muller, A Brief Explanation of How Database Software Works](materials/Conrad_Muller,_A_Brief_Explanation_of_How_Database_Software_Works.pdf)_(other references [on this site](http://www.databasezone.com/techdocs/))
+ * [Conrad Muller, A Brief Explanation of How Database Software Works](materials/Conrad_Muller,_A_Brief_Explanation_of_How_Database_Software_Works.pdf) (**other references [on this site](http://www.databasezone.com/techdocs/)**)
 
  * [Hellerstein, Stonebraker, and Hamilton; Architecture of a Database System.pdf](materials/Hellerstein,_Stonebraker,_and_Hamilton;_Architecture_of_a_Database_System.pdf) (**[external_link](https://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)**)
 
