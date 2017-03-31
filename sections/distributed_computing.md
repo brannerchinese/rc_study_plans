@@ -2,6 +2,7 @@
 
 ### Write-ups
 
+ * Recommended by engineer: https://github.com/aphyr/distsys-class
  * http://distributedcomputing.info/
  * https://www.sciencedaily.com/news/computers_math/distributed_computing/
 
