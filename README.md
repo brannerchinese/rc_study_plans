@@ -36,21 +36,21 @@
  
 I want very much to work in a pure Linux environment. During my first batch, I used Ubuntu under VirtualBox on Mac OS X, but I had a lot of trouble with the environment at times — I suppose I lost two weeks of the batch to pointless fiddling with problems I couldn't find the solutions to. Never again.
 
- 1. [Installation notes](sections/snotes_chromebook_chroot_installation.md)
+ 1. [Installation notes](sections/notes_chromebook_chroot_installation.md)
  
- 1. [Laptop options](sections/laptop_options.md)
+ 1. [Laptop options](sections/hardware_laptop_options.md)
  
- 1. [Micro SD options](sections/micro_sd_options.md)
+ 1. [Micro SD options](sections/hardware_micro_sd_options.md)
     
  1. [OS options](sections/os_options.md)
  
- 1. [Chinese input methods for Linux](sections/chinese_input_methods_linux.md)
+ 1. [Chinese input methods for Linux](sections/os_chinese_input_methods_linux.md)
  
- 1. [Chinese fonts in Debian](sections/debian_fonts.md)
+ 1. [Chinese fonts in Debian](sections/os_debian_fonts.md)
 
- 1. [Chrome key-bindings](sections/chrome_key-bindings.md)
+ 1. [Chrome key-bindings](sections/os_chrome_key-bindings.md)
 
- 1. [Chinese Pinyin input on Chrome](/sections/chinese_pinyin_input_on_chrome.md)
+ 1. [Chinese Pinyin input on Chrome](/sections/os_chinese_pinyin_input_on_chrome.md)
 
 ### Other materials
 
