@@ -11,6 +11,7 @@
 
 ### Code
 
+ * [Some Python implementations](https://github.com/search?utf8=%E2%9C%93&q=raft+algorithm+python&type=)
  
 ### RC Zulip discussions
 
