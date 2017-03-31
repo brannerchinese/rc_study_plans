@@ -14,11 +14,17 @@
     
     2. [The Graph abstract data-type and the Tree data-structure](sections/philosophy_graphs_trees.md)
 
-    2. [Concurrency](sections/concurrency.md)
+ 1. Job prep reading
 
-    2. [Distributed computing](sections/distributed_computing.md)
+    1. [Networking](sections/reading_networking.md)
 
-    2. [Raft algorithm](sections/raft_algorithm.md)
+    2. [Concurrency](sections/reading_concurrency.md)
+
+    2. [Distributed computing](sections/reading_distributed_computing.md)
+
+    2. [Raft algorithm](sections/reading_raft_algorithm.md)
+
+    2. [Database internals](sections/reading_database_internals.md)
 
  1. Other topics of interest
 
