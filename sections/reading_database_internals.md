@@ -42,9 +42,47 @@
 
  * locks and latches: [Goetz Graefe, "A Survey of B-Tree Locking Techniques"](../materials/Goetz_Graefe,_A_Survey_of_B-Tree_Locking_Techniques.pdf) (**[external link](http://dl.acm.org/citation.cfm?id=1806908)**)
 
+### [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
+
+#### Document-oriented databases
+
+"Document": piece of hierarchical data (JSON or XML).
+
+ 1. General
+ 
+    * https://en.wikipedia.org/wiki/Document-oriented_database
+
+ 1. [MongoDB](reading_mongodb.md)
+
+ 1. [BedquiltDB](https://bedquiltdb.github.io)
+
+    * Recommended by Norm Kabir on 20160816.
+
+ 1. RethinkDB
+
+    * Recommended by Norm Kabir on 20160124.
+    * https://aphyr.com/posts/329-jepsen-rethinkdb-2-1-5
+
+ 1. BDB-JE
+
+    * Recommended by Norm Kabir on 20160124.
+
+#### Graph databases
+
 ### Links to blogs
 
+ * [Oren Eini](https://ayende.com/blog/)
  * [Craig Freedman, 2008-10](https://blogs.msdn.microsoft.com/craigfr/)
  * [Kalen Delaney on SQLblog.com, 2006-16](http://sqlblog.com/search/SearchResults.aspx?q=Kalen+Delaney)
+
+### Questions
+
+ * How is lock contention resolved?
+ * When is data normalization important in databases?
+ * How is sharding implemented?
+ * Map/reduce in databases.
+ * What is data denormalization? Grouping or creating redundancy  for the sake of read performance. https://en.wikipedia.org/wiki/Denormalization. Related to "views".
+ * Cache invalidation. Sarah Mei, "[Why you should never use MongoDB](http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/)".
+ * How does the key-value model relate to document-orientation?
 
 [end]
