@@ -31,12 +31,12 @@
     
     1. query rewriting includes;
     
-       * eliminating redundancies
-       * evaluating arithmetic; expanding views and subqueries
+       1. eliminating redundancies
+       1. evaluating arithmetic; expanding views and subqueries
 
     1. query optimizer
     
-       * cost-based optimization (CBO): choosing among competing chains of operations for a given query, based on 
+       1. cost-based optimization (CBO): choosing among competing chains of operations for a given query, based on 
       
          * CPU cost
          * disk I/O cost (usually the bottleneck)
@@ -44,9 +44,9 @@
       
         Choice may be aided by optimization heuristics, dynamic programming, greedy incremental algorithms.
       
-       * Joins are not commutative vis-à-vis cost. `cost(a JOIN b)` != `cost(b JOIN a)`
+       1. Joins are not commutative vis-à-vis cost. `cost(a JOIN b)` != `cost(b JOIN a)`
 
-       * different kinds of join implementations
+       1. different kinds of join implementations
 
          * Nested loop join: `O(outer * inner)`
          * Hash join : `O(outer + inner)`; Wikipedia lists several forms
@@ -56,22 +56,22 @@
  
     1. strategies: 
     
-       * prefetching
-       * least-recently used (LRU) buffer-replacement, sometimes with additional weighting
+       1. prefetching
+       1. least-recently used (LRU) buffer-replacement, sometimes with additional weighting
  
  1. Transaction manager
 
     1. constraints: ACID transactions
     1. concurrency control. Strategies:
 
-       * locks
+       1. locks
       
          * exclusive lock (for writes; must always be released after transactions)
          * shared lock (for reads)
          * deadlock: caused by cycles in the graph, which are expensive to check for, so timeouts are commonly used
          * two-phase locking: "growing" vs. "shrinking" phases, preventing a transaction from both obtaining and releasing locks at the same time
       
-       * data versioning
+       1. data versioning
       
          * data can be modified simultaneously by different transaction, but each transaction has a unique "version" of the data; only one modification is accepted and any others are rolled back.
          * can make heavy use of memory
@@ -80,19 +80,19 @@
  
     1. strategies for dealing with mid-transaction crashes:
     
-       * shadow copies or pages
-       * transaction logs (RAID disks are normal, for stability)
+       1. shadow copies or pages
+       1. transaction logs (RAID disks are normal, for stability)
       
     1. Write-Ahead Logging protocol (WAL):
       
-       * logging must precede writing data
-       * logs must be sequential
-       * commits must be logged before the transaction is considered finished
+       1. logging must precede writing data
+       1. logs must be sequential
+       1. commits must be logged before the transaction is considered finished
 
     1. Algorithms for Recovery and Isolation-Exploiting Semantics (ARIES)
     
-       * modification of WAL
-       * components of record:
+       1. modification of WAL
+       1. components of record:
          * log records are numbered (LSN)
          * transaction ID 
          * page ID of modified data
@@ -100,11 +100,11 @@
          * how to UNDO operation (this usually means a reverse operation to restore prior state)
          * how to REDO operation
 
-       * logging is buffered to prevent bottlenecks
-       * NO-FORCE policy: actual writing to disk may occur after commit, because it is recoverable with REDO
-       * STEAL policy: incremental writing to disk
-       * UNDO/REDO data is stored transiently in a transaction table and a dirty table
-       * writes may be punctuated by checkpoints
+       1. logging is buffered to prevent bottlenecks
+       1. NO-FORCE policy: actual writing to disk may occur after commit, because it is recoverable with REDO
+       1. STEAL policy: incremental writing to disk
+       1. UNDO/REDO data is stored transiently in a transaction table and a dirty table
+       1. writes may be punctuated by checkpoints
 
 ### Other topics not covered
 
