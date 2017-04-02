@@ -2,7 +2,7 @@
 
 ### Articles
 
- * [Christophe Kalenzaga, "How does a relational database work?"](../materials/Christophe_Kalenzaga,_How_does_a_relational_database_work.pdf) (**[external link](http://coding-geek.com/how-databases-work/)**) **[Notes](notes_kalenzaga_relational_database.md)**
+ * **[Notes](sections/notes_kalenzaga_relational_database.md)** on [Christophe Kalenzaga, "How does a relational database work?"](../materials/Christophe_Kalenzaga,_How_does_a_relational_database_work.pdf) (**[external link](http://coding-geek.com/how-databases-work/)**)
 
  * [Hellerstein, Stonebraker, and Hamilton, "Architecture of a Database System"](../materials/Hellerstein,_Stonebraker,_and_Hamilton,_Architecture_of_a_Database_System.pdf) (**[external link](https://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)**)
 
