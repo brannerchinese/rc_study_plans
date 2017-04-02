@@ -38,9 +38,9 @@
     
        1. cost-based optimization (CBO): choosing among competing chains of operations for a given query, based on 
       
-         * CPU cost
-         * disk I/O cost (usually the bottleneck)
-         * memory requirement
+          * CPU cost
+          * disk I/O cost (usually the bottleneck)
+          * memory requirement
       
         Choice may be aided by optimization heuristics, dynamic programming, greedy incremental algorithms.
       
@@ -48,9 +48,9 @@
 
        1. different kinds of join implementations
 
-         * Nested loop join: `O(outer * inner)`
-         * Hash join : `O(outer + inner)`; Wikipedia lists several forms
-         * Merge join: `O(outer * log(outer) + inner * log(inner)` (best on sorted tables, such as B+ trees)
+          * Nested loop join: `O(outer * inner)`
+          * Hash join : `O(outer + inner)`; Wikipedia lists several forms
+          * Merge join: `O(outer * log(outer) + inner * log(inner)` (best on sorted tables, such as B+ trees)
 
  1. Data manager: retrieves data
  
@@ -66,15 +66,15 @@
 
        1. locks
       
-         * exclusive lock (for writes; must always be released after transactions)
-         * shared lock (for reads)
-         * deadlock: caused by cycles in the graph, which are expensive to check for, so timeouts are commonly used
-         * two-phase locking: "growing" vs. "shrinking" phases, preventing a transaction from both obtaining and releasing locks at the same time
+          * exclusive lock (for writes; must always be released after transactions)
+          * shared lock (for reads)
+          * deadlock: caused by cycles in the graph, which are expensive to check for, so timeouts are commonly used
+          * two-phase locking: "growing" vs. "shrinking" phases, preventing a transaction from both obtaining and releasing locks at the same time
       
        1. data versioning
       
-         * data can be modified simultaneously by different transaction, but each transaction has a unique "version" of the data; only one modification is accepted and any others are rolled back.
-         * can make heavy use of memory
+          * data can be modified simultaneously by different transaction, but each transaction has a unique "version" of the data; only one modification is accepted and any others are rolled back.
+          * can make heavy use of memory
 
  1. Log manager
  
@@ -93,12 +93,12 @@
     
        1. modification of WAL
        1. components of record:
-         * log records are numbered (LSN)
-         * transaction ID 
-         * page ID of modified data
-         * link to previous log produced by same transaction
-         * how to UNDO operation (this usually means a reverse operation to restore prior state)
-         * how to REDO operation
+          * log records are numbered (LSN)
+          * transaction ID 
+          * page ID of modified data
+          * link to previous log produced by same transaction
+          * how to UNDO operation (this usually means a reverse operation to restore prior state)
+          * how to REDO operation
 
        1. logging is buffered to prevent bottlenecks
        1. NO-FORCE policy: actual writing to disk may occur after commit, because it is recoverable with REDO
