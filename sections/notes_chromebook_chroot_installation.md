@@ -30,6 +30,27 @@ sudo sh ~/Downloads/crouton -n debian-i3 -r stretch -t x11,extension,keyboard,cl
 
 You will be asked for a password if you have not already set one up.
 
+When the installation is correct, the script finishes:
+
+> Here's some tips:
+> 
+> Audio from the chroot will now be forwarded to CRAS (Chromium OS audio server),
+> through an ALSA plugin.
+> 
+> Future Chromium OS upgrades may break compatibility with the installed version
+> of CRAS. Should this happen, simply update your chroot.
+> 
+> You can flip through your running chroot desktops and Chromium OS by hitting
+> Ctrl+Alt+Shift+Back and Ctrl+Alt+Shift+Forward.
+> 
+> You must install the Chromium OS extension for integration with crouton to work.
+> The extension is available here: https://goo.gl/OVQOEt
+> 
+> You can start a shell in a new VT via the startcli host command: sudo startcli
+> 
+> Unmounting /mnt/stateful_partition/crouton/chroots/debian-i3...
+> Done! You can enter the chroot using enter-chroot.
+
 ### Environment
 
 Enter the chroot by means of the `d` alias added to the Chrome OS earlier.
