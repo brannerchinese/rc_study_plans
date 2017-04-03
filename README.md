@@ -1,5 +1,9 @@
 ## Prospective study-tasks for RC batch Spring 2 '17
 
+### Projects
+
+See [separate projects list](projects/README.md).
+
 ### Goals
 
  1. Fluency in JavaScript

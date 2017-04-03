@@ -6,7 +6,7 @@
 
  * [Manual](https://docs.mongodb.com/manual/)
 
- * "Somewhere in the middle" between SQL and key-value stores." Ub David Glasser, "[MongoDB queries don’t always return all matching documents!](https://blog.meteor.com/mongodb-queries-dont-always-return-all-matching-documents-654b6594a827#4ccf)".
+ * "Somewhere in the middle" between SQL and key-value stores." In David Glasser, "[MongoDB queries don’t always return all matching documents!](https://blog.meteor.com/mongodb-queries-dont-always-return-all-matching-documents-654b6594a827#4ccf)".
  
    > SQL databases offer powerful transactional guarantees and a query planner that can run queries against various user-defined indexes, but you tend to lose these guarantees when you shard data in order to scale.
    > 
