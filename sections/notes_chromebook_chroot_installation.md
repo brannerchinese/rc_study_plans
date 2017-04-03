@@ -71,6 +71,8 @@ Configure `/etc/default/keyboard`: (**EDIT**: Is this part of `i3`? If so, delet
 XKBMAP="chromebook"
 ```
 
+Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts. 
+
 ### Software for the chroot
 
 In the chroot, install
