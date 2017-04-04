@@ -111,7 +111,7 @@ In the chroot, install
  * `xclip`: Copy command-line to/from clipboard.
  * `vim i3`
 
-Clone the vim_configuration repo: https://github.com/brannerchinese/vim_configuration.
+Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructoins there.
 
 Clone the `rc_study_plans` repo, which includes the present file.
 
