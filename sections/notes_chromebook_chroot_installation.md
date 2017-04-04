@@ -12,8 +12,8 @@ Add some basic tools to `~/.bashrc`:
 export EDITOR=vi
 export HISTSIZE=''
 set -o vi
-alias d='sudo enter-chroot -n debian-i3'
-# alias i3='sudo enter-chroot -n debian-i3 xinit' # Note 20170328: I uninstalled i3; Running separate Debian processes in separate Chrome windows is sufficient for my needs.
+alias d='sudo enter-chroot -n debian' # This line should be removed.
+alias i3='sudo enter-chroot -n debian-i3 xinit'
 ```
 
 Create a user password, using `passwd`.
@@ -60,7 +60,7 @@ Add some basic tools to `~/.bashrc`:
 ```bash
 export EDITOR=vi
 export HISTSIZE=''
-export TERM='xfce4'
+export TERM='xterm-256color' # We use `xterm` even though xfce4 is what we are installing.
 set -o vi
 ```
 
