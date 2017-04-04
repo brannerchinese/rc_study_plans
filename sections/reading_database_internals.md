@@ -44,6 +44,8 @@
 
 ### [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
 
+General overview [here](http://aosabook.org/en/nosql.html).
+
 #### Document-oriented databases
 
 "Document": piece of hierarchical data (JSON or XML).
