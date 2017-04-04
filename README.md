@@ -4,6 +4,10 @@
 
 See [separate projects list](projects/README.md).
 
+### Postponed tasks
+
+See [postponed tasks list](projects/postponed_tasks.md).
+
 ### Goals
 
  1. Fluency in JavaScript
