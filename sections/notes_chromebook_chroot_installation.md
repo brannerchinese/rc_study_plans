@@ -53,32 +53,37 @@ When the installation is correct, the script finishes:
 
 ### Environment
 
-Enter the chroot by means of the `d` alias added to the Chrome OS earlier.
+ 1. Enter the chroot by means of the `d` alias added to the Chrome OS earlier.
 
-Add some basic tools to `~/.bashrc`:
+ 1. Add some basic tools to `~/.bashrc`:
 
-```bash
-export EDITOR=vi
-export HISTSIZE=''
-export TERM='xterm-256color' # We use `xterm` even though xfce4 is what we are installing.
-set -o vi
-```
+    ```bash
+    export EDITOR=vi
+    export HISTSIZE=''
+    export TERM='xterm-256color' # We use `xterm` even though xfce4 is what we are installing.
+    set -o vi
+    ```
 
+ 1. Configure `/etc/default/keyboard`:
 
-Configure `/etc/default/keyboard`:
+    ```
+    XKBMAP="chromebook"
+    ```
 
-```
-XKBMAP="chromebook"
-```
+ 1. Configure `~/.xinitrc`:
 
-Configure `~/.xinitrc`:
+    ```
+    exec i3
+    setkxbmap -layout us
+    ```
 
-```
-exec i3
-setkxbmap -layout us
-```
+ 1. Configure `~/.i3/config`:
 
-Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts. 
+    ```
+    bindsym $mod+Shift+e exit
+    ```
+
+ 1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned. 
 
 ### Software for the chroot
 
