@@ -71,6 +71,13 @@ Configure `/etc/default/keyboard`:
 XKBMAP="chromebook"
 ```
 
+Configure `~/.xinitrc`:
+
+```
+exec i3
+setkxbmap -layout us
+```
+
 Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts. 
 
 ### Software for the chroot
