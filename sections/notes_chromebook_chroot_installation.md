@@ -77,7 +77,7 @@ When the installation is correct, the script finishes:
     setkxbmap -layout us
     ```
 
- 1. Configure `~/.i3/config`:
+ 1. Configure `~/.config/i3/config`, adding this to replace the "nagbar" line:
 
     ```
     bindsym $mod+Shift+e exit
