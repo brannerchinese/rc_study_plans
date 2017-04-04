@@ -65,7 +65,7 @@ set -o vi
 ```
 
 
-Configure `/etc/default/keyboard`: (**EDIT**: Is this part of `i3`? If so, delete.)
+Configure `/etc/default/keyboard`:
 
 ```
 XKBMAP="chromebook"
