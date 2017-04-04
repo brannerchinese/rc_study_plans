@@ -2,54 +2,54 @@
 
 ### Debian installation
 
-Activate "developer mode" by holding down ESC and REFRESH and then briefly pressing the power button; once a white screen is displayed, press `ctrl-d` to bring up another white screen; then hit ENTER and developer mode should begin to be activated. When the computer beeps, press `ctrl-d` again to reboot -- on this reboot, developer mode will be activated.
+ 1. Activate "developer mode" by holding down ESC and REFRESH and then briefly pressing the power button; once a white screen is displayed, press `ctrl-d` to bring up another white screen; then hit ENTER and developer mode should begin to be activated. When the computer beeps, press `ctrl-d` again to reboot -- on this reboot, developer mode will be activated.
 
-Open Chrome "shell" (Crosh, highly restricted pseudo-shell) with `ctrl-alt-t`. Enter `shell` to get basic native ChromeOS prompt.
+ 1. Open Chrome "shell" (Crosh, highly restricted pseudo-shell) with `ctrl-alt-t`. Enter `shell` to get basic native ChromeOS prompt.
 
-Add some basic tools to `~/.bashrc`:
+ 1. Add some basic tools to `~/.bashrc`:
 
-```bash
-export EDITOR=vi
-export HISTSIZE=''
-set -o vi
-alias d='sudo enter-chroot -n debian' # This line should be removed.
-alias i3='sudo enter-chroot -n debian-i3 xinit'
-```
+    ```bash
+    export EDITOR=vi
+    export HISTSIZE=''
+    set -o vi
+    alias d='sudo enter-chroot -n debian' # This line should be removed.
+    alias i3='sudo enter-chroot -n debian-i3 xinit'
+    ```
 
-Create a user password, using `passwd`.
+ 1. Create a user password, using `passwd`.
 
-Download Crouton (to ~/Downloads) by pointing Chrome browser to https://goo.gl/fd3zc.
+ 1. Download Crouton (to ~/Downloads) by pointing Chrome browser to https://goo.gl/fd3zc.
 
-Initial installation (note that Debian `stretch` is needed; `jessie` seems to have a bug that prevents i3 (initially part of my installation) from opening in Debian under the current version of Chrome OS:
+ 1. Do initial installation. Note that Debian `stretch` is needed; `jessie` seems to have a bug that prevents i3 (initially part of my installation) from opening in Debian under the current version of Chrome OS:
 
-```bash
-sudo sh ~/Downloads/crouton -n debian-i3 -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra
-```
+    ```bash
+    sudo sh ~/Downloads/crouton -n debian-i3 -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra
+    ```
 
-(Source: http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html, accessed 20170303.)
+    (Source: http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html, accessed 20170303.)
 
-You will be asked for a password if you have not already set one up.
+    You will be asked for a password if you have not already set one up.
 
-When the installation is correct, the script finishes:
-
-> Here's some tips:
-> 
-> Audio from the chroot will now be forwarded to CRAS (Chromium OS audio server),
-> through an ALSA plugin.
-> 
-> Future Chromium OS upgrades may break compatibility with the installed version
-> of CRAS. Should this happen, simply update your chroot.
-> 
-> You can flip through your running chroot desktops and Chromium OS by hitting
-> Ctrl+Alt+Shift+Back and Ctrl+Alt+Shift+Forward.
-> 
-> You must install the Chromium OS extension for integration with crouton to work.
-> The extension is available here: https://goo.gl/OVQOEt
-> 
-> You can start a shell in a new VT via the startcli host command: sudo startcli
-> 
-> Unmounting /mnt/stateful_partition/crouton/chroots/debian-i3...
-> Done! You can enter the chroot using enter-chroot.
+    When the installation is correct, the script finishes:
+    
+    > Here's some tips:
+    > 
+    > Audio from the chroot will now be forwarded to CRAS (Chromium OS audio server),
+    > through an ALSA plugin.
+    > 
+    > Future Chromium OS upgrades may break compatibility with the installed version
+    > of CRAS. Should this happen, simply update your chroot.
+    > 
+    > You can flip through your running chroot desktops and Chromium OS by hitting
+    > Ctrl+Alt+Shift+Back and Ctrl+Alt+Shift+Forward.
+    > 
+    > You must install the Chromium OS extension for integration with crouton to work.
+    > The extension is available here: https://goo.gl/OVQOEt
+    > 
+    > You can start a shell in a new VT via the startcli host command: sudo startcli
+    > 
+    > Unmounting /mnt/stateful_partition/crouton/chroots/debian-i3...
+    > Done! You can enter the chroot using enter-chroot.
 
 ### Environment
 
@@ -104,24 +104,24 @@ When the installation is correct, the script finishes:
 
 ### Software for the chroot
 
-In the chroot, install
+ 1. In the chroot, install
 
- * `git firefox-esr-dev curl`
- * `xfce4-terminal`: Apparently provides the best terminal emulator.
- * `xclip`: Copy command-line to/from clipboard.
- * `vim i3`
+    * `git firefox-esr-dev curl`
+    * `xfce4-terminal`: Apparently provides the best terminal emulator.
+    * `xclip`: Copy command-line to/from clipboard.
+    * `vim i3`
 
-Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructoins there.
+ 1. Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructions there.
 
-Clone the `rc_study_plans` repo, which includes the present file.
+ 1. Clone the `rc_study_plans` repo, which includes the present file.
 
-In the Chrome OS, create a symlink to that file, so that it can be accessed outside of the chroot (below, assuming `dpb` is the your username.
+    In the Chrome OS, create a symlink to that file, so that it can be accessed outside of the chroot (below, assuming `dpb` is the your username.
 
-```bash
-ln -s /mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/repos_rc_study_plans/sections notes
-```
+    ```bash
+    ln -s /mnt/stateful_partition/crouton/chroots/debian-i3/home/dpb/repos_rc_study_plans/sections notes
+    ```
 
-Make a similar symlink in Debian.
+    Make a similar symlink in Debian.
 
 ### Software for the Chrome OS
 
