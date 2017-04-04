@@ -1,4 +1,4 @@
-## Notes
+## Notes on Chromebook chrooted Debian installation
 
 ### Debian installation
 
@@ -83,7 +83,24 @@ When the installation is correct, the script finishes:
     bindsym $mod+Shift+e exit
     ```
 
- 1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned. 
+ 1. Configure `git`:
+    
+    ```
+    git config --global user.name <string>
+    git config --global user.email <string>
+    git config --global core.excludesfile '~/.gitignore'
+    ```
+    
+    Populate `~/.gitignore` with:
+    
+    ```
+    **~
+    **.swp
+    **.swo
+    **.db
+    ```
+
+ 1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
 
 ### Software for the chroot
 
