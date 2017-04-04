@@ -87,7 +87,7 @@ In the chroot, install
  * `git firefox-esr-dev curl`
  * `xfce4-terminal`: Apparently provides the best terminal emulator.
  * `xclip`: Copy command-line to/from clipboard.
- * `vim`
+ * `vim i3`
 
 Clone the vim_configuration repo: https://github.com/brannerchinese/vim_configuration.
 
