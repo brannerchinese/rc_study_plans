@@ -87,7 +87,7 @@
     
     ```
     git config --global user.name <string>
-    git config --global user.email <string>
+    git config --global user.email "username@users.noreply.github.com"
     git config --global core.excludesfile '~/.gitignore'
     ```
     
