@@ -1,6 +1,6 @@
 ## Notes on Chromebook chrooted Debian installation
 
-### Debian installation
+### Chrome OS preparation
 
  1. Activate "developer mode" by holding down ESC and REFRESH and then briefly pressing the power button; once a white screen is displayed, press `ctrl-d` to bring up another white screen; then hit ENTER and developer mode should begin to be activated. When the computer beeps, press `ctrl-d` again to reboot -- on this reboot, developer mode will be activated.
 
@@ -17,6 +17,8 @@
     ```
 
  1. Create a user password, using `passwd`.
+
+### Debian installation
 
  1. Download Crouton (to ~/Downloads) by pointing Chrome browser to https://goo.gl/fd3zc.
 
@@ -51,7 +53,7 @@
     > Unmounting /mnt/stateful_partition/crouton/chroots/debian-i3...
     > Done! You can enter the chroot using enter-chroot.
 
-### Environment
+### Debian Environment
 
  1. Enter the chroot by means of the `d` alias added to the Chrome OS earlier.
 
@@ -102,9 +104,9 @@
 
  1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
 
-### Software for the chroot
+### Software for Debian
 
- 1. In the chroot, install
+ 1. In the Debian chroot, install
 
     * `git firefox-esr-dev curl`
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
@@ -124,7 +126,7 @@
 
     Make a similar symlink in Debian.
 
-### Software for the Chrome OS
+### Software for Chrome OS
 
 It may be possible to use Git outside of developer mode if the [Git-Browser](https://chrome.google.com/webstore/detail/git-browser/cladogmhjppclibenkdbnjcogiaifnbd) Chrome extension is installed. (This has yet to be tested.)
 
