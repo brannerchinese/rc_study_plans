@@ -116,7 +116,7 @@
 
  1. In the Linux chroot, install
 
-    * `git firefox-esr-dev curl`
+    * `git firefox-esr-dev curl`: If Ubuntu, use plain `firefox` instead of `firefox-esr-dev`.
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
     * `vim i3`
