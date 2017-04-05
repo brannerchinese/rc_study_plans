@@ -87,7 +87,11 @@
     setkxbmap -layout us
     ```
 
- 1. Configure `~/.config/i3/config`, adding this to replace the "nagbar" line:
+ 1. How to configure `i3`? According to the [User Guide](https://i3wm.org/docs/userguide.html):
+ 
+    > Note that when starting i3 without a config file, i3-config-wizard will offer you to create a config file in which the key positions (!) match what you see in the image above, regardless of the keyboard layout you are using. If you prefer to use a config file where the key letters match what you are seeing above, just decline i3-config-wizard’s offer and base your config on `/etc/i3/config`.
+
+ 1. Configure `~/.config/i3/config` (or whatever other config file is set up for `i3`), adding this to replace the "nagbar" line:
 
     ```
     bindsym $mod+Shift+e exit
