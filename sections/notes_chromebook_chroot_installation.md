@@ -180,4 +180,6 @@ sudo mount -o remount,rw /
 
     Then install `locales` with `apt` and run `/usr/sbin/locale-gen` as root.
 
+    I installed `debconf` and then had `dpkg-reconfigure` available. This should eventually be added to list of packages to add.
+
 [end]
