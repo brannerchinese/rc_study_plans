@@ -29,8 +29,14 @@
     ```
 
     (Source: http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html, accessed 20170303.)
+    
+    But if we are doing Ubuntu, use:
 
-    You will be asked for a password if you have not already set one up.
+    ```bash
+    sudo sh ~/Downloads/crouton -n ubuntu -t x11,extension,keyboard,cli-extra,gtk-extra,xfce
+    ```
+
+    In either case, you will be asked for a password if you have not already set one up.
 
     When the installation is correct, the script finishes:
     
@@ -53,7 +59,7 @@
     > Unmounting /mnt/stateful_partition/crouton/chroots/debian-i3...
     > Done! You can enter the chroot using enter-chroot.
 
-### Debian Environment
+### Chrooted Linux Environment
 
  1. Enter the chroot by means of the `d` alias added to the Chrome OS earlier.
 
@@ -104,9 +110,9 @@
 
  1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
 
-### Software for Debian
+### Software for Chrooted Linux
 
- 1. In the Debian chroot, install
+ 1. In the Linux chroot, install
 
     * `git firefox-esr-dev curl`
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
