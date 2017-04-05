@@ -87,7 +87,7 @@
     
     ```
     git config --global user.name <string>
-    git config --global user.email <string>
+    git config --global user.email "username@users.noreply.github.com"
     git config --global core.excludesfile '~/.gitignore'
     ```
     
@@ -110,6 +110,7 @@
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
     * `vim i3`
+    * `trash-cli` See installations details at https://github.com/andreafrancia/trash-cli.
 
  1. Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructions there.
 
