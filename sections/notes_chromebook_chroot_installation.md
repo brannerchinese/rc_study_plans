@@ -70,6 +70,8 @@
     export HISTSIZE=''
     export TERM='xterm-256color' # We use `xterm` even though xfce4 is what we are installing.
     set -o vi
+    export LANG=en_US.UTF-8
+    export LOCALE=UTF-8
     ```
 
  1. Configure `/etc/default/keyboard`:
