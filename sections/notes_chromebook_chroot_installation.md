@@ -71,7 +71,7 @@
     export TERM='xterm-256color' # We use `xterm` even though xfce4 is what we are installing.
     set -o vi
     export LANG=en_US.UTF-8
-    export LOCALE=UTF-8
+    export LOCALE=C.UTF-8
     ```
 
  1. Configure `/etc/default/keyboard`:
@@ -91,7 +91,7 @@
  
     > Note that when starting i3 without a config file, i3-config-wizard will offer you to create a config file in which the key positions (!) match what you see in the image above, regardless of the keyboard layout you are using. If you prefer to use a config file where the key letters match what you are seeing above, just decline i3-config-wizard’s offer and base your config on `/etc/i3/config`.
 
- 1. Configure `~/.config/i3/config` (or whatever other config file is set up for `i3`), adding this to replace the "nagbar" line:
+ 1. Configure `~/.i3/config`, adding this to replace the "nagbar" line:
 
     ```
     bindsym $mod+Shift+e exit
