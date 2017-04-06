@@ -15,7 +15,7 @@
     alias d='sudo enter-chroot -n debian'
     ```
 
-    Note that after Mat茅 is installed and configured, `xinit` can be added to the `d` alias, so that Mat茅 starts up immediately. But doing this seems to prevent Unicode input (using `ctrl-U` followed by the codepoint) from working correctly in Vim, so I am not doing it.
+    Note that after Maté is installed and configured, `xinit` can be added to the `d` alias, so that Maté starts up immediately. But doing this seems to prevent Unicode input (using `ctrl-U` followed by the codepoint) from working correctly in Vim, so I am not doing it.
 
  1. Create a user password, using `passwd`.
 
@@ -26,7 +26,7 @@
  1. Do initial installation. Note that Debian `stretch` is needed; `jessie` seems to have a bug that prevents i3 (initially part of my installation) from opening in Debian under the current version of Chrome OS:
 
     ```bash
-    sudo sh ~/Downloads/crouton -n debian -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra,mate-desktop
+    sudo sh ~/Downloads/crouton -n debian -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra
     ```
 
     (Source: http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html, accessed 20170303.)
@@ -60,11 +60,11 @@
 
  1. In the Linux chroot, install the following packages:
 
-    * `git firefox-esr-dev curl`
+    * `vim git firefox-esr-dev curl`
+    * `mate-desktop`: Currently chosen desktop.
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
-    * `vim`
-    * `trash-cli` See installations details at https://github.com/andreafrancia/trash-cli.
+    * `trash-cli` See [installation details](https://github.com/andreafrancia/trash-cli).
     * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
 
  1. Add some basic tools to `~/.bashrc`:
