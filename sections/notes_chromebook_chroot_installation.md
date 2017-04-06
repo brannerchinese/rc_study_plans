@@ -12,8 +12,10 @@
     export EDITOR=vi
     export HISTSIZE=''
     set -o vi
-    alias d='sudo enter-chroot -n debian xinit'
+    alias d='sudo enter-chroot -n debian'
     ```
+
+    Note that after Mat茅 is installed and configured, `xinit` can be added to the `d` alias, so that Mat茅 starts up immediately. But doing this seems to prevent Unicode input (using `ctrl-U` followed by the codepoint) from working correctly in Vim, so I am not doing it.
 
  1. Create a user password, using `passwd`.
 
