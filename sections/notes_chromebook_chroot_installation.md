@@ -58,6 +58,15 @@
 
  1. Enter the chroot by means of the `d` alias added to the Chrome OS earlier.
 
+ 1. In the Linux chroot, install the following packages:
+
+    * `git firefox-esr-dev curl`
+    * `xfce4-terminal`: Apparently provides the best terminal emulator.
+    * `xclip`: Copy command-line to/from clipboard.
+    * `vim`
+    * `trash-cli` See installations details at https://github.com/andreafrancia/trash-cli.
+    * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
+
  1. Add some basic tools to `~/.bashrc`:
 
     ```bash
@@ -107,16 +116,7 @@
  1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
 
 
-### Software for Chrooted Linux
-
- 1. In the Linux chroot, install
-
-    * `git firefox-esr-dev curl`
-    * `xfce4-terminal`: Apparently provides the best terminal emulator.
-    * `xclip`: Copy command-line to/from clipboard.
-    * `vim`
-    * `trash-cli` See installations details at https://github.com/andreafrancia/trash-cli.
-    * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
+### More Software for Chrooted Linux
 
  1. Fonts will be needed. Right now we are using `fonts-noto-cjk`. We also had to use `xfontsel fonts-noto-cjk`, but this has not been documented yet.
 
