@@ -1,14 +1,14 @@
 ## Chinese Input Methods for Linux
 
-### `Maté`
+### `Maté
 
-**20170405**: Installed `maté` desktop and configured it to use Noto Sans Mono CJK TC Reg 14 font. Upper code-points not supported by any of the (too many) fonts that come with the system or that I installed. 
+**20170405**: Installed `Maté` desktop and configured it to use Noto Sans Mono CJK TC Reg 14 font. Upper code-points not supported by any of the (too many) fonts that come with the system or that I installed. 
 
 To find what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports
 
-There are Ibus instructions at https://wiki.debian.org/I18n/ibus, but Maté is not listed. `ibus-daemon` and then `ibus restart` are accepted without error. If another desktop is needed, look here first: https://wiki.debian.org/gnome-chinese-input
+There are Ibus instructions at https://wiki.debian.org/I18n/ibus, but Maté is not listed. `ibus-daemon` and then `ibus restart` are accepted without error.
 
-Accented characters cause the font some problems. Some are not found. 
+Accented characters cause the font some problems. Some are not found. Here is a test: 也是 斤斤計較Maté.
 
 Within Vim, I can use `ctrl-U` rather than `ctrl-v u` to enter by code point.
 
