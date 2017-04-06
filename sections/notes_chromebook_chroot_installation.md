@@ -12,8 +12,7 @@
     export EDITOR=vi
     export HISTSIZE=''
     set -o vi
-    alias d='sudo enter-chroot -n debian' # This line should be removed.
-    alias i3='sudo enter-chroot -n debian-i3 xinit'
+    alias d='sudo enter-chroot -n debian xinit'
     ```
 
  1. Create a user password, using `passwd`.
@@ -25,11 +24,11 @@
  1. Do initial installation. Note that Debian `stretch` is needed; `jessie` seems to have a bug that prevents i3 (initially part of my installation) from opening in Debian under the current version of Chrome OS:
 
     ```bash
-    sudo sh ~/Downloads/crouton -n debian-i3 -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra
+    sudo sh ~/Downloads/crouton -n debian -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra
     ```
 
     (Source: http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html, accessed 20170303.)
-    
+
     But if we are doing Ubuntu, use:
 
     ```bash
@@ -39,23 +38,23 @@
     In either case, you will be asked for a password if you have not already set one up.
 
     When the installation is correct, the script finishes:
-    
+
     > Here's some tips:
-    > 
+    >
     > Audio from the chroot will now be forwarded to CRAS (Chromium OS audio server),
     > through an ALSA plugin.
-    > 
+    >
     > Future Chromium OS upgrades may break compatibility with the installed version
     > of CRAS. Should this happen, simply update your chroot.
-    > 
+    >
     > You can flip through your running chroot desktops and Chromium OS by hitting
     > Ctrl+Alt+Shift+Back and Ctrl+Alt+Shift+Forward.
-    > 
+    >
     > You must install the Chromium OS extension for integration with crouton to work.
     > The extension is available here: https://goo.gl/OVQOEt
-    > 
+    >
     > You can start a shell in a new VT via the startcli host command: sudo startcli
-    > 
+    >
     > Unmounting /mnt/stateful_partition/crouton/chroots/debian-i3...
     > Done! You can enter the chroot using enter-chroot.
 
@@ -72,6 +71,11 @@
     set -o vi
     export LANG=en_US.UTF-8
     export LOCALE=C.UTF-8
+
+    # For Mate
+    export GTK_IM_MODULE=ibus
+    export XMODIFIERS=@im=ibus
+    export QT_IM_MODULE=ibus
     ```
 
  1. Configure `/etc/default/keyboard`:
@@ -83,30 +87,20 @@
  1. Configure `~/.xinitrc`:
 
     ```
-    exec i3
+    exec mate-session
     setkxbmap -layout us
     ```
 
- 1. How to configure `i3`? According to the [User Guide](https://i3wm.org/docs/userguide.html):
- 
-    > Note that when starting i3 without a config file, i3-config-wizard will offer you to create a config file in which the key positions (!) match what you see in the image above, regardless of the keyboard layout you are using. If you prefer to use a config file where the key letters match what you are seeing above, just decline i3-config-wizard’s offer and base your config on `/etc/i3/config`.
-
- 1. Configure `~/.i3/config`, adding this to replace the "nagbar" line:
-
-    ```
-    bindsym $mod+Shift+e exit
-    ```
-
  1. Configure `git`:
-    
+
     ```
     git config --global user.name <string>
     git config --global user.email "username@users.noreply.github.com"
     git config --global core.excludesfile '~/.gitignore'
     ```
-    
+
     Populate `~/.gitignore` with:
-    
+
     ```
     **~
     **.swp
@@ -115,6 +109,28 @@
     ```
 
  1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
+
+ 1. Run and set up `Mat茅`
+
+    Set up background and Terminal. 
+
+    For background, go to `System => Preferences => Look and Feel => Appearance`
+    
+    For terminal, go to `System =>  Preferences =>  Personal => Startup Application` and add:
+
+    * `xfce4-terminal`
+
+    The terminal can be configured with `xfce4-settings-manager` and there are related commands. Configure it to use Noto Sans Mono CJK TC Reg 14 font. 
+    
+    Need to find a font-spread that supports Upper code-points. Must look into what fonts are actually needed and what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports.
+
+ 1. Within `Mat茅` set up IBus
+
+    For IBus, go to `System =>  Preferences =>  Personal => Startup Application` and add:
+
+    * `ibus-daemon`
+
+    As long as `ibus-daemon` runs first (and it must run in `Mat茅`, not in the Chromee terminal tab before `Mat茅` starts), then IBus is running. You can run `ibus-setup` from thee command line or you can select `System => Preferences => Other => IBus preferences`, to configure. set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
 
 ### Software for Chrooted Linux
 
@@ -125,6 +141,7 @@
     * `xclip`: Copy command-line to/from clipboard.
     * `vim i3`
     * `trash-cli` See installations details at https://github.com/andreafrancia/trash-cli.
+    * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
 
  1. Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructions there.
 

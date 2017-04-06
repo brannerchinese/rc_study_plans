@@ -1,32 +1,18 @@
 ## Chinese Input Methods for Linux
 
-### `Maté`
+### General
 
-**20170405**: Installed `Maté` desktop and configured it to use Noto Sans Mono CJK TC Reg 14 font. Upper code-points not supported by any of the (too many) fonts that come with the system or that I installed. Must look into what fonts are actually needed and what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports.
+There are Ibus instructions at https://wiki.debian.org/I18n/ibus, but Maté is not listed. 
 
----
+On **Rime**, see [these Arch Linux instructions](https://wiki.archlinux.org/index.php/Rime_IME).
+ 
+**`m17n`**: 
 
-Following https://wiki.debian.org/I18n/ibus, into `~/.bashrc` added:
+ * [manual](http://www.nongnu.org/m17n/)
+ * [this brief discussion](https://en.wikipedia.org/wiki/Intelligent_Input_Bus#ibus-m17n) of `ibus-m17n`
+ * There is other IBus information at http://home.uchicago.edu/~alexlee/projects/m17n-classical/, but perhaps it is intended for a Windows environment?
 
-```
-export GTK_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
-export QT_IM_MODULE=ibus
-```
-
-To Maté System =>Preferences =>  Personal => Startup Applications: added:
-
- * ibus-daemon
- * mate-terminal
-
-As long as `ibus-daemon` runs first (and it must run in Maté, not in the Chrome terminal tab before Maté starts), then either `ibus-setup` can be run from the command line or you can select System => Preferences => Other => IBus preferences, to configure. I set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
-
-Ibus-chewing instructions here: https://github.com/definite/ibus-chewing/blob/master/USER-GUIDE. I haven't learned these yet. 
-
-
-There are Ibus instructions at https://wiki.debian.org/I18n/ibus, but Maté is not listed. `ibus-daemon` and then `ibus restart` are accepted without error.
-
-Accented characters cause the font some problems in Vim, but those problems are usually resolved.
+**IBus-chewing** instructions here: https://github.com/definite/ibus-chewing/blob/maater/USER-GUIDE. I haven't learned these yet. 
 
 Under Maté, within Vim, I can use `ctrl-U` rather than `ctrl-v u` to enter by code point.
 
