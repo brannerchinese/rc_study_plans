@@ -134,9 +134,9 @@
 
 ### Desktop environment
 
- 1. Run and set up `Mat茅
+ 1. Run and set up `Maté`
 
-    I am using `Mat茅`because earlier efforts to use `i3` and to avoid using a desktop at all ran into problems with Unicode support and Chinese input method support. These are described in a [separate document](what_went_wrong_with_i3_and_chrome_terminal_tabs.md)
+    I am using `Maté` because earlier efforts to use `i3` and to avoid using a desktop at all ran into problems with Unicode support and Chinese input method support. These are described in a [separate document](what_went_wrong_with_i3_and_chrome_terminal_tabs.md)
 
     Set up background and Terminal. 
 
@@ -146,19 +146,19 @@
 
     * `xfce4-terminal`
 
-    I use `xfce4` rather than the `Mat茅` Terminal becaus copying and pasting seems to work better and because accented characters cause the font fewer problems when I'm in Vim.
+    I use `xfce4` rather than the `Maté` Terminal becaus copying and pasting seems to work better and because accented characters cause the font fewer problems when I'm in Vim.
     
     The terminal can be configured with `xfce4-settings-manager` and there are related commands. Configure it to use Noto Sans Mono CJK TC Reg 14 font. 
     
     Need to find a font-spread that supports Upper code-points. Must look into what fonts are actually needed and what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports.
 
- 1. Within `Mat茅` set up IBus
+ 1. Within `Maté` set up IBus
 
     For IBus, go to `System =>  Preferences =>  Personal => Startup Application` and add:
 
     * `ibus-daemon`
 
-    As long as `ibus-daemon` runs first (and it must run in `Mat茅`, not in the Chromee terminal tab before `Mat茅` starts), then IBus is running. You can run `ibus-setup` from thee command line or you can select `System => Preferences => Other => IBus preferences`, to configure. set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
+    As long as `ibus-daemon` runs first (and it must run in `Maté`, not in the Chromee terminal tab before `Maté` starts), then IBus is running. You can run `ibus-setup` from thee command line or you can select `System => Preferences => Other => IBus preferences`, to configure. set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
 
 ### Software for Chrome OS
 
