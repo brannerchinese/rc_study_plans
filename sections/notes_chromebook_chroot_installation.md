@@ -120,9 +120,15 @@
 
  1. Fonts will be needed. Right now we are using `fonts-noto-cjk`; can get all available No-Tofu fonts using `sudo apt install fonts-noto-*`. We also had to use `xfontsel fonts-noto-cjk`, but this has not been documented yet.
 
- 1. Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructions there.
+ 1. Make a directory `repos` and `cd` into it; clone all repositories there.
 
- 1. Clone the `rc_study_plans` repo, which includes the present file.
+ 1. Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration), using `--depth=1` in order to keep the repository small, and configure following instructions there.
+ 
+    Remember to change `.vimrc` to reflect the fact that the repository is located inside `repos`.
+    
+    Add `:inoremap <C-U> <Nop>`, though I'm not sure if it's needed now.
+
+ 1. Clone the `rc_study_plans` repo (using `--depth=1`), which includes the present file.
 
     In the Chrome OS, create a symlink to that file, so that it can be accessed outside of the chroot (below, assuming `dpb` is the your username.
 
