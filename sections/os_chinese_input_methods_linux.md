@@ -14,12 +14,12 @@ export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
 ```
 
-To Maté System => Personal => Startup Applications: adde:
+To Maté System =>Preferences =>  Personal => Startup Applications: added:
 
  * ibus-daemon
  * mate-terminal
 
-As long as `ibus-daemon` runs first (and it must run in Maté, not in the Chrome terminal tab before Maté starts), then either `ibus-setup` can be run from the command line or you can select System => Preferences => Other => IBus preferences, to configure. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
+As long as `ibus-daemon` runs first (and it must run in Maté, not in the Chrome terminal tab before Maté starts), then either `ibus-setup` can be run from the command line or you can select System => Preferences => Other => IBus preferences, to configure. I set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
 
 Ibus-chewing instructions here: https://github.com/definite/ibus-chewing/blob/master/USER-GUIDE. I haven't learned these yet. 
 
@@ -51,7 +51,7 @@ I need to read about the use of the super key in `i3`.
 
 **20170328: It appears that what I am using is Chrome's own built-in input methods. I never installed a Debian input method and it seems unnecessary.**
 
- 1. Intelligent Input Bus (ibus)
+ 1. Intelligent Input Bus (IBus)
  
     > The Intelligent Input Bus (IBus, pronounced as I-Bus) is an input method (IM) framework for multilingual input in Unix-like operating-systems. The name "Bus" comes from its bus-like architecture. (https://en.wikipedia.org/wiki/Intelligent_Input_Bus, accessed 20170217)
     
