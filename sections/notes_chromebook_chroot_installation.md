@@ -118,7 +118,7 @@
 
 ### More Software for Chrooted Linux
 
- 1. Fonts will be needed. Right now we are using `fonts-noto-cjk`. We also had to use `xfontsel fonts-noto-cjk`, but this has not been documented yet.
+ 1. Fonts will be needed. Right now we are using `fonts-noto-cjk`; can get all available No-Tofu fonts using `sudo apt install fonts-noto-*`. We also had to use `xfontsel fonts-noto-cjk`, but this has not been documented yet.
 
  1. Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructions there.
 
