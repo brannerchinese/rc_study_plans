@@ -61,7 +61,7 @@
  1. In the Linux chroot, install the following packages:
 
     * `vim git firefox-esr-dev curl`
-    * `mate-desktop`: Currently chosen desktop.
+    * `mate-desktop mate-desktop-environment*`: Currently chosen desktop and all environment files.
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
     * `trash-cli` See [installation details](https://github.com/andreafrancia/trash-cli).
