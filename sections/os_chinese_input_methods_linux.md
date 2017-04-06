@@ -1,18 +1,36 @@
 ## Chinese Input Methods for Linux
 
-### `Maté
+### `Maté`
 
-**20170405**: Installed `Maté` desktop and configured it to use Noto Sans Mono CJK TC Reg 14 font. Upper code-points not supported by any of the (too many) fonts that come with the system or that I installed. 
+**20170405**: Installed `Maté` desktop and configured it to use Noto Sans Mono CJK TC Reg 14 font. Upper code-points not supported by any of the (too many) fonts that come with the system or that I installed. Must look into what fonts are actually needed and what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports.
 
-To find what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports
+---
+
+Following https://wiki.debian.org/I18n/ibus, into `~/.bashrc` added:
+
+```
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im=ibus
+export QT_IM_MODULE=ibus
+```
+
+To Maté System => Personal => Startup Applications: adde:
+
+ * ibus-daemon
+ * mate-terminal
+
+As long as `ibus-daemon` runs first (and it must run in Maté, not in the Chrome terminal tab before Maté starts), then either `ibus-setup` can be run from the command line or you can select System => Preferences => Other => IBus preferences, to configure. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
+
+Ibus-chewing instructions here: https://github.com/definite/ibus-chewing/blob/master/USER-GUIDE. I haven't learned these yet. 
+
 
 There are Ibus instructions at https://wiki.debian.org/I18n/ibus, but Maté is not listed. `ibus-daemon` and then `ibus restart` are accepted without error.
 
-Accented characters cause the font some problems. Some are not found. Here is a test: 也是 斤斤計較Maté.
+Accented characters cause the font some problems in Vim, but those problems are usually resolved.
 
-Within Vim, I can use `ctrl-U` rather than `ctrl-v u` to enter by code point.
+Under Maté, within Vim, I can use `ctrl-U` rather than `ctrl-v u` to enter by code point.
 
-Must remove most of the fonts — there are too many (and perhaps other things) that I don't need. 
+Must remove most of the fonts —  there are too many (and perhaps other things) that I don't need. 
 
 ### `i3`
 
