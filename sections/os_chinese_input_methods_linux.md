@@ -1,18 +1,18 @@
 ## Chinese Input Methods for Linux
 
-### `maté`
+### `Maté`
 
 **20170405**: Installed `maté` desktop and configured it to use Noto Sans Mono CJK TC Reg 14 font. Upper code-points not supported by any of the (too many) fonts that come with the system or that I installed. 
 
 To find what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports
 
-There are Ibus instructions at https://wiki.debian.org/I18n/ibus, but Matéis not listed. `ibus-daemon` and then `ibus restart` are accepted without error. If another desktop is needed, look here first: https://wiki.debian.org/gnome-chinese-input
+There are Ibus instructions at https://wiki.debian.org/I18n/ibus, but Maté is not listed. `ibus-daemon` and then `ibus restart` are accepted without error. If another desktop is needed, look here first: https://wiki.debian.org/gnome-chinese-input
 
 Accented characters cause the font some problems. Some are not found. 
 
 Within Vim, I can use `ctrl-U` rather than `ctrl-v u` to enter by code point.
 
-Must remove most of the fonts � there are too many (and perhaps other things) that I don't need. 
+Must remove most of the fonts — there are too many (and perhaps other things) that I don't need. 
 
 ### `i3`
 
@@ -54,7 +54,7 @@ I need to read about the use of the super key in `i3`.
     
       * Pin'in 漢語拼音
     
-        > Pinyin is the transcription of the spoken Chinese language in Latin characters. Each character has a tone which can be entered via the keyboard's various layers. E.g. on a German keyboard, buttons for `'` and <code>&#96;</code> are available which allows to write the second (e.g. _má_) and fourth tone (e.g. _mà_). The first tone can be composed by holding `<alt gr> + <shift> + <+>` then the character (e.g. _mā_), the third by `<alt gr> + <shift> + <ä>` then the character (e.g. _mǎ_).  (https://wiki.debian.org/gnome-chinese-input, accessed 20170217)
+        > Pinyin is the transcription of the spoken Chinese language in Latin characters. Each character has a tone which can be entered via the keyboard's various layers. E.g. on a German keyboard, buttons for `'` and <code>&#96;</code> are available which allows to write the second (e.g. _m√°_) and fourth tone (e.g. _m√†_). The first tone can be composed by holding `<alt gr> + <shift> + <+>` then the character (e.g. _mƒÅ_), the third by `<alt gr> + <shift> + <√§>` then the character (e.g. _m«é_).  (https://wiki.debian.org/gnome-chinese-input, accessed 20170217)
     
         * [`ibus-libpinyin`](https://github.com/libpinyin/ibus-libpinyin)
         * [`ibus-pinyin`](https://github.com/ibus/ibus-pinyin)

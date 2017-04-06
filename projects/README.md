@@ -18,4 +18,6 @@
     1. Must wrap and scroll properly. 
     1. Instead of text, allow link to news site?
 
+ 1. Unicode codepoint-by-character-name look-up tool to the projects list for JS.
+
 [end]
