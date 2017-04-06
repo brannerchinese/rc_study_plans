@@ -18,24 +18,9 @@ Under Maté, within Vim, I can use `ctrl-U` rather than `ctrl-v u` to enter by c
 
 Must remove most of the fonts —  there are too many (and perhaps other things) that I don't need. 
 
-### `i3`
+**Below are notes I initially took in order to prepare for batch.**
 
-**20170405**: In the `i3` window manager for the Debian `chroot`, running Ibus at the command line gets an error "Can't connect to IBus." (Also reported for Fedora: http://forums.fedoraforum.org/showthread.php?t=309058.) This is the same as in the Chrome OS browser tab environment. In Firefox, whose UI opens successfully in `i3`, the input method doesn't start, and I also can't get `ctrl-U` to accept manual code-point entry. Chinese character display at the command line, including pasted-in characters (from Chinese websites) is very good; within Vim it is also good but characters already existing within a page are displayed as multi-byte ASCII substitutes. 
-
-However, `ibus-daemon` (with or without following `&`) appears to succeed, and the first time I did it a little modal appeared, saying that the "super" key was now the hotkey for Ibus. I may have remapped the "super" key to caps lock, or I may not. 
-
-In the Chrome tab environment, `ibus-daemon` followed by other `ibus` commands also succeed, although again nothing happens when I hit `ctrl-space` or the super key and space. The same `.md` file (the present one) in which pre-existing Chinese does not display correctly in Vim under `i3` displays correctly here. But pasting in does not! So it is the reverse of the situation under `i3`! There may be `i3` settings that I haven't gotten right yet.
-
-Something else that doesn't work well in `i3` but does work well in the Chrome terminal tab is `ctrl-v` code point-entry in Vim. I've placed `:inoremap <C-u> <Nop>` in the `.vimrc` file to see if that frees up `ctrl-v` in Vim (and the command line, which uses Vim bindings). I think I will need to restart in order to test it.
-
-I need to read about the use of the super key in `i3`.
-
- * **This looks promising**: http://unix.stackexchange.com/questions/277692/getting-ibus-working-with-tiling-window-manager
- * Super key generally: https://help.gnome.org/users/gnome-help/stable/keyboard-key-super.html.en
- * Seems to involve Fedora and a GUI desktop, so perhaps not pertinent. https://desktopi18n.wordpress.com/2012/05/28/customize-shortcut-keys-for-ibus-1-5/
-
-
-**20170328: It appears that what I am using is Chrome's own built-in input methods. I never installed a Debian input method and it seems unnecessary.**
+---
 
  1. Intelligent Input Bus (IBus)
  

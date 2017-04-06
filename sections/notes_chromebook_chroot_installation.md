@@ -24,18 +24,12 @@
  1. Do initial installation. Note that Debian `stretch` is needed; `jessie` seems to have a bug that prevents i3 (initially part of my installation) from opening in Debian under the current version of Chrome OS:
 
     ```bash
-    sudo sh ~/Downloads/crouton -n debian -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra
+    sudo sh ~/Downloads/crouton -n debian -r stretch -t x11,extension,keyboard,cli-extra,gtk-extra,mate-desktop
     ```
 
     (Source: http://craig-russell.co.uk/2015/07/13/cromebook-debian-i3.html, accessed 20170303.)
 
-    But if we are doing Ubuntu, use:
-
-    ```bash
-    sudo sh ~/Downloads/crouton -n ubuntu -t x11,extension,keyboard,cli-extra,gtk-extra,xfce
-    ```
-
-    In either case, you will be asked for a password if you have not already set one up.
+    You will be asked for a password if you have not already set one up.
 
     When the installation is correct, the script finishes:
 
@@ -110,38 +104,19 @@
 
  1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
 
- 1. Run and set up `Mat茅`
-
-    Set up background and Terminal. 
-
-    For background, go to `System => Preferences => Look and Feel => Appearance`
-    
-    For terminal, go to `System =>  Preferences =>  Personal => Startup Application` and add:
-
-    * `xfce4-terminal`
-
-    The terminal can be configured with `xfce4-settings-manager` and there are related commands. Configure it to use Noto Sans Mono CJK TC Reg 14 font. 
-    
-    Need to find a font-spread that supports Upper code-points. Must look into what fonts are actually needed and what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports.
-
- 1. Within `Mat茅` set up IBus
-
-    For IBus, go to `System =>  Preferences =>  Personal => Startup Application` and add:
-
-    * `ibus-daemon`
-
-    As long as `ibus-daemon` runs first (and it must run in `Mat茅`, not in the Chromee terminal tab before `Mat茅` starts), then IBus is running. You can run `ibus-setup` from thee command line or you can select `System => Preferences => Other => IBus preferences`, to configure. set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
 
 ### Software for Chrooted Linux
 
  1. In the Linux chroot, install
 
-    * `git firefox-esr-dev curl`: If Ubuntu, use plain `firefox` instead of `firefox-esr-dev`.
+    * `git firefox-esr-dev curl`
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
-    * `vim i3`
+    * `vim`
     * `trash-cli` See installations details at https://github.com/andreafrancia/trash-cli.
     * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
+
+ 1. Fonts will be needed. Right now we are using `fonts-noto-cjk`. We also had to use `xfontsel fonts-noto-cjk`, but this has not been documented yet.
 
  1. Clone the [vim_configuration repo](https://github.com/brannerchinese/vim_configuration) and configure following instructions there.
 
@@ -154,6 +129,34 @@
     ```
 
     Make a similar symlink in Debian.
+
+### Desktop environment
+
+ 1. Run and set up `Mat茅
+
+    I am using `Mat茅`because earlier efforts to use `i3` and to avoid using a desktop at all ran into problems with Unicode support and Chinese input method support. These are described in a [separate document](what_went_wrong_with_i3_and_chrome_terminal_tabs.md)
+
+    Set up background and Terminal. 
+
+    For background, go to `System => Preferences => Look and Feel => Appearance`
+    
+    For terminal, go to `System =>  Preferences =>  Personal => Startup Application` and add:
+
+    * `xfce4-terminal`
+
+    I use `xfce4` rather than the `Mat茅` Terminal becaus copying and pasting seems to work better and because accented characters cause the font fewer problems when I'm in Vim.
+    
+    The terminal can be configured with `xfce4-settings-manager` and there are related commands. Configure it to use Noto Sans Mono CJK TC Reg 14 font. 
+    
+    Need to find a font-spread that supports Upper code-points. Must look into what fonts are actually needed and what characters a font supports, see http://stackoverflow.com/questions/4458696/finding-out-what-characters-a-font-supports.
+
+ 1. Within `Mat茅` set up IBus
+
+    For IBus, go to `System =>  Preferences =>  Personal => Startup Application` and add:
+
+    * `ibus-daemon`
+
+    As long as `ibus-daemon` runs first (and it must run in `Mat茅`, not in the Chromee terminal tab before `Mat茅` starts), then IBus is running. You can run `ibus-setup` from thee command line or you can select `System => Preferences => Other => IBus preferences`, to configure. set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
 
 ### Software for Chrome OS
 
