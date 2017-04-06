@@ -113,7 +113,7 @@
     **.db
     ```
 
- 1. Generate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
+ 1. Following [GitHub's instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/), enerate a new public SSH key for the new installation and add it to the appropriate GitHub accounts so that needed repositories can be cloned.
 
 
 ### More Software for Chrooted Linux
