@@ -1,4 +1,4 @@
-## Chinese Pinyin input on Chrome OS
+## Chinese Pinyin input and Unicode code-points on Chrome OS
 
 To enter Unicode characters on Linux, enter `ctrl-shift-u` and the codepoint, and then return or space.
 
@@ -15,6 +15,18 @@ I will have to learn by heart the codepoints of the characters I use most often.
 | ō: 14d | ó: f3 | ǒ: 1d2 | ò: f2
 | ū: 16b | ú: fa | ǔ: 1d4 | ù: f9
 | ǖ: 1d6 | ǘ: 1d8 | ǚ: 1da | ǜ: 1dc
+
+## Unicode codepoints
+
+See the [Unicode Character Name Index](http://www.unicode.org/charts/charindex.html) (which is not complete, by design).
+
+ * Ł: 0141: LATIN CAPITAL LETTER L WITH STROKE (not on Unicode Consortium page but lapse reported) 
+ * ł: 0142: LATIN SMALL LETTER L WITH STROKE	
+ * …: 2026: HORIZONTAL ELLIPSIS
+ * —: 2014: EM DASH
+ * ⸺: 2e3a: TWO-EM DASH
+ *  : a0: NON-BREAKING SPACE
+---
 
 Below is unfinished
 
