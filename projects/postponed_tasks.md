@@ -1,4 +1,26 @@
-## Postponed tasks
+## Current and Postponed tasks
+
+### Current tasks
+
+**JS track**
+
+ * [　] Begin first JS project and ideally get minimal demo working in one day. If you can find a whole day in which to work on this, you knucklehead.
+
+**Database infrastructure track**
+
+ * [　] Read next document in list. (Probably NoSQL paper.)
+ 
+**Environment**
+
+ * [　] Moral invoicing parleys planned for today. (Have not done any in a few days).
+ 
+ * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`.
+
+ * [　] Repository's "postponed tasks" page should also keep a full list of tasks I consider current, since they tend to get lost on Zulip.
+ 
+ * [　] Post IBus issue about lack of menu control.
+
+### Postponed tasks
 
 **JS Track — libraries — graphical**
 
