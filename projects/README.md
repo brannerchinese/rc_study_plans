@@ -33,6 +33,7 @@
     * [Color state in `input` elements](https://www.w3.org/TR/html5/forms.html#color-state-%28type=color%29)
 
     * When a form is submitted, the function it calls must explicitly `return false` in order to prevent the page from reloading.
+    * `this` can be used to refer to variables declared in the global namespace.
 
     Terms:
 
