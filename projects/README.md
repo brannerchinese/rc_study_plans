@@ -10,7 +10,8 @@
     Versions:
 
     * 1: Produce randomly selected background color on each reload of page.
-    * pending: Produce randomly selected background color on button click.
+    * 2: Produce randomly selected background color on button click.
+    * pending: Submit three form fields and show that you've received them.
 
     Reference:
 
@@ -22,6 +23,10 @@
       * Discussion on StackOverflow: [1](http://stackoverflow.com/questions/10126310/does-javascript-have-a-standard-for-commenting-functions), [2](http://stackoverflow.com/questions/34205666/utilizing-docstrings)
       * [JSDoc](http://usejsdoc.org/index.html)
       * Javadoc
+
+    * It appears that a default function argument can be a functional call (same is true in Python). But I think this is brittle; if the function call fails for some reason, we have `undefined`, so I set the default argument explicitly in code, instead.
+    * [Form `<input>` types](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+    * [Color state in `input` elements](https://www.w3.org/TR/html5/forms.html#color-state-%28type=color%29)
 
     Terms:
 
