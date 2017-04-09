@@ -4,7 +4,9 @@ Postponed tasks are marked [Ｏ].
 
 **JS track**
 
- * [　] Explore TDD options for JavaScript.
+ * [Ｘ] Explore TDD options for JavaScript. **Disposition**: I collected a list of seven. I dislike "ramified assertion-keywords" (rather than calling a specialized `notEqual` method, I would rather assert an inequality). And I also dislike BDD syntax (the discursive English-language syntax of Gherkin and Rspec; stands for "behavior-driven development"). So that seems to leave UnitJS and SinonJS as the first two to try — both seem to have good documentation and feature separate key words for different test styles.
+
+ * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
  * [　] Color-match iteration: addition of user and program values.
  * [　] Color-match iteration: set up a scoring mechanism and display.
  * [　] Color-match iteration: add a graphical picker.
