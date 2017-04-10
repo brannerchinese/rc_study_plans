@@ -4,13 +4,13 @@ Postponed tasks are marked [Ｏ].
 
 **JS track**
 
- * [Ｘ] Explore TDD options for JavaScript. **Disposition**: I collected a list of seven. I dislike "ramified assertion-keywords" (rather than calling a specialized `notEqual` method, I would rather assert an inequality). And I also dislike BDD syntax (the discursive English-language syntax of Gherkin and Rspec; stands for "behavior-driven development"). So that seems to leave UnitJS and SinonJS as the first two to try — both seem to have good documentation and feature separate key words for different test styles.
-
  * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
- * [　] Color-match iteration: addition of user and program values.
+ * [　] Color-match iteration: addition of user and program values. We also need a "palindrome modulus" — is that a term? Ordinary modulus is plots as a sawtooth wave; here I need a single period of a triangle wave: `adjusted = sum<=255 ? sum : 510-sum`.
  * [　] Color-match iteration: set up a scoring mechanism and display.
  * [　] Color-match iteration: add a graphical picker.
  * [　] Color-match README (now that repository has been created).
+ * [　] Read next chapter in JS books.
+
 
  * [Ｏ] List made of major JS graphical libraries of interest. No further work to be done on them for now.
 
@@ -24,11 +24,9 @@ Postponed tasks are marked [Ｏ].
 
 **Environment track**
 
- * [　] Reorganize and prune notes in repo for RC study. There's too much stuff in `/sections` and it should be moved out into various new sibling directories.
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
- * [　] Update the Unicode codepoint flashcards, though I'm not at the point of wanting to use them. Add first change-log entry to head of `.tex` file.
 
- * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`.
+ * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
 
  * [　] Post IBus issue about lack of menu control.
  
@@ -45,6 +43,7 @@ Postponed tasks are marked [Ｏ].
 My collaborator feels well enough that on Friday she began criticizing my English again, for the first time in several years, and nagging me to get the book finished.
 
  * [　] Draft chapter on parts of speech and other conventions
+
  * [　] Pick up refactoring of old Python code: LaTeX-formatting of entries; handling of sentences; ordering of entries.
 
 
