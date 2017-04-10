@@ -5,7 +5,7 @@ Postponed tasks are marked [Ｏ].
 **JS track**
 
  * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
- * [　] Color-match iteration: addition of user and program values. We also need a "palindrome modulus" — is that a term? Ordinary modulus is plots as a sawtooth wave; here I need a single period of a triangle wave: `adjusted = sum<=255 ? sum : 510-sum`.
+ * [Ｘ] Color-match iteration: addition of user and program values. We also need a "palindrome modulus" — is that a term? Ordinary modulus is plots as a sawtooth wave; here I need a single period of a triangle wave: `adjusted = sum<=255 ? sum : 510-sum`.
  * [　] Color-match iteration: set up a scoring mechanism and display.
  * [　] Color-match iteration: add a graphical picker.
  * [　] Color-match README (now that repository has been created).
