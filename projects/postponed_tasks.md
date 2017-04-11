@@ -3,6 +3,7 @@
 Postponed tasks are marked [Ｏ].
 
 **JS track**
+ * [　] Color-match iteration: center the two tables.
  * [　] Refactor iteration 6
  * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
  * [　] Color-match iteration: add a graphical picker.
