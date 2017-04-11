@@ -4,6 +4,7 @@ Postponed tasks are marked [Ｏ].
 
 **JS track**
  * [　] Color-match iteration: center the two tables.
+ * [　] Read about shift from HTML tables as a formatting tool to CSS floats and display: block/inline/inline-block. (Thanks to Vivian Brown.)
  * [　] Refactor iteration 6
  * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
  * [　] Color-match iteration: add a graphical picker.
