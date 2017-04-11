@@ -8,6 +8,7 @@ Postponed tasks are marked [Ｏ].
  * [Ｘ] Color-match iteration: addition of user and program values. We also need a "palindrome modulus" — is that a term? Ordinary modulus is plots as a sawtooth wave; here I need a single period of a triangle wave: `adjusted = sum<=255 ? sum : 510-sum`.
  * [Ｘ] Color-match iteration: set up a scoring mechanism and display.
  * [　] Color-match iteration: add a graphical picker.
+ * [　] Color-match iteration: allow user to toggle numeric display on and off for learning.
  * [　] Color-match README (now that repository has been created).
  * [　] Read next chapter in JS books.
 
