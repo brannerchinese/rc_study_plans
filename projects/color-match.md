@@ -11,17 +11,18 @@
     * 2: Produce randomly selected background color on button click.
     * 3: Add two submit buttons and have the form submit without reloading page.
     * 4: Submit three form fields and confirm that you've received them.
-    * pending: process content of form fields, including validation.
+    * 5: process content of form fields, including validation.
+    * 6: set up a scoring mechanism and display.
+    * pending: add a graphical picker.
 
     Reference:
 
     * [color picker tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
     * [`Math.random()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
     * [`rgb`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#rgb). Note: this is CSS, not JS; convert in JS to string for application to CSS.
-    * Docstring-like behavior in JS. 
-    * use `document.forms[n]` for the `n`th form and `document.forms[n].element[i]` for it's `i`th element.
     * Associative arrays do not have `length`.
-
+    * Docstring-like behavior in JS. 
+    
       * Discussion on StackOverflow: [1](http://stackoverflow.com/questions/10126310/does-javascript-have-a-standard-for-commenting-functions), [2](http://stackoverflow.com/questions/34205666/utilizing-docstrings)
       * [JSDoc](http://usejsdoc.org/index.html)
       * Javadoc
@@ -32,6 +33,11 @@
 
     * When a form is submitted, the function it calls must explicitly `return false` in order to prevent the page from reloading.
     * `this` can be used to refer to variables declared in the global namespace.
+    * use `document.forms[n]` for the `n`th form and `document.forms[n].element[i]` for it's `i`th element.
+    * How elements are added by JS.
+    * How elements are styled by JS.
+    * `placeholder` and `select()` on an input form.
+    * Hack for generating a "range" in JS.
 
     Terms:
 
