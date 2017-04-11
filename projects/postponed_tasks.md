@@ -5,8 +5,6 @@ Postponed tasks are marked [Ｏ].
 **JS track**
 
  * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
- * [Ｘ] Color-match iteration: addition of user and program values. We also need a "palindrome modulus" — is that a term? Ordinary modulus is plots as a sawtooth wave; here I need a single period of a triangle wave: `adjusted = sum<=255 ? sum : 510-sum`.
- * [Ｘ] Color-match iteration: set up a scoring mechanism and display.
  * [　] Color-match iteration: add a graphical picker.
  * [　] Color-match iteration: allow user to toggle numeric display on and off for learning.
  * [　] Color-match README (now that repository has been created).
@@ -31,13 +29,13 @@ Postponed tasks are marked [Ｏ].
 
  * [　] Post IBus issue about lack of menu control.
  
- * [　] Examine *Seven Concurrency Models in Seven Weeks*. **Disposition**: Book located; not yet opened.
+ * [　] Read *Seven Concurrency Models in Seven Weeks*. 
 
 ### Non-batch work
 
 **Translation of prosody paper**
 
- * [　] Edit remainder of Section 7 corrigenda and send to translator.
+ * [　] Edit remainder of Sections 7 & 8 corrigenda and send to translator. There are also his revisions to look at.
 
 **"Face" book**
 
