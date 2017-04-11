@@ -11,8 +11,19 @@
     * 2: Produce randomly selected background color on button click.
     * 3: Add two submit buttons and have the form submit without reloading page.
     * 4: Submit three form fields and confirm that you've received them.
-    * 5: process content of form fields, including validation.
-    * 6: set up a scoring mechanism and display.
+    * 5: Process content of form fields, including validation.
+    * 6: Set up a scoring mechanism and display. After functionality basically done, refactored:
+
+      * eliminate some global-namespace variables
+      * move main IIFE function and globals to top of file and initialization functions to after that
+      * place initial call to set color in an initialization function
+      * call `figureScore` within `changeBackground`
+      * convert user-submitted values from object to array only when needed (in `sumColors`); then make it an actual array all along
+      * fill out missing commenting
+      * ensure that "red" field is selected after changing background color
+      * initialize empty global variables with Native wrapper objects rather than literals
+
+      Finally, centered the two tables.
     * pending: add a graphical picker.
 
     Reference:
