@@ -3,7 +3,7 @@
 Postponed tasks are marked [Ｏ].
 
 **JS track**
-
+ * [　] Refactor iteration 6
  * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
  * [　] Color-match iteration: add a graphical picker.
  * [　] Color-match iteration: allow user to toggle numeric display on and off for learning.
