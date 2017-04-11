@@ -1,7 +1,7 @@
 ## JS syntax
 
  * `...`: "spread" operator, for unpacking multiple elements (like Python `*`)
- * equivalent of Python `range(n)`: [...Array(n).keys()]
+ * equivalent of Python `range(n)`: `[...Array(n).keys()]`
  * `new`: In creating a new empty string or array, I like using Native wrapper objects rather than literals (`Array()` rather than `[]`) for readability. But I wonder whether it is better to use the keyword `new` or not. Is there a difference between these two things?
 
    ```js
