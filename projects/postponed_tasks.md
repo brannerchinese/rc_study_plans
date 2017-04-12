@@ -4,8 +4,6 @@ Postponed tasks are marked [Ｏ].
 
 ### **JS track**
 
- * [Ｘ] Color-match iteration: center the two tables.
- * [Ｘ] Refactor iteration 6.
  * [　] Color-match iteration: replace tables with divs.
  * [　] Color-match iteration: README (now that repository has been created).
  * [　] Color-match iteration: Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
@@ -19,7 +17,6 @@ Postponed tasks are marked [Ｏ].
 
 #### Reading
 
- * [　] Read about shift from HTML tables as a formatting tool to CSS floats and display: block/inline/inline-block. (Thanks to Vivian Brown.)
  * [　] Read about [ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics).
  * [　] Read next chapter in JS books.
  * [Ｏ] List made of major JS graphical libraries of interest. No further work to be done on them for now.

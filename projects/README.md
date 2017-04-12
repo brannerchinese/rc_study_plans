@@ -11,6 +11,12 @@
  1. [Hànbûn tool](hanbun-columns.md)
  1. [Unicode codepoint-by-name-lookup tool](codepoint-by-character-name.md)
 
+Other ideas:
+
+ 1. distributed hash table (DHT)
+ 1. chat server
+ 1. bittorrent client
+
 ### Past
 
 [end]
