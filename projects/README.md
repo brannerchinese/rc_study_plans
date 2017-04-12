@@ -6,7 +6,7 @@
 
 ### Future
 
- 1. [Color-match game](color-match-game.md)
+ 1. [Color-match game](color-match-game.md): game using `color-match` functionality.
  1. [B+ tree](b-trees.md)
  1. [Unicode codepoint-by-name-lookup tool](codepoint-by-character-name.md)
 
@@ -18,6 +18,6 @@ Other ideas:
 
 ### Past
 
- 1. [Color match](color-match.md) functionality. **Disposition**: 20170412: Iteration 7 needs help. Also requesting code review.
+ 1. [Color match](color-match.md): functionality for "Color-match game". **Disposition**: 20170412: Iteration 7 needs help. Also requesting code review.
 
 [end]
