@@ -11,7 +11,7 @@ Postponed tasks are marked [Ｏ].
  * [　] Hànbûn columns iteration: Make resizable frame no larger than open window/viewport.
  * [　] Hànbûn columns iteration: Within frame, create columnar subframes that wrap right-left.
  * [　] Hànbûn columns iteration: Populate subframes with characters, one to a row.
- * [　] HànbÛn columns iteration: Load page into iframe from elsewhere.
+ * [　] Hànbûn columns iteration: Load page into iframe from elsewhere.
 
 #### **Color-match project**
 
