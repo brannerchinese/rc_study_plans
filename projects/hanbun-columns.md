@@ -12,4 +12,24 @@
     1. iteration: Populate subframes with characters, one to a row.
     1. iteration: Load page into iframe from elsewhere.
 
+ 1 Reference:
+
+    * style: `unicode-bidi`. 
+    
+      * Stands for "bidirectional". Allows developer to control display of bidirectional text in a single document. Probably not needed here.
+      * https://developer.mozilla.org/en-US/docs/Web/CSS/unicode-bidi
+      * https://www.w3schools.com/cssref/pr_text_unicode-bidi.asp
+
+    * style: `direction`. 
+    
+      * https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/direction
+      * https://developer.mozilla.org/en-US/docs/Web/CSS/direction
+      * https://www.w3schools.com/cssref/pr_text_direction.asp
+
+    * style: `column-count` and `column-gap` (note: `-moz` and `-webkit` prefixes are needed). 
+    
+      * https://developer.mozilla.org/en-US/docs/Web/CSS/column-count
+      * https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap
+      * http://learnlayout.com/column.html
+
 [end]

@@ -15,7 +15,8 @@ Postponed tasks are marked [Ｏ].
 
 #### **Color-match project**
 
- * [　] Color-match iteration 7: Replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
+ * [　] Color-match iteration 7: Add default values to RGB channel-fields and display their hues and combined color as User adjusts values.
+ * [　] Color-match iteration 8: Replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
  * [　] Color-match iteration: Try on other browsers.
  * [Ｘ] Color-match: README (now that repository has been created).
 

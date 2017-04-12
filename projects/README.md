@@ -6,6 +6,7 @@
 
 ### Future
 
+ 1. [Boustrophedon](boustrophedon.md)
  1. [Color-match game](color-match-game.md): game using `color-match` functionality.
  1. [B+ tree](b-trees.md)
  1. [Unicode codepoint-by-name-lookup tool](codepoint-by-character-name.md)

@@ -24,7 +24,9 @@
       * initialize empty global variables with Native wrapper objects rather than literals
       * centered the two tables using `class` (set in JS) and a CSS style (in CSS stylesheet)
 
-    * pending: replace tables with divs
+    * 7: Add default values to RGB channel-fields and display their hues and combined color as User adjusts values.
+
+    * pending: replace tables with divs. **Disposition**: time for help. Consider looking into flexbox (`display: flex`). http://learnlayout.com/flexbox.html
 
     Reference:
 
