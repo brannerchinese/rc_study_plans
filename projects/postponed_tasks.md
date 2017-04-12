@@ -4,8 +4,8 @@ Postponed tasks are marked [Ｏ].
 
 ### **JS track**
 
- * [　] Color-match iteration: replace tables with divs.
- * [　] Color-match iteration: README (now that repository has been created).
+ * [　] Color-match iteration: replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
+ * [Ｘ] Color-match iteration: README (now that repository has been created).
  * [　] Color-match iteration: Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
 
  * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
