@@ -2,29 +2,36 @@
 
 Postponed tasks are marked [Ｏ].
 
-**JS track**
- * [　] Color-match iteration: center the two tables.
+### **JS track**
+
+ * [Ｘ] Color-match iteration: center the two tables.
+ * [Ｘ] Refactor iteration 6.
+ * [　] Color-match iteration: replace tables with divs.
+ * [　] Color-match iteration: README (now that repository has been created).
+ * [　] Color-match iteration: Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
+
+ * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
+
+   * page: https://www.w3schools.com/colors/colors_picker.asp
+   * JS: https://www.w3schools.com/lib/w3color.js
+
+ * [Ｏ] Color-match iteration: after graphical picker has been added, allow user to toggle numeric display on and off for learning.
+
+#### Reading
+
  * [　] Read about shift from HTML tables as a formatting tool to CSS floats and display: block/inline/inline-block. (Thanks to Vivian Brown.)
  * [　] Read about [ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics).
- * [Ｘ] Refactor iteration 6.
- * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
- * [　] Color-match iteration: add a graphical picker.
- * [　] Color-match iteration: allow user to toggle numeric display on and off for learning.
- * [　] Color-match README (now that repository has been created).
  * [　] Read next chapter in JS books.
-
-
  * [Ｏ] List made of major JS graphical libraries of interest. No further work to be done on them for now.
-
  * [Ｏ] Read Coulman's Ramda.JS blogposts. **Postponed** after completing two. It's too early to be spending time with these.
 
-**Database infrastructure/Raft track**
+### **Database infrastructure/Raft track**
 
  * [　] Read next document in list. (Probably NoSQL paper.)
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
-**Environment track**
+### **Environment track**
 
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
 
