@@ -4,9 +4,20 @@ Postponed tasks are marked [Ｏ].
 
 ### **JS track**
 
- * [　] Color-match iteration: replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
- * [Ｘ] Color-match iteration: README (now that repository has been created).
- * [　] Color-match iteration: Try out the preferred TDD options for JavaScript: UnitJS and SinonJS.
+ * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
+
+#### **Hànbûn columns project**
+
+ * [　] HànbÛn columns iteration: Make resizable frame no larger than open window/viewport.
+ * [　] HànbÛn columns iteration: Within frame, create columnar subframes that wrap right-left.
+ * [　] HànbÛn columns iteration: Populate subframes with characters, one to a row.
+ * [　] HànbÛn columns iteration: Load page into iframe from elsewhere.
+
+#### **Color-match project**
+
+ * [　] Color-match iteration 7: Replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
+ * [　] Color-match iteration: Try on other browsers.
+ * [Ｘ] Color-match: README (now that repository has been created).
 
  * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
 
