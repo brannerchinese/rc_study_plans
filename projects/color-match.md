@@ -22,13 +22,12 @@
       * fill out missing commenting
       * ensure that "red" field is selected after changing background color
       * initialize empty global variables with Native wrapper objects rather than literals
+      * centered the two tables using `class` (set in JS) and a CSS style (in CSS stylesheet)
 
-      Finally, centered the two tables.
-    * pending: add a graphical picker.
+    * pending: replace tables with divs
 
     Reference:
 
-    * [color picker tool](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool)
     * [`Math.random()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
     * [`rgb`](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#rgb). Note: this is CSS, not JS; convert in JS to string for application to CSS.
     * Associative arrays do not have `length`.
