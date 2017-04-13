@@ -8,7 +8,6 @@ Postponed tasks are marked [Ｏ].
 
 #### **Hànbûn columns project**
 
- * [Ｘ] Hànbûn columns iteration: Use `writing-mode` style for basic right-to-left functionality.
  * [　] Hànbûn columns iteration: Make resizable frame no larger than open window/viewport.
  * [　] Hànbûn columns iteration: Within frame, create columnar subframes that wrap right-left.
  * [　] Hànbûn columns iteration: Populate subframes with characters, one to a row.
@@ -16,11 +15,10 @@ Postponed tasks are marked [Ｏ].
 
 #### **Color-match project**
 
- * [　] Color-match iteration 7: Move all styling to CSS, experiment with element-widths and `display` styling, try to remove some `div`s.
- * [　] Color-match iteration 8: Add default values to RGB channel-fields and display their hues and combined color as User adjusts values. 
- * [　] Color-match iteration 9: Replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
+ * [　] Color-match iteration 9: Add default values to RGB channel-fields and display their hues and combined color as User adjusts values. 
+ * [　] Color-match iteration 10: Add color parity challenge along with sum-to-white challenge.
+ * [　] Color-match iteration: Can you present on Thursday?
  * [　] Color-match iteration: Try on other browsers.
- * [Ｘ] Color-match: README (now that repository has been created).
 
  * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
 
@@ -38,26 +36,27 @@ Postponed tasks are marked [Ｏ].
 
 ### **Database infrastructure/Raft track**
 
+ * [　] Read Paul Butcher, *Seven Concurrency Models in Seven Weeks*. 
+
  * [　] Read next document in list. (Probably NoSQL paper.)
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
+### Gemütlichkeit
+
+
+### Arbeitsangst
+
+
+
 ### **Environment track**
  
- * [Ｘ]  Moral invoicing conversation with Nasreen.
-
- * [Ｘ]  JS/Webstack Topics workshop.
-
- * [Ｘ]  Careers discussion.
-
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
 
  * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
 
  * [　] Post IBus issue about lack of menu control.
  
- * [　] Read *Seven Concurrency Models in Seven Weeks*. 
-
 ### Non-batch work
 
 **Translation of prosody paper**
