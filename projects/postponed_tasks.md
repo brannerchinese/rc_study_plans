@@ -8,6 +8,7 @@ Postponed tasks are marked [Ｏ].
 
 #### **Hànbûn columns project**
 
+ * [Ｘ] Hànbûn columns iteration: Use `writing-mode` style for basic right-to-left functionality.
  * [　] Hànbûn columns iteration: Make resizable frame no larger than open window/viewport.
  * [　] Hànbûn columns iteration: Within frame, create columnar subframes that wrap right-left.
  * [　] Hànbûn columns iteration: Populate subframes with characters, one to a row.
@@ -15,8 +16,9 @@ Postponed tasks are marked [Ｏ].
 
 #### **Color-match project**
 
- * [　] Color-match iteration 7: Add default values to RGB channel-fields and display their hues and combined color as User adjusts values.
- * [　] Color-match iteration 8: Replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
+ * [　] Color-match iteration 7: Move all styling to CSS, experiment with element-widths and `display` styling, try to remove some `div`s.
+ * [　] Color-match iteration 8: Add default values to RGB channel-fields and display their hues and combined color as User adjusts values. 
+ * [　] Color-match iteration 9: Replace tables with divs. **Disposition**: Not working. Whole code sent to Vivian Brown for code review.
  * [　] Color-match iteration: Try on other browsers.
  * [Ｘ] Color-match: README (now that repository has been created).
 
@@ -41,6 +43,12 @@ Postponed tasks are marked [Ｏ].
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
 ### **Environment track**
+ 
+ * [Ｘ]  Moral invoicing conversation with Nasreen.
+
+ * [Ｘ]  JS/Webstack Topics workshop.
+
+ * [Ｘ]  Careers discussion.
 
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
 
