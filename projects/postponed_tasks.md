@@ -6,18 +6,11 @@ Postponed tasks are marked [Ｏ].
 
  * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
-#### **Hànbûn columns project**
-
- * [　] Hànbûn columns iteration: Make resizable frame no larger than open window/viewport.
- * [　] Hànbûn columns iteration: Within frame, create columnar subframes that wrap right-left.
- * [　] Hànbûn columns iteration: Populate subframes with characters, one to a row.
- * [　] Hànbûn columns iteration: Load page into iframe from elsewhere.
-
 #### **Color-match project**
 
- * [　] Color-match iteration 9: Add default values to RGB channel-fields and display their hues and combined color as User adjusts values. 
- * [　] Color-match iteration 10: Add color parity challenge along with sum-to-white challenge.
- * [　] Color-match iteration: Can you present on Thursday?
+ * [Ｘ] Color-match iteration 9: Add default values to RGB channel-fields and display their combined color as User adjusts values. 
+ * [Ｘ] Color-match iteration: Can you present on Thursday?
+ * [　] Color-match iteration 10: Add color parity challenge along with sum-to-white challenge. Can you display hues of individual channel-fields?
  * [　] Color-match iteration: Try on other browsers.
 
  * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
@@ -27,9 +20,17 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｏ] Color-match iteration: after graphical picker has been added, allow user to toggle numeric display on and off for learning.
 
-#### Reading
+#### **Hànbûn columns project**
+
+ * [　] Hànbûn columns iteration: Make resizable frame no larger than open window/viewport.
+ * [　] Hànbûn columns iteration: Within frame, create columnar subframes that wrap right-left.
+ * [　] Hànbûn columns iteration: Populate subframes with characters, one to a row.
+ * [　] Hànbûn columns iteration: Load page into iframe from elsewhere.
+
+#### Reading and workshops
 
  * [　] Read about [ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics).
+ * [　] Read the [MDN article on manipulating DOM elements](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents).
  * [　] Read next chapter in JS books.
  * [Ｏ] List made of major JS graphical libraries of interest. No further work to be done on them for now.
  * [Ｏ] Read Coulman's Ramda.JS blogposts. **Postponed** after completing two. It's too early to be spending time with these.
@@ -42,12 +43,13 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
-### Gemütlichkeit
+### **Gemütlichkeit**
 
+ * [Ｘ] In-person check-in.
 
-### Arbeitsangst
+### **Arbeitsangst**
 
-
+ * [Ｘ] Meeting with Nancy Thomas.
 
 ### **Environment track**
  

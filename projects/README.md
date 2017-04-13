@@ -2,9 +2,11 @@
 
 ### Current
 
- 1. [Hànbûn tool](hanbun-columns.md)
+ 1. [Color match](color-match.md): functionality for "Color-match game". **Disposition**: 20170413: Iteration 9 under way.
 
 ### Future
+
+ 1. [Hànbûn tool](hanbun-columns.md). With CSS3 features, now seems much simpler than I had expected.
 
  1. [Boustrophedon](boustrophedon.md)
  1. [Color-match game](color-match-game.md): game using `color-match` functionality.
@@ -19,6 +21,5 @@ Other ideas:
 
 ### Past
 
- 1. [Color match](color-match.md): functionality for "Color-match game". **Disposition**: 20170412: Iteration 7 needs help. Also requesting code review.
 
 [end]
