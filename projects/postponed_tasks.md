@@ -58,6 +58,7 @@ Postponed tasks are marked [Ｏ].
  * [Ｘ] Job profiles workshop at RC
  * [　] Compose new RC résumé
  * [　] Rename `postponed_tasks.md`
+ * [　] Fix code-issues in blog — including list of past entries
 
 ### **Environment track**
  
