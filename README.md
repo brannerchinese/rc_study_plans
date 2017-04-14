@@ -4,9 +4,9 @@
 
 See [separate projects list](projects/README.md).
 
-### Postponed tasks
+### Tasks, current and postponed
 
-See [postponed tasks list](projects/postponed_tasks.md).
+See [tasks list (current and postponed)](projects/current_and_postponed_tasks.md).
 
 ### Things learned
 
