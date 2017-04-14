@@ -8,9 +8,7 @@ Postponed tasks are marked [Ｏ].
 
 #### **Color-match project**
 
- * [Ｘ] Color-match iteration 9: Add default values to RGB channel-fields and display their combined color as User adjusts values. 
- * [Ｘ] Color-match iteration: Can you present on Thursday?
- * [　] Color-match iteration 10: Add color parity challenge along with sum-to-white challenge. Can you display hues of individual channel-fields?
+ * [　] Color-match iteration 10: Can you display hues of individual channel-fields? After this, time to work on actual color-match game.
  * [　] Color-match iteration: Try on other browsers.
 
  * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
