@@ -26,17 +26,17 @@ See [haphazard notes on things learned](things_learned).
     
     2. [The Graph abstract data-type and the Tree data-structure](sections/philosophy_graphs_trees.md)
 
- 1. Job prep reading
+ 1. Job prep [reading lists](reading_lists)
 
-    1. [Networking](sections/reading_networking.md)
+    1. [Networking](reading_lists/reading_networking.md)
 
-    2. [Concurrency](sections/reading_concurrency.md)
+    2. [Concurrency](reading_lists/reading_concurrency.md)
 
-    2. [Distributed computing](sections/reading_distributed_computing.md)
+    2. [Distributed computing](reading_lists/reading_distributed_computing.md)
 
-    2. [Raft algorithm](sections/reading_raft_algorithm.md)
+    2. [Raft algorithm](reading_lists/reading_raft_algorithm.md)
 
-    2. [Database internals](sections/reading_database_internals.md)
+    2. [Database internals](reading_lists/reading_database_internals.md)
 
  1. Other topics of interest
 
@@ -70,7 +70,7 @@ I want very much to work in a pure Linux environment. During my first batch, I u
  
  1. [Notes from reading](notes)
 
- 1. [Pīnyīn to UTF codepoint flashcards](sections/pinyin) (must be printed double-sided)
+ 1. [Pīnyīn to UTF codepoint flashcards](pinyin) (must be printed double-sided)
  
  1. [Downloaded materials for study](materials)
  
