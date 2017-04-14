@@ -55,7 +55,9 @@ Postponed tasks are marked [Ｏ].
 
 ### **Arbeitsangst**
 
- * [　] Job profiles workshop at RC
+ * [Ｘ] Job profiles workshop at RC
+ * [　] Compose new RC résumé
+ * [　] Rename `postponed_tasks.md`
 
 ### **Environment track**
  
