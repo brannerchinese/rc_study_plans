@@ -2,15 +2,15 @@
 
 ### Graphical
 
- 1. d3.js
+ 1. [d3.js](https://github.com/d3/d3/wiki)
 
- 1. p5.js
+ 1. [p5.js](https://p5js.org/get-started/)
 
- 1. paper.js
+ 1. [paper.js](http://paperjs.org/features/)
 
- 1. three.js
+ 1. [three.js](https://threejs.org/)
 
- 1. `canvas`
+ 1. [`canvas`](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 
 ### Node
 
