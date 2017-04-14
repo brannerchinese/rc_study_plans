@@ -4,7 +4,7 @@ Postponed tasks are marked [Ｏ].
 
 ### **JS track**
 
- * [　] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
+ * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
 #### **Color-match project**
 
@@ -27,8 +27,17 @@ Postponed tasks are marked [Ｏ].
 
 #### Reading and workshops
 
- * [　] Read about [ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics).
- * [　] Read the [MDN article on manipulating DOM elements](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents).
+ * [　] Start reading about major JS graphical libraries of interest, beginning with list made earlier.
+
+ * [　] Read the [MDN article-series on Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) (note that the second-to-last item has a broken link to the last item)
+
+   * [　] (Part of the above). Read about [ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics).
+
+ * [　] Read the [MDN article-series on Client-side web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs) (incomplete; "Video and audio APIs" is still in draft, and "Device APIs" and "Client-side storage APIs" are not posted)
+ 
+   * [　] (Part of the above). Read the [MDN article on manipulating DOM elements](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents).
+
+ 
  * [　] Read next chapter in JS books.
  * [Ｏ] List made of major JS graphical libraries of interest. No further work to be done on them for now.
  * [Ｏ] Read Coulman's Ramda.JS blogposts. **Postponed** after completing two. It's too early to be spending time with these.
@@ -43,11 +52,10 @@ Postponed tasks are marked [Ｏ].
 
 ### **Gemütlichkeit**
 
- * [Ｘ] In-person check-in.
 
 ### **Arbeitsangst**
 
- * [Ｘ] Meeting with Nancy Thomas.
+ * [　] Job profiles workshop at RC
 
 ### **Environment track**
  
