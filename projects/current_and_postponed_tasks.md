@@ -69,9 +69,11 @@ This shouldn't take more than two good days of work.
  * [　] Look up the company mentioned by Nancy Thomas
  * [　] Fix code-issues in blog — including list of past entries (long postponed)
 
-### **Environment track**
- 
+### **Technical writing**
+
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
+
+### **Environment track**
 
  * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
 
