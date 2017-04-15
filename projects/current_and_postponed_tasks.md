@@ -12,14 +12,22 @@ Postponed tasks are marked [Ｏ].
  * [　] Color-match iteration 11: Can you display hues of individual channel-fields? After this, time to work on actual color-match game.
  * [　] Color-match iteration: Try on other browsers.
 
- * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
+ * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation :
 
    * page: https://www.w3schools.com/colors/colors_picker.asp
    * JS: https://www.w3schools.com/lib/w3color.js
+   
+   and try to construct something simpler
 
  * [Ｏ] Color-match iteration: after graphical picker has been added, allow user to toggle numeric display on and off for learning.
 
+#### **B-tree implementation**
+
+It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki).
+
 #### **Hànbûn columns project**
+
+This shouldn't take more than two good days of work.
 
  * [　] Hànbûn columns iteration: Make resizable frame no larger than open window/viewport.
  * [　] Hànbûn columns iteration: Within frame, create columnar subframes that wrap right-left.
@@ -51,18 +59,20 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
-### **Gemütlichkeit**
+### **RC togetherness**
 
 
-### **Arbeitsangst**
+### **Work-worry**
 
  * [Ｘ] Job profiles workshop at RC
  * [　] Compose new RC résumé
- * [　] Rename `postponed_tasks.md`
- * [　] Fix code-issues in blog — including list of past entries
+ * [　] Look into the companies listed as coming to the [April 20th, 2017](https://www.recurse.com/events/260) and [April 27th, 2017](https://www.recurse.com/events/261) job fairs
+ * [　] Look up the company mentioned by Nancy Thomas
+ * [　] Fix code-issues in blog — including list of past entries (long postponed)
 
 ### **Environment track**
  
+ * [Ｘ] Rename `postponed_tasks.md`
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
 
  * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
