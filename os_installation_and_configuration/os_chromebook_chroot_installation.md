@@ -66,6 +66,7 @@
     * `xclip`: Copy command-line to/from clipboard.
     * `trash-cli` See [installation details](https://github.com/andreafrancia/trash-cli).
     * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
+    * `torbrowser-launcher`
 
  1. Add some basic tools to `~/.bashrc`:
 
