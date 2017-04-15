@@ -6,7 +6,7 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
-#### **Color-match project**
+#### **[Color-match project](color-match.md)**
 
  * [　] Color-match iteration 10: Describe dimensions of circle relative to viewport, rather than absolutely.
  * [　] Color-match iteration 11: Can you display hues of individual channel-fields? After this, time to work on actual color-match game.
@@ -21,11 +21,11 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｏ] Color-match iteration: after graphical picker has been added, allow user to toggle numeric display on and off for learning.
 
-#### **B-tree implementation**
+#### **[B-tree implementation](b-trees.md)**
 
 It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki).
 
-#### **Hànbûn columns project**
+#### **[Hànbûn columns project](hanbun-columns.md)**
 
 This shouldn't take more than two good days of work.
 
@@ -64,15 +64,13 @@ This shouldn't take more than two good days of work.
 
 ### **Work-worry**
 
- * [Ｘ] Job profiles workshop at RC
- * [　] Compose new RC résumé
+ * [　] Compose new RC résumé. This really depends on what you are looking for… .
  * [　] Look into the companies listed as coming to the [April 20th, 2017](https://www.recurse.com/events/260) and [April 27th, 2017](https://www.recurse.com/events/261) job fairs
  * [　] Look up the company mentioned by Nancy Thomas
  * [　] Fix code-issues in blog — including list of past entries (long postponed)
 
 ### **Environment track**
  
- * [Ｘ] Rename `postponed_tasks.md`
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
 
  * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
