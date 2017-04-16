@@ -21,6 +21,7 @@
 
  1. [Visualization on David Galles' site](http://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)
  1. [Wikipedia article](https://en.wikipedia.org/wiki/B+_tree)
+ 1. Donald Knuth, "Multiway Trees", _The Art of Computer Programming_ (2nd ed.), Sec. 6.2.4 (pp. 481-9, n.b. exercises pp. 490-1).
  1. [Douglas Comer, "The Ubiquitous B-Tree,"](https://github.com/tpn/pdfs/blob/master/The%20Ubiquitous%20B-Tree%20-%201979%20%28comer-b-tree%29.pdf) ACM _Computing Surveys_, Vol ll, No 2, June 1979, pp. 121-37. [Local copy here](../materials/Douglas_Comer,_The_Ubiquitous_B-Tree.pdf).
 
     > The author thanks the referees, especially for providing contacts regarding the history of B-trees, and IBM Corporation for cheerfully making available detailed information on its B-tree based access method when none of its competitors would reveal theirs. (p. 136)
@@ -57,7 +58,7 @@
     
     > … **"pointer chasing" applies not only to parent-child pointers but also to neighbor pointers, such as, in a chain of leaf pages during a range scan or while searching for the key to lock in key range locking** (see the following). 
     
-    and "the following" turns out to be, again, a reference to "Bˡⁱⁿᵏ-trees".
+    and "the following" turns out to be, again, a reference to "Bˡⁱⁿᵏ-trees".  So that leaves only range scans, and they are basically not treated in either article or book.
 
 #### B-tree
 
