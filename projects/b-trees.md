@@ -23,9 +23,31 @@
  1. [Wikipedia article](https://en.wikipedia.org/wiki/B+_tree)
  1. [Douglas Comer, "The Ubiquitous B-Tree,"](https://github.com/tpn/pdfs/blob/master/The%20Ubiquitous%20B-Tree%20-%201979%20%28comer-b-tree%29.pdf) ACM _Computing Surveys_, Vol ll, No 2, June 1979, pp. 121-37. [Local copy here](../materials/Douglas_Comer,_The_Ubiquitous_B-Tree.pdf).
 
-    > The author thanks the referees, especially for provid- ing contacts regarding the history of B-trees, and IBM Corporation for cheerfully making available detailed information on its B-tree based access method when none of its competitors would reveal theirs. 
+    > The author thanks the referees, especially for providing contacts regarding the history of B-trees, and IBM Corporation for cheerfully making available detailed information on its B-tree based access method when none of its competitors would reveal theirs. (p. 136)
+    >
+    > ...
+    > 
+    > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [dpb: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, how- ever, it seems appropriate to think of B-trees as "Bayer"-trees. (p. 123)
 
- 1. [Amruta Kudale, "B+ tree preference over B trees"](http://www.academia.edu/11575258/B_tree_preference_over_B_trees) [Local copy here](../materials/Amruta_Kudale,_B_tree_preference_over_B_trees.pdf). Survey of main ideas: summarizes special features of B+ trees (Sec. III.C) and their advantages over ordinary B trees (Sec. IV.A).
+ 1. [Amruta Kudale, "B+ tree preference over B trees"](http://www.academia.edu/11575258/B_tree_preference_over_B_trees) [Local copy here](../materials/Amruta_Kudale,_B_tree_preference_over_B_trees.pdf). This paper is poorly proofread but seems to be a survey of main ideas: summarizes special features of B+ trees (Sec. III.C) and their advantages over ordinary B trees (Sec. IV.A).
+
+ 1. Graefe.
+
+    The Gräfe book says (Sec. 2.1, p. 213):
+    
+    > The original design for B-trees has user data in all nodes. The design used much more commonly today holds user data only in the leaf nodes. The root node and the branch nodes contain only separator keys that guide the search algorithm to the correct leaf node. These separator keys may be equal to keys of current or former data, but the only requirement is that they can guide the search algorithm.
+    >
+    > This design has been called B⁺-tree but it is nowadays the default design when B-trees are discussed. The value of this design is that deletion can affect only leaf nodes, not branch nodes and that separator keys in branch nodes can be freely chosen within the appropriate key range.
+    
+    There are two key differences between a vanilla B-tree and a B+-tree:
+    
+    * As mentioned, B+-tree holds data only the leaf nodes; the branch nodes are used for navigation only.
+    
+    * In a B+-tree, the leaf nodes are a linked list independent of the branch nodes. Comer explains:
+     
+      > In particular, leaf nodes are usually linked together left-to-right, as shown. The linked list of leaves is referred to as the sequence set. Sequence set links allow easy sequential processing.
+    
+   Nowhere that I can see does Gräfe seem to discuss this linking of leaves. However, Gräfe does discuss something called a "Bˡⁱⁿᵏ-tree", involving a pointer between two nodes on the same level (Sec. 4.6, pp. 283-86). However, as far as I can see, this is used only for load-balancing in the case of overflow. 
 
 #### B-tree
 
