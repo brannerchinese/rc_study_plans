@@ -52,13 +52,17 @@
 
     In the Gräfe article he repeats (p. 16:4) that he uses "B-tree" to mean what Comer calls a "B⁺-tree". And he adds (p. 16:4): 
     
-    > We also ignore many other variations of B-trees here. This includes what Comer [1979], following Knuth, calls B*-trees, that is, attempting to merge an overflowing node with a sibling rather than splitting it immediately. We ignore whether or not underflow is recognized and acted upon by load balancing and merging nodes, whether or not empty nodes are removed immediately or ever, **whether or not leaf nodes form a singly or doubly linked list** using physical pointers (page identifiers) or logical boundaries (fence keys equal to separators posted in the parent node during a split), whether suffix truncation is employed when posting a separator key [Bayer and Unterauer 1977], whether prefix truncation or any other compression is employed on each page, and the type of information associated with B-tree keys. **Most of these issues have little or no bearing on locking in B-trees, with the exception of sibling pointers, as indicated in the following where appropriate.**
+    > We also ignore many other variations of B-trees here. This includes what Comer [1979], following Knuth, calls B\*-trees, that is, attempting to merge an overflowing node with a sibling rather than splitting it immediately. We ignore whether or not underflow is recognized and acted upon by load balancing and merging nodes, whether or not empty nodes are removed immediately or ever, **whether or not leaf nodes form a singly or doubly linked list** using physical pointers (page identifiers) or logical boundaries (fence keys equal to separators posted in the parent node during a split), whether suffix truncation is employed when posting a separator key [Bayer and Unterauer 1977], whether prefix truncation or any other compression is employed on each page, and the type of information associated with B-tree keys. **Most of these issues have little or no bearing on locking in B-trees, with the exception of sibling pointers, as indicated in the following where appropriate.**
     
     But the only place where "sibling pointers" are mentioned is this (p. 16:9):
     
     > … **"pointer chasing" applies not only to parent-child pointers but also to neighbor pointers, such as, in a chain of leaf pages during a range scan or while searching for the key to lock in key range locking** (see the following). 
     
     and "the following" turns out to be, again, a reference to "Bˡⁱⁿᵏ-trees".  So that leaves only range scans, and they are basically not treated in either article or book.
+
+ 1. [David Lomet, "The Evolution of Effective B-tree- Page Organization and Techniques- A Personal Account"](../materials/David_Lomet,_The_Evolution_of_Effective_B-tree-_Page_Organization_and_Techniques-_A_Personal_Account.PDF)
+
+ 1. [Rudolf Bayer and Karl Unterauer, "Bayer and Unterauer, Prefix B-trees"](../materials/Bayer_and_Unterauer,_Prefix_B-trees.pdf)
 
 #### B-tree
 

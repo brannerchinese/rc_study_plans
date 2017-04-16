@@ -12,7 +12,7 @@
 
  1. [`canvas`](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 
- 1. [fingertree](https://www.npmjs.com/package/fingertree); see application in [immutable-sequence](https://github.com/qiao/immutable-sequence.js)
+ 1. [fingertree](https://www.npmjs.com/package/fingertree); see application in [immutable-sequence](https://github.com/qiao/immutable-sequence.js). Can you visualize one of these with D3?
 
 ### Node
 
