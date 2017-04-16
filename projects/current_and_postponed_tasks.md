@@ -6,6 +6,11 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
+#### **[B-tree implementation](b-trees.md)**
+
+ * [　] Write pseudocode iteration, and fill out references.
+ * [　] It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki). Probably you need to play with D3.js for a while first.
+
 #### **[Color-match project](color-match.md)**
 
  * [　] Color-match iteration 10: Describe dimensions of circle relative to viewport, rather than absolutely.
@@ -20,10 +25,6 @@ Postponed tasks are marked [Ｏ].
    and try to construct something simpler
 
  * [Ｏ] Color-match iteration: after graphical picker has been added, allow user to toggle numeric display on and off for learning.
-
-#### **[B-tree implementation](b-trees.md)**
-
-It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki).
 
 #### **[Hànbûn columns project](hanbun-columns.md)**
 
@@ -48,7 +49,6 @@ This shouldn't take more than two good days of work.
 
  
  * [　] Read next chapter in JS books.
- * [Ｏ] List made of major JS graphical libraries of interest. No further work to be done on them for now.
  * [Ｏ] Read Coulman's Ramda.JS blogposts. **Postponed** after completing two. It's too early to be spending time with these.
 
 ### **Database infrastructure/Raft track**
@@ -81,13 +81,9 @@ This shouldn't take more than two good days of work.
  
 ### Non-batch work
 
-**Translation of prosody paper**
-
- * [　] Edit remainder of Sections 7 & 8 corrigenda and send to translator. There are also his revisions to look at.
-
 **"Face" book**
 
-My collaborator feels well enough that on Friday she began criticizing my English again, for the first time in several years, and nagging me to get the book finished.
+My collaborator feels well enough that on 20170407 she began criticizing my English again, for the first time in several years, and nagging me to get the book finished.
 
  * [　] Draft chapter on parts of speech and other conventions
 
