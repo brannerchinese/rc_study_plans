@@ -25,6 +25,8 @@
 
     > The author thanks the referees, especially for provid- ing contacts regarding the history of B-trees, and IBM Corporation for cheerfully making available detailed information on its B-tree based access method when none of its competitors would reveal theirs. 
 
+ 1. [Amruta Kudale, "B+ tree preference over B trees"](http://www.academia.edu/11575258/B_tree_preference_over_B_trees)
+
 #### B-tree
 
 [end]
