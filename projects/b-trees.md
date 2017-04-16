@@ -31,7 +31,7 @@
 
  1. [Amruta Kudale, "B+ tree preference over B trees"](http://www.academia.edu/11575258/B_tree_preference_over_B_trees) [Local copy here](../materials/Amruta_Kudale,_B_tree_preference_over_B_trees.pdf). This paper is poorly proofread but seems to be a survey of main ideas: summarizes special features of B+ trees (Sec. III.C) and their advantages over ordinary B trees (Sec. IV.A).
 
- 1. Graefe.
+ 1. Gräfe.
 
     The Gräfe book says (Sec. 2.1, p. 213):
     
@@ -47,7 +47,17 @@
      
       > In particular, leaf nodes are usually linked together left-to-right, as shown. The linked list of leaves is referred to as the sequence set. Sequence set links allow easy sequential processing.
     
-   Nowhere that I can see does Gräfe seem to discuss this linking of leaves. However, Gräfe does discuss something called a "Bˡⁱⁿᵏ-tree", involving a pointer between two nodes on the same level (Sec. 4.6, pp. 283-86). However, as far as I can see, this is used only for load-balancing in the case of overflow. 
+    Nowhere that I can see does Gräfe discuss this linking of leaves. However, Gräfe does discuss something called a "Bˡⁱⁿᵏ-tree", involving a pointer between two nodes on the same level (Sec. 4.6, pp. 283-86). However, as far as I can see, this is used only for load-balancing between branch nodes (Comer's "index nodes") in the case of overflow.
+
+    In the Gräfe article he repeats (p. 16:4) that he uses "B-tree" to mean what Comer calls a "B⁺-tree". And he adds (p. 16:4): 
+    
+    > We also ignore many other variations of B-trees here. This includes what Comer [1979], following Knuth, calls B*-trees, that is, attempting to merge an overflowing node with a sibling rather than splitting it immediately. We ignore whether or not underflow is recognized and acted upon by load balancing and merging nodes, whether or not empty nodes are removed immediately or ever, **whether or not leaf nodes form a singly or doubly linked list** using physical pointers (page identifiers) or logical boundaries (fence keys equal to separators posted in the parent node during a split), whether suffix truncation is employed when posting a separator key [Bayer and Unterauer 1977], whether prefix truncation or any other compression is employed on each page, and the type of information associated with B-tree keys. **Most of these issues have little or no bearing on locking in B-trees, with the exception of sibling pointers, as indicated in the following where appropriate.**
+    
+    But the only place where "sibling pointers" are mentioned is this (p. 16:9):
+    
+    > … **"pointer chasing" applies not only to parent-child pointers but also to neighbor pointers, such as, in a chain of leaf pages during a range scan or while searching for the key to lock in key range locking** (see the following). 
+    
+    and "the following" turns out to be, again, a reference to "Bˡⁱⁿᵏ-trees".
 
 #### B-tree
 
