@@ -109,6 +109,10 @@
 
 #### B⁺-tree
 
+ 1. Cormen et al., p. 481:
+ 
+    > Because disks operate much more slowly than random-access memory, we measure the performance of B-trees not only by how much computing time the dynamic-set operations consume but also by how many disk accesses they perform. For each B-tree operation, the number of disk accesses increases with the height of the B-tree, but B-tree operations keep the height low.
+
  1. Donald Knuth, "Multiway Trees", _The Art of Computer Programming_ (2nd ed.), Sec. 6.2.4 (Vol. 3, pp. 481-9, n.b. exercises pp. 490-1). The main discussion of B-trees ("*B*-trees"; Knuth is very particular about typography\*) specifies (p. 483):
  
     > …A "leaf" is a terminal node, one with no children. Since the leaves carry no information, we may regard them as external nodes that aren't really in the tree, so that Λ is a pointer to a leaf. [DPB: In this book Λ stands for "pointer to null address", Sec. 2.1, Vol. 1, p. 234.]
