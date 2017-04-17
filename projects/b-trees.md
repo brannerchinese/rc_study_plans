@@ -17,18 +17,37 @@
 
 ### References:
 
-#### B+ tree
+#### B⁺-tree
+
+ 1. Donald Knuth, "Multiway Trees", _The Art of Computer Programming_ (2nd ed.), Sec. 6.2.4 (Vol. 3, pp. 481-9, n.b. exercises pp. 490-1). The main discussion of B-trees ("*B*-trees"; Knuth is very particular about typography\*) specifies (p. 483):
+ 
+    > …A "leaf" is a terminal node, one with no children. Since the leaves carry no information, we may regard them as external nodes that aren't really in the tree, so that Λ is a pointer to a leaf. [DPB: In this book Λ stands for "pointer to null address", Sec. 2.1, Vol. 1, p. 234.]
+    
+    But the B⁺-tree is covered under subsection "Refinements and variations" (Vol. 3, pp. 486-9), and Knuth modifies the general definition (p. 486):
+
+    > We might use a completely different node format in each level of the tree, and we might also store information in the leaves. Sometimes the keys form only a small part of the records in a file, and in such cases it is a mistake to store the entire records in the branch nodes near the root of the tree; this would make *m* too small for efficient multiway branching.
+    > 
+    > We can therefore reconsider Fig. 30, imagining that all the records of the file are now stored in the leaves, and that only a few of the keys have been duplicated in the branch nodes. Under this interpretation, the leftmost leaf contains all records whose key is ≤ 011; the leaf marked *A* contains all records whose key satisfies
+    >
+    > 　　　　　　439 < *K* ≤ 449;　　　　(8)
+    >
+    > and so on. Under this interpretation the leaf nodes grow and split just as the branch nodes do, except that a record is never passed up from a leaf to the next level. Thus the leaves are always at least half filled to capacity. A new key enters the nonleaf part of the tree whenever a leaf splits. If each leaf is linked to its successor in symmetric order [DPB: I think this means a doubly-linked list], we gain the ability to traverse the file both sequentially and randomly in an efficient and convenient manner. This variant has become known as a *B⁺*-tree. [DPB: This last sentence is all that was added from the first edition of the text.]
+    
+    I've been puzzling about this for some time — wouldn't linking leaves symmetrically always require some further traversal of the tree, whenever a leaf is inserted or deleted? But none of the descriptions I've seen of  includes this traversal. Why?
+    
+    Thinking about it for a while, I now see that every insertion begins as the splitting of an existing leaf into either two leaves or its conversion into a branch node and spawning of new leaves. In either case, all the pointers needed are already to hand. No new traversal of the tree is needed. Deletions, too, require no new traversal of the tree — all the pointers needed are already to hand.
+
+    \* On p. 489 of this section, Knuth remarks that "Two of the most interesting developments of the basic *B*-tree strategy have unfortunately been given almost [DPB: !] identical names: "*SB*-trees" and "SB-trees".
 
  1. [Visualization on David Galles' site](http://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)
  1. [Wikipedia article](https://en.wikipedia.org/wiki/B+_tree)
- 1. Donald Knuth, "Multiway Trees", _The Art of Computer Programming_ (2nd ed.), Sec. 6.2.4 (pp. 481-9, n.b. exercises pp. 490-1).
  1. [Douglas Comer, "The Ubiquitous B-Tree,"](https://github.com/tpn/pdfs/blob/master/The%20Ubiquitous%20B-Tree%20-%201979%20%28comer-b-tree%29.pdf) ACM _Computing Surveys_, Vol ll, No 2, June 1979, pp. 121-37. [Local copy here](../materials/Douglas_Comer,_The_Ubiquitous_B-Tree.pdf).
 
     > The author thanks the referees, especially for providing contacts regarding the history of B-trees, and IBM Corporation for cheerfully making available detailed information on its B-tree based access method when none of its competitors would reveal theirs. (p. 136)
     >
     > ...
     > 
-    > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [dpb: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, how- ever, it seems appropriate to think of B-trees as "Bayer"-trees. (p. 123)
+    > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [DPB: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, how- ever, it seems appropriate to think of B-trees as "Bayer"-trees. (p. 123)
 
  1. [Amruta Kudale, "B+ tree preference over B trees"](http://www.academia.edu/11575258/B_tree_preference_over_B_trees) [Local copy here](../materials/Amruta_Kudale,_B_tree_preference_over_B_trees.pdf). This paper is poorly proofread but seems to be a survey of main ideas: summarizes special features of B+ trees (Sec. III.C) and their advantages over ordinary B trees (Sec. IV.A).
 
