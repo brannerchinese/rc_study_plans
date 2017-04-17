@@ -2,6 +2,8 @@
 
 ### Graphical
 
+ 1. [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+
  1. [d3.js](https://github.com/d3/d3/wiki)
 
  1. [p5.js](https://p5js.org/get-started/)
