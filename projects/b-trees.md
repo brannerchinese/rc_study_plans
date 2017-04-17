@@ -1,19 +1,109 @@
-## "B+-tree coding project
+## "B⁺-tree coding project
 
- 1. B+ tree. (JS). Use a graphical library to show it. Further items:
+ 1. B⁺ tree. (JS). Use a graphical library to show it. Further items:
  
-    2. Can we show its construction, step by step? It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki).  
+    1. Can we show its construction, step by step? It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki).  
+
+ 1. Names
+ 
+    1. "Multiway Tree" (Knuth, Wirth, Aho)
+    1. B-tree. Comer (p. 123):
+    
+       > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [DPB: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, how- ever, it seems appropriate to think of B-trees as "Bayer"-trees.
+       
+       Gräfe:
+       
+       > This design has been called B⁺-tree but it is nowadays the default design when B-trees are discussed.
 
  1. Components:
 
-    2. search
-    2. insertion
-    2. deletion
+    1. `Window` globals
+    
+       * `allNodes`: `Object()` of all nodes
+    
+         * key: "pointer"; may in this case just be the data-key converted to `int` as `parseInt(<data-key>, 16)`
+         * value: attributes as keys of a sub-object
+    
+       * `pathFollowed`: `Array()`: stack showing path
+       * `maxDegree`: default: 3
+       * `minDegree`: default: 0
+    
+    1. `Node`
+    
+       Attributes:
+    
+       * `keys`: array of [key, pointer] subarrays
+       * `isRoot`: boolean
+       * `isLeaf`: boolean
+       * `nextNode`: pointer
+       * `lastNode`: pointer
+    
+    1. `search`
+    
+       * defaults to root node as starting point; stack-push it
+       * takes `n` as argument
+       * optional: call `checkOverflow`
+       * traverse `node.keys` until finding `n` or not
+       
+         * if `n` found: return pointer
+         * if first key is larger than `n`, stack-push its pointer
+         * if `n` is between found nodes, stack-push pointer of largest key smaller than `n`
+       
+       * return
+    
+    2. `insert`
+    
+       * takes `n` as argument
+       * run `search`; is `n` found?
+       
+         * if not, add it to node and run `checkOverflow`
+         
+           * if overflow, deal with `pathFollowed` and `split`
+         
+         * if so, return with alert: no duplicate keys
+    
+    2. `delete`
+    
+       * takes `n` as argument
+       * run `search`; is `n` found?
+       
+         * if not, add it to node and run `checkUnderflow`
 
+           * if underflow, deal with `pathFollowed` and `merge`
+
+         * if so, return with alert: no duplicate keys
+    
+    2. `checkOverflow`
+    
+       * `return node.keys === maxDegree`
+
+    2. `checkUnderflow`
+
+       * `return node.keys === minDegree`
+
+    2. `split`
+    
+       * takes `n` as argument
+       * create new node with middle index of `keys` as first key
+       * delete from middle index of `keys` to end in original node
+       * adjust pointers
+       * find parent (pop `pathFollowed`; we don't use it again)
+       * promote `n` to parent
+       * call `checkOverflow` on parent
+    
+    2. `merge` (Wirth: "annecting"; Goodrich: "fusion")
+
+       Needs work!
+
+       * adjust pointers
+       * find parent (pop `pathFollowed`; we don't use it again)
+       * promote `n` to parent
+       * call `checkOverflow` on parent
+    
  1. Extra elements in the Wikipedia article:
 
-    2. prefix-key compression
-    2. bulk-loading
+    2. prefix-key compression — add this later
+    2. bulk-loading — this involves finding a range
 
 ### References:
 
@@ -33,7 +123,7 @@
     >
     > and so on. Under this interpretation the leaf nodes grow and split just as the branch nodes do, except that a record is never passed up from a leaf to the next level. Thus the leaves are always at least half filled to capacity. A new key enters the nonleaf part of the tree whenever a leaf splits. If each leaf is linked to its successor in symmetric order [DPB: I think this means a doubly-linked list], we gain the ability to traverse the file both sequentially and randomly in an efficient and convenient manner. This variant has become known as a *B⁺*-tree. [DPB: This last sentence is all that was added from the first edition of the text.]
     
-    I've been puzzling about this for some time — wouldn't linking leaves symmetrically always require some further traversal of the tree, whenever a leaf is inserted or deleted? But none of the descriptions I've seen of  includes this traversal. Why?
+    I've been puzzling about this for some time — wouldn't linking leaves symmetrically always require some further traversal of the tree, whenever a leaf is inserted or deleted? But none of the descriptions I've seen include this traversal. Why?
     
     Thinking about it for a while, I now see that every insertion begins as the splitting of an existing leaf into either two leaves or its conversion into a branch node and spawning of new leaves. In either case, all the pointers needed are already to hand. No new traversal of the tree is needed. Deletions, too, require no new traversal of the tree — all the pointers needed are already to hand.
 
@@ -50,12 +140,14 @@
  1. [Douglas Comer, "The Ubiquitous B-Tree,"](https://github.com/tpn/pdfs/blob/master/The%20Ubiquitous%20B-Tree%20-%201979%20%28comer-b-tree%29.pdf) ACM _Computing Surveys_, Vol ll, No 2, June 1979, pp. 121-37. [Local copy here](../materials/Douglas_Comer,_The_Ubiquitous_B-Tree.pdf).
 
     > The author thanks the referees, especially for providing contacts regarding the history of B-trees, and IBM Corporation for cheerfully making available detailed information on its B-tree based access method when none of its competitors would reveal theirs. (p. 136)
-    >
-    > ...
-    > 
-    > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [DPB: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, how- ever, it seems appropriate to think of B-trees as "Bayer"-trees. (p. 123)
 
- 1. [Amruta Kudale, "B+ tree preference over B trees"](http://www.academia.edu/11575258/B_tree_preference_over_B_trees) [Local copy here](../materials/Amruta_Kudale,_B_tree_preference_over_B_trees.pdf). This paper is poorly proofread but seems to be a survey of main ideas: summarizes special features of B+ trees (Sec. III.C) and their advantages over ordinary B trees (Sec. IV.A).
+    TODO: Write up notes on reading.
+
+ 1. Steve S. Skiena, _Algorithm Design Manual_. Ch. 12 "Data Structures", Sec. 12.1 "Dictionaries". P. 370:
+ 
+    > The idea behind a B-tree is to collapse several levels of a binary search tree into a single large node, so that we can make the equivalent of several search steps before another disk access is needed. With B-tree we can access enormous numbers of keys using only a few disk accesses. To get the full benefit from using a B-tree, it is important to understand how the secondary storage device and virtual memory interact, through constants such as page size and virtual/real address space. Cache-oblivious algorithms (described below) can mitigate such concerns.
+
+ 1. [Amruta Kudale, "B⁺ tree preference over B trees"](http://www.academia.edu/11575258/B_tree_preference_over_B_trees) [Local copy here](../materials/Amruta_Kudale,_B_tree_preference_over_B_trees.pdf). This paper is poorly proofread but seems to be a survey of main ideas: summarizes special features of B⁺ trees (Sec. III.C) and their advantages over ordinary B trees (Sec. IV.A).
 
  1. Gräfe.
 
@@ -65,11 +157,11 @@
     >
     > This design has been called B⁺-tree but it is nowadays the default design when B-trees are discussed. The value of this design is that deletion can affect only leaf nodes, not branch nodes and that separator keys in branch nodes can be freely chosen within the appropriate key range.
     
-    There are two key differences between a vanilla B-tree and a B+-tree:
+    There are two key differences between a vanilla B-tree and a B⁺-tree:
     
-    * As mentioned, B+-tree holds data only the leaf nodes; the branch nodes are used for navigation only.
+    * As mentioned, B⁺-tree holds data only the leaf nodes; the branch nodes are used for navigation only.
     
-    * In a B+-tree, the leaf nodes are a linked list independent of the branch nodes. Comer explains:
+    * In a B⁺-tree, the leaf nodes are a linked list independent of the branch nodes. Comer explains:
      
       > In particular, leaf nodes are usually linked together left-to-right, as shown. The linked list of leaves is referred to as the sequence set. Sequence set links allow easy sequential processing.
     
@@ -85,9 +177,11 @@
     
     and "the following" turns out to be, again, a reference to "Bˡⁱⁿᵏ-trees".  So that leaves only range scans, and they are basically not treated in either article or book.
 
- 1. [David Lomet, "The Evolution of Effective B-tree- Page Organization and Techniques- A Personal Account"](../materials/David_Lomet,_The_Evolution_of_Effective_B-tree-_Page_Organization_and_Techniques-_A_Personal_Account.PDF)
+ 1. [David Lomet, "The Evolution of Effective B-tree: Page Organization and Techniques- A Personal Account"](../materials/David_Lomet,_The_Evolution_of_Effective_B-tree-_Page_Organization_and_Techniques-_A_Personal_Account.PDF). Not very useful, but contains a series of approaches to B-tree efficiency
 
  1. [Rudolf Bayer and Karl Unterauer, "Bayer and Unterauer, Prefix B-trees"](../materials/Bayer_and_Unterauer,_Prefix_B-trees.pdf)
+ 
+    TODO: Write up notes on reading.
 
 #### B-tree
 
@@ -105,7 +199,7 @@ These are generally discussed as memory-efficiencies. Rather than storing data _
     * cf. inefficient external-memory representations
     * cf. `(a,b)` trees
 
- 1. Aho, Hopcroft, and Ullman, _Data Structures and Algorithms_, Sec. 11.4 "External Search Trees," pp. 368-74. Notes:
+ 1. Aho, Hopcroft, and Ullman, _Data Structures and Algorithms_ (1983), Sec. 11.4 "External Search Trees," pp. 368-74. Notes:
 
     * Used to "represent external files".
     * Special type of "multiway search tree" (_q.v._)
@@ -114,7 +208,7 @@ These are generally discussed as memory-efficiencies. Rather than storing data _
     * combining blocks: if deleting a leaf violates the invariants, parents may need to be combined, rippling up to the root
     * cf. "Comparison of Methods" (pp. 373-74)
 
- 1. Wirth, _Algorithms + Data Structures = Programs_, Sec. 4.5.1 "B-Trees," pp. 245-64. Notes:
+ 1. Wirth, _Algorithms + Data Structures = Programs_ (1976), Sec. 4.5.1 "B-Trees," pp. 245-64. Notes:
 
     * Special type of "multiway tree" (_q.v._)
     * Cf. binary b-trees
@@ -122,8 +216,8 @@ These are generally discussed as memory-efficiencies. Rather than storing data _
     * If each node is a memory access, then the number of memory accesses in minimized, as long as there is a "schema for controlled growth", in order to prevent the tree from growing "at random."
     * search: as in binary search tree, only not binary
     * distinguish "special nodes" (pp. 191-92) from leaves; I don't understand the distinction
-    * "root page is best allocated permanently in the primary store bedcause each query proceeds necessarily from the root page" (p. 250)
+    * "root page is best allocated permanently in the primary store because each query proceeds necessarily from the root page" (p. 250)
     * "annecting" a node: borrowing it from an adjacent page
-    * (unfinished qqq)
+    * TODO: unfinished
 
 [end]
