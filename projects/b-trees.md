@@ -84,14 +84,14 @@
     2. `split`
     
        * takes `n` as argument
-       * create new node with middle index of `keys` as first key
+       * create new node with middle index of `keys` as first key (cf. Wirth: "annecting")
        * delete from middle index of `keys` to end in original node
        * adjust pointers
        * find parent (pop `pathFollowed`; we don't use it again)
        * promote `n` to parent
-       * call `checkOverflow` on parent
+       * call `checkUnderflow` on parent
     
-    2. `merge` (Wirth: "annecting"; Goodrich: "fusion")
+    2. `merge` (Goodrich: "fusion")
 
        Needs work!
 
