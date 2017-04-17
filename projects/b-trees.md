@@ -39,7 +39,13 @@
 
     \* On p. 489 of this section, Knuth remarks that "Two of the most interesting developments of the basic *B*-tree strategy have unfortunately been given almost [DPB: !] identical names: "*SB*-trees" and "SB-trees".
 
- 1. [Visualization on David Galles' site](http://www.cs.usfca.edu/~galles/visualization/BPlusTree.html)
+ 1. [Visualization on David Galles' site](http://www.cs.usfca.edu/~galles/visualization/BPlusTree.html). Questions:
+ 
+    * It accepts duplicate keys; I think that is an error.
+    * Because it accepts duplicate keys, finding a key that is a duplicate returns only one such key, not all of them. It's not clear which one is found.
+    * Perhaps because it accepts duplicate keys, deleting one of those duplicates sometimes leaves branch nodes without content. It's not clear how traversal goes in such a case or which one is deleted.
+    * After branch nodes cease to have content, adding another duplicate proceeds in a different way than when there were no empty branch nodes.
+ 
  1. [Wikipedia article](https://en.wikipedia.org/wiki/B+_tree)
  1. [Douglas Comer, "The Ubiquitous B-Tree,"](https://github.com/tpn/pdfs/blob/master/The%20Ubiquitous%20B-Tree%20-%201979%20%28comer-b-tree%29.pdf) ACM _Computing Surveys_, Vol ll, No 2, June 1979, pp. 121-37. [Local copy here](../materials/Douglas_Comer,_The_Ubiquitous_B-Tree.pdf).
 
