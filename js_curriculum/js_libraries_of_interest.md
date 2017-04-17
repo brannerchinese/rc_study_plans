@@ -2,7 +2,7 @@
 
 ### Graphical
 
- 1. [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+ 1. [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) and [SVG.js](http://svgjs.com/)
 
  1. [d3.js](https://github.com/d3/d3/wiki)
 
