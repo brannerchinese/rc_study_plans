@@ -4,12 +4,11 @@ Postponed tasks are marked [Ｏ].
 
 ### **JS track**
 
- * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
-
 #### **[B-tree implementation](b-trees.md)**
 
- * [　] Write pseudocode iteration, and fill out references.
- * [　] It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki). Probably you need to play with D3.js for a while first.
+ * [　] Finish writing code.
+ * [　] Learn SVG and begin adding SVG to working code.
+ * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
 #### **[Color-match project](color-match.md)**
 
