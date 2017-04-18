@@ -1,12 +1,26 @@
-## "B⁺-tree coding project
+## B⁺-tree coding project
 
- 1. B⁺ tree. (JS). Use a graphical library to show it. Further items:
+ 1. Tricky ideas:
  
-    1. Can we show its construction, step by step? It would be nice to try this with [d3.js](https://github.com/d3/d3/wiki).  
+    1. Pointers needed to create the doubly linked list of leaves are not added in a separate traversal of the tree; they are available immediately at the moments when nodes are ramified from other nodes. Only the "ripple up" (Aho) or "propagation up" (Wirth) of merging and deletion involves some amount of traversal after `search`.
+    
+    1. "Balancing" of pages can be done during search. This is most clearly discussed in Knuth and Cormen. Wirth describes this:
+    
+       > … page splitting should be delayed in the same way that page merging is delayed, by first attempting to balance neighboring pages.
+    
+    1. In the published descriptions, a "branch" node is a sandwich of values (for navigation only) and pointers to children, in alternation. Perhaps this came more naturally in pointer-based languages; for modeling it in JS, suggest using different datatypes for data and pointers, and hard-code:
+    
+       1. the invariants defining sorted order
+       2. insertion without allowing duplicates
+       3. counting values alone
+       4. counting pointers alone
+       5. handling mergers and splits.
+
+ 1. Can we show its construction, step by step? Initially I thought I would try this with [d3.js](https://github.com/d3/d3/wiki). But now I'm leaning toward SVG, which seems a more useful general skill and is the foundation of d3.
 
  1. Names
  
-    1. "Multiway Tree" (Knuth, Wirth, Aho)
+    1. "Multiway Tree" (Knuth, Wirth, Aho) is the general type of which a B-tree is a subvariety.
     1. B-tree. Comer (p. 123):
     
        > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [DPB: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, how- ever, it seems appropriate to think of B-trees as "Bayer"-trees.
@@ -15,95 +29,23 @@
        
        > This design has been called B⁺-tree but it is nowadays the default design when B-trees are discussed.
 
- 1. Components:
+ 1. Components (pseudocode has now been moved to working repository and coded over):
 
-    1. `Window` globals
-    
-       * `allNodes`: `Object()` of all nodes
-    
-         * key: "pointer"; may in this case just be the data-key converted to `int` as `parseInt(<data-key>, 16)`
-         * value: attributes as keys of a sub-object
-    
-       * `pathFollowed`: `Array()`: stack showing path
-       * `maxDegree`: default: 3
-       * `minDegree`: default: 0
-    
+    1. `Window` globals (still don't have a satisfactory way of handling these)
     1. `Node`
-    
-       Attributes:
-    
-       * `keys`: array of [key, pointer] subarrays
-       * `isRoot`: boolean
-       * `isLeaf`: boolean
-       * `nextNode`: pointer
-       * `lastNode`: pointer
-    
     1. `search`
-    
-       * defaults to root node as starting point; stack-push it
-       * takes `n` as argument
-       * optional: call `checkOverflow`
-       * traverse `node.keys` until finding `n` or not
-       
-         * if `n` found: return pointer
-         * if first key is larger than `n`, stack-push its pointer
-         * if `n` is between found nodes, stack-push pointer of largest key smaller than `n`
-       
-       * return
-    
     2. `insert`
-    
-       * takes `n` as argument
-       * run `search`; is `n` found?
-       
-         * if not, add it to node and run `checkOverflow`
-         
-           * if overflow, deal with `pathFollowed` and `split`
-         
-         * if so, return with alert: no duplicate keys
-    
     2. `delete`
-    
-       * takes `n` as argument
-       * run `search`; is `n` found?
-       
-         * if not, add it to node and run `checkUnderflow`
-
-           * if underflow, deal with `pathFollowed` and `merge`
-
-         * if so, return with alert: no duplicate keys
-    
     2. `checkOverflow`
-    
-       * `return node.keys === maxDegree`
-
     2. `checkUnderflow`
-
-       * `return node.keys === minDegree`
-
     2. `split`
-    
-       * takes `n` as argument
-       * create new node with middle index of `keys` as first key (cf. Wirth: "annecting")
-       * delete from middle index of `keys` to end in original node
-       * adjust pointers
-       * find parent (pop `pathFollowed`; we don't use it again)
-       * promote `n` to parent
-       * call `checkUnderflow` on parent
-    
     2. `merge` (Goodrich: "fusion")
+    2. helper functions
 
-       Needs work!
-
-       * adjust pointers
-       * find parent (pop `pathFollowed`; we don't use it again)
-       * promote `n` to parent
-       * call `checkOverflow` on parent
-    
  1. Extra elements in the Wikipedia article:
 
-    2. prefix-key compression — add this later
-    2. bulk-loading — this involves finding a range
+    1. prefix-key compression — add this later
+    2. bulk-loading — this involves finding a range; there are other terms for it in some of the other presentations.
 
 ### References:
 
@@ -210,7 +152,7 @@ These are generally discussed as memory-efficiencies. Rather than storing data _
     * Used to "represent external files".
     * Special type of "multiway search tree" (_q.v._)
     * lookup: within a node can use linear search or, if there are many keys, binary search
-    * splitting blocks: if inserting a new leaf violates the invariants, "the effects of this insertion can **ripple up** through the ancestors of [the leaf] back to the root, along the path that was traced by the original lookup procedure."
+    * splitting blocks: if inserting a new leaf violates the invariants, "the effects of this insertion can **ripple up** (p. 370) through the ancestors of [the leaf] back to the root, along the path that was traced by the original lookup procedure."
     * combining blocks: if deleting a leaf violates the invariants, parents may need to be combined, rippling up to the root
     * cf. "Comparison of Methods" (pp. 373-74)
 
@@ -223,7 +165,8 @@ These are generally discussed as memory-efficiencies. Rather than storing data _
     * search: as in binary search tree, only not binary
     * distinguish "special nodes" (pp. 191-92) from leaves; I don't understand the distinction
     * "root page is best allocated permanently in the primary store because each query proceeds necessarily from the root page" (p. 250)
-    * "annecting" a node: borrowing it from an adjacent page
-    * TODO: unfinished
+    * "balancing" two pages: "annecting" a key: borrowing it from an adjacent page
+    * Merging may "propagate" all the way up to the root
+    * TODO: unfinished — both addition of matter and editing of what is already here.
 
 [end]
