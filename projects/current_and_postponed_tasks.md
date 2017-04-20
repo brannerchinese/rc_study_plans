@@ -7,7 +7,7 @@ Postponed tasks are marked [Ｏ].
 #### **[B-tree implementation](b-trees.md)**
 
  * [　] Finish writing code.
- * [　] Learn SVG and begin adding SVG to working code. **Disposition**: I have a better plan for learning SVG today: work on the remaining features of immediate interest to me, and then move to `SVG.js`, which seems the lightest-weight of the libraries.
+ * [　] Learn SVG and begin adding SVG to working code. **Disposition**: Most of my time today was taken up with reading and I had only a little time to work on the SVG. Got function working to construct a node-box around a piece of text. Sometimes stymied by errors whose source I cannot find, but that disappear when I rewrite a line manually.
  * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
 #### **[Color-match project](color-match.md)**
@@ -52,9 +52,10 @@ This shouldn't take more than two good days of work.
 
 ### **Database infrastructure/Raft track**
 
- * [Ｘ] Read Paul Butcher, *Seven Concurrency Models in Seven Weeks*. Abandoned after Chapter 3; the detail is lower-level than is helpful to me..
-
- * [　] Read next document in list. **Disposition**: Adam Marcus's NoSQL chapter under way.
+ * [　] Review SQL
+ * [　] Read more about MongoDB specifically
+ * [　] Read about Raft
+ * [　] Read about networking terminology. 
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
@@ -73,8 +74,6 @@ This shouldn't take more than two good days of work.
  * [　] One or two of the documents in the repo may be suitable for quick rewriting as blog posts.
 
 ### **Environment track**
-
- * [Ｘ] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
 
  * [　] Post IBus issue about lack of menu control.
  
