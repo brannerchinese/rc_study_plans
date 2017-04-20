@@ -7,7 +7,7 @@ Postponed tasks are marked [Ｏ].
 #### **[B-tree implementation](b-trees.md)**
 
  * [　] Finish writing code.
- * [　] Learn SVG and begin adding SVG to working code.
+ * [　] Learn SVG and begin adding SVG to working code. **Disposition**: I have a better plan for learning SVG today: work on the remaining features of immediate interest to me, and then move to `SVG.js`, which seems the lightest-weight of the libraries.
  * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
 #### **[Color-match project](color-match.md)**
@@ -16,7 +16,7 @@ Postponed tasks are marked [Ｏ].
  * [　] Color-match iteration 11: Can you display hues of individual channel-fields? After this, time to work on actual color-match game.
  * [　] Color-match iteration: Try on other browsers.
 
- * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation :
+ * [Ｏ] Color-match iteration: add a graphical picker (try for three linear sliders, one for each of RGB). This seems a lot more complicated than I had thought. Study the W3Schools implementation:
 
    * page: https://www.w3schools.com/colors/colors_picker.asp
    * JS: https://www.w3schools.com/lib/w3color.js
@@ -36,7 +36,7 @@ This shouldn't take more than two good days of work.
 
 #### Reading and workshops
 
- * [　] Start reading about major JS graphical libraries of interest, beginning with list made earlier.
+ * [Ｘ] Start reading about major JS graphical libraries of interest, beginning with list made earlier. **Disposition**: Under way with D3.js and SVG/SVG.js.
 
  * [　] Read the [MDN article-series on Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) (note that the second-to-last item has a broken link to the last item)
 
@@ -52,9 +52,9 @@ This shouldn't take more than two good days of work.
 
 ### **Database infrastructure/Raft track**
 
- * [　] Read Paul Butcher, *Seven Concurrency Models in Seven Weeks*. 
+ * [Ｘ] Read Paul Butcher, *Seven Concurrency Models in Seven Weeks*. Abandoned after Chapter 3; the detail is lower-level than is helpful to me..
 
- * [　] Read next document in list. (Probably NoSQL paper.)
+ * [　] Read next document in list. **Disposition**: Adam Marcus's NoSQL chapter under way.
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
@@ -74,7 +74,7 @@ This shouldn't take more than two good days of work.
 
 ### **Environment track**
 
- * [　] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
+ * [Ｘ] Supply a MWE of an IBus Chinese IME to @saul for his debugging with `i3`. I need to figure out how to take a screen shot in order to be sure of what I've done; also, there are a few more font-size options to be tried first.
 
  * [　] Post IBus issue about lack of menu control.
  
