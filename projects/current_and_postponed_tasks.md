@@ -7,7 +7,7 @@ Postponed tasks are marked [Ｏ].
 #### **[B-tree implementation](b-trees.md)**
 
  * [　] Finish writing code.
- * [　] Learn SVG and begin adding SVG to working code. **Disposition**: Most of my time today was taken up with reading and I had only a little time to work on the SVG. Got function working to construct a node-box around a piece of text. Sometimes stymied by errors whose source I cannot find, but that disappear when I rewrite a line manually.
+ * [　] Learn SVG and begin adding SVG to working code.
  * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
 #### **[Color-match project](color-match.md)**
@@ -61,13 +61,11 @@ This shouldn't take more than two good days of work.
 
 ### **RC togetherness**
 
- * [Ｘ] Paired with @Lauryn on COBOL (principally `GOBACK` and debugging options).
 
 ### **Work-worry**
 
  * [　] Compose new RC résumé. This really depends on what you are looking for… .
- * [Ｘ] Look into the companies listed as coming to the [April 20th, 2017](https://www.recurse.com/events/260) and [April 27th, 2017](https://www.recurse.com/events/261) job fairs
- * [Ｘ] Look up the company mentioned by Nancy Thomas
+ * [Ｘ] Look into the companies listed as coming to the [April 27th, 2017](https://www.recurse.com/events/261) job fair.
  * [　] Fix code-issues in blog — including list of past entries (long postponed)
 
 ### **Technical writing**
