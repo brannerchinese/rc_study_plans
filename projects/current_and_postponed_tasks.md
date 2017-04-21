@@ -54,19 +54,20 @@ This shouldn't take more than two good days of work.
 
  * [　] Review SQL
  * [　] Read more about MongoDB specifically
- * [　] Read about Raft
+ * [　] Read about Raft. **Disposition**: Finished through Sec. 5 of [Ongaro and Osterhout paper on Raft](Ongaro_and_Osterhout,_In_search_of_an_understandable_consensus_algorithm_(extended_version).pdf)
  * [　] Read about networking terminology. 
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
 
 ### **RC togetherness**
 
+ * [Ｘ] Paired with @Lauryn on COBOL (principally `GOBACK` and debugging options).
 
 ### **Work-worry**
 
  * [　] Compose new RC résumé. This really depends on what you are looking for… .
- * [　] Look into the companies listed as coming to the [April 20th, 2017](https://www.recurse.com/events/260) and [April 27th, 2017](https://www.recurse.com/events/261) job fairs
- * [　] Look up the company mentioned by Nancy Thomas
+ * [Ｘ] Look into the companies listed as coming to the [April 20th, 2017](https://www.recurse.com/events/260) and [April 27th, 2017](https://www.recurse.com/events/261) job fairs
+ * [Ｘ] Look up the company mentioned by Nancy Thomas
  * [　] Fix code-issues in blog — including list of past entries (long postponed)
 
 ### **Technical writing**
