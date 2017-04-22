@@ -36,7 +36,7 @@ This shouldn't take more than two good days of work.
 
 #### Reading and workshops
 
- * [Ｘ] Start reading about major JS graphical libraries of interest, beginning with list made earlier. **Disposition**: Under way with D3.js and SVG/SVG.js.
+ * [Ｘ] Start reading about major JS graphical libraries of interest, beginning with list made earlier. **Disposition**: Under way with D3.js and SVG/SVG.js. Also, look at Treat.js and Sigma.js.
 
  * [　] Read the [MDN article-series on Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) (note that the second-to-last item has a broken link to the last item)
 
@@ -54,10 +54,14 @@ This shouldn't take more than two good days of work.
 
  * [　] Review SQL
  * [　] Read more about MongoDB specifically
- * [　] Read about Raft. **Disposition**: Finished through Sec. 5 of [Ongaro and Osterhout paper on Raft](Ongaro_and_Osterhout,_In_search_of_an_understandable_consensus_algorithm_(extended_version).pdf)
  * [　] Read about networking terminology. 
 
  * [Ｏ] List made of items of interest. It seems likely that most of this work will be reading rather than implementation. In any  case, there is nothing more to do now but slowly assemble references.
+
+### **Raft track**
+
+ * [Ｘ] Read about Raft. **Disposition**: Finished [Ongaro and Ousterhout paper on Raft](../materials/Ongaro_and_Ousterhout,_In_search_of_an_understandable_consensus_algorithm_(extended_version).pdf). Notes taken. I was pleased to see a proof by contradiction in Sec. 5.4.3.
+ * [　] Implement a display of Raft, beginning with pseudocode.
 
 ### **RC togetherness**
 
