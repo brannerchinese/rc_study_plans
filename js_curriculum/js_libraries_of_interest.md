@@ -2,6 +2,8 @@
 
 ### Graphical
 
+Tool for comparing graphical libraries: http://www.jsgraphs.com/.
+
  1. [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) and [SVG.js](http://svgjs.com/). Paul Morris referred me to the Jacob Jenkov [tutorial](http://tutorials.jenkov.com/svg/index.html) on vanilla SVG. I think the best plan is to work in vanilla SVG or a while and then move to SVG.js. Some things encountered the first day:
 
     * Be careful not to use pure JS methods when special namespaced methods are needed, such as `createElementNS`.
@@ -20,6 +22,12 @@
  1. [`canvas`](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial)
 
  1. [Treant.js](http://fperucic.github.io/treant-js/)
+ 
+ 1. [Graph.js](https://github.com/mhelvens/graph.js)
+ 
+ 1. [Sigma.js](http://sigmajs.org/)
+ 
+ 1. [Gun.js](http://gun.js.org/#step1)
 
  1. [fingertree](https://www.npmjs.com/package/fingertree); see application in [immutable-sequence](https://github.com/qiao/immutable-sequence.js). Can you visualize one of these with D3?
 

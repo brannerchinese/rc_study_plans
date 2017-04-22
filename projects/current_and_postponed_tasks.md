@@ -8,6 +8,10 @@ Postponed tasks are marked [Ｏ].
 
  * [　] Finish writing code.
  * [　] Learn SVG and begin adding SVG to working code.
+ * [　] Explore [Treant.js](http://fperucic.github.io/treant-js/)
+ * [　] Explore [Graph.js](https://github.com/mhelvens/graph.js)
+ * [　] Explore [Sigma.js](http://sigmajs.org/)
+ * [　] Explore [Gun.js](http://gun.js.org/#step1)
  * [Ｏ] Try out the preferred TDD options for JavaScript: UnitJS and SinonJS. 
 
 #### **[Color-match project](color-match.md)**
@@ -60,7 +64,6 @@ This shouldn't take more than two good days of work.
 
 ### **Raft track**
 
- * [Ｘ] Read about Raft. **Disposition**: Finished [Ongaro and Ousterhout paper on Raft](../materials/Ongaro_and_Ousterhout,_In_search_of_an_understandable_consensus_algorithm_(extended_version).pdf). Notes taken. I was pleased to see a proof by contradiction in Sec. 5.4.3.
  * [　] Implement a display of Raft, beginning with pseudocode.
 
 ### **RC togetherness**
@@ -69,7 +72,7 @@ This shouldn't take more than two good days of work.
 ### **Work-worry**
 
  * [　] Compose new RC résumé. This really depends on what you are looking for… .
- * [Ｘ] Look into the companies listed as coming to the [April 27th, 2017](https://www.recurse.com/events/261) job fair.
+ * [Ｘ] Look into the companies listed as coming to the [April 27th, 2017](https://www.recurse.com/events/260) job fair.
  * [　] Fix code-issues in blog — including list of past entries (long postponed)
 
 ### **Technical writing**
