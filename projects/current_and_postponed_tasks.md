@@ -69,10 +69,9 @@ This shouldn't take more than two good days of work.
 ### **RC togetherness**
 
 
-### **Work-worry**
+### **Work-search**
 
- * [　] Compose new RC résumé. This really depends on what you are looking for… .
- * [Ｘ] Look into the companies listed as coming to the [April 27th, 2017](https://www.recurse.com/events/260) job fair.
+ * [　] Do a one-day Flask project, putting stress on full-stack skills rather than the Python back-end.
  * [　] Fix code-issues in blog — including list of past entries (long postponed)
 
 ### **Technical writing**
