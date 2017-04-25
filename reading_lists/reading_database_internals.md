@@ -2,13 +2,13 @@
 
 ### Articles
 
- * **[Notes](notes/notes_kalenzaga_relational_database.md)** on [Christophe Kalenzaga, "How does a relational database work?"](../materials/Christophe_Kalenzaga,_How_does_a_relational_database_work.pdf) (**[external link](http://coding-geek.com/how-databases-work/)**)
+ * **[Notes](notes/notes_kalenzaga_relational_database.md)** on [Christophe Kalenzaga, "How does a relational database work?"](../materials/Christophe_Kalenzaga,_How_does_a_relational_database_work.pdf) (**[external link](http://coding-geek.com/how-databases-work/)**). **DONE**
 
  * [Hellerstein, Stonebraker, and Hamilton, "Architecture of a Database System"](../materials/Hellerstein,_Stonebraker,_and_Hamilton,_Architecture_of_a_Database_System.pdf) (**[external link](https://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)**)
 
- * [Conrad Muller, "A Brief Explanation of How Database Software Works"](../materials/Conrad_Muller,_A_Brief_Explanation_of_How_Database_Software_Works.pdf) (**other references [on this site](http://www.databasezone.com/techdocs/)**)
+ * [Conrad Muller, "A Brief Explanation of How Database Software Works"](../materials/Conrad_Muller,_A_Brief_Explanation_of_How_Database_Software_Works.pdf) (**other references [on this site](http://www.databasezone.com/techdocs/)**). **DONE**
 
- * [Will Hartung, response on StackOverflow 172925-621762 to "How do databases work internally?"](../materials/Will_Hartung,_response_on_StackOverflow_172925-621762_How_do_databases_work_internally?.pdf) (**[external link](http://stackoverflow.com/a/172992/621762)**)
+ * [Will Hartung, response on StackOverflow 172925-621762 to "How do databases work internally?"](../materials/Will_Hartung,_response_on_StackOverflow_172925-621762_How_do_databases_work_internally?.pdf) (**[external link](http://stackoverflow.com/a/172992/621762)**). **DONE**
 
 #### Indexing and B+ trees
 
@@ -16,7 +16,7 @@
  
  * [Jeremy Cole, "B+ Tree index structures in InnoDB"](../materials/Jeremy_Cole,_B+Tree_index_structures_in_InnoDB.pdf) (**[external link](https://blog.jcole.us/2013/01/10/btree-index-structures-in-innodb/)**)
 
- * [Goetz Graefe, "Modern B-Tree Techniques"](../materials/Goetz_Graefe,_Modern_B-Tree_Techniques.pdf) (**[external link](http://dl.acm.org/citation.cfm?id=2185842)**)
+ * [Goetz Graefe, "Modern B-Tree Techniques"](../materials/Goetz_Graefe,_Modern_B-Tree_Techniques.pdf) (**[external link](http://dl.acm.org/citation.cfm?id=2185842)**). **DONE**
 
 #### Query-optimization
 
@@ -40,11 +40,11 @@
 
  * multiversion concurrency control in PostgreSQL: [Bruce Momjian, "Mvcc Unmasked"](../materials/Bruce_Momjian,_Mvcc_Unmasked.pdf) (**[external link](https://momjian.us/main/writings/pgsql/mvcc.pdf)**)
 
- * locks and latches: [Goetz Graefe, "A Survey of B-Tree Locking Techniques"](../materials/Goetz_Graefe,_A_Survey_of_B-Tree_Locking_Techniques.pdf) (**[external link](http://dl.acm.org/citation.cfm?id=1806908)**)
+ * locks and latches: [Goetz Graefe, "A Survey of B-Tree Locking Techniques"](../materials/Goetz_Graefe,_A_Survey_of_B-Tree_Locking_Techniques.pdf) (**[external link](http://dl.acm.org/citation.cfm?id=1806908)**). **DONE**
 
 ### [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
 
-General overview: [Adam Marcus, "The Architecture of Open Source Applications: The NoSQL Ecosystem"](../materials/Adam_Marcus,_The_Architecture_of_Open_Source_Applications_The_NoSQL_Ecosystem.pdf) (**[external link](http://aosabook.org/en/nosql.html)**).
+General overview: [Adam Marcus, "The Architecture of Open Source Applications: The NoSQL Ecosystem"](../materials/Adam_Marcus,_The_Architecture_of_Open_Source_Applications_The_NoSQL_Ecosystem.pdf) (**[external link](http://aosabook.org/en/nosql.html)**).. **Begun**
 
 #### Document-oriented databases
 

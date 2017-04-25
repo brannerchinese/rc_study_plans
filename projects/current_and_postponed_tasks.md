@@ -70,6 +70,7 @@ This shouldn't take more than two good days of work.
 
 ### **RC togetherness**
 
+ * [Ｘ] Took part in in-person check-ins.
 
 ### **Work-search**
 
@@ -82,10 +83,11 @@ This shouldn't take more than two good days of work.
 
 ### **Environment track**
 
- * [Ｘ] Installed `mate-screenshot` and wrote script for key-binding.
- * [　] Post IBus issue about lack of menu control. (needed screenshot functional first)
+ * [Ｘ] Took action on inadequate size and control of IBus pop-up menu for Chinese input-methods. Installed `mate-screenshot` and wrote script for key-binding. Posted IBus issue about lack of menu control. (Needed screenshot functional first,) Altered screen resolution from 1920x1080 to 960x540 for temporary easing of the problem.
  * [　] Read the long `strace` discussion under the `mate-screenshot` script https://github.com/mate-desktop/mate-utils/issues/37#issuecomment-252103551.
  * [　] Read about Plan 9, a strongly file-oriented UNIX successor mentioned by AJ Jordan at in-person check-ins on 20170425.
+ * [　] Find out what sorts of things are stored in `/etc`. Among many others, `/etc/debian_version` is there.
+ * [　] Install current Firefox via command line and document process in installation notes. This requires not only a PPA but also a GPG key.
  
 ### Non-batch work
 

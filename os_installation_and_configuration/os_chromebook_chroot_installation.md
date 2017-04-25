@@ -61,12 +61,34 @@
  1. In the Linux chroot, install the following packages:
 
     * `vim git firefox-esr-dev curl`
+    * `software-properties-common`: Includes `apt-add-repository`, needed for adding a Personal Package Archive (PPA).
     * `mate-desktop mate-desktop-environment*`: Currently chosen desktop and all environment files.
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
     * `trash-cli` See [installation details](https://github.com/andreafrancia/trash-cli).
     * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
     * `torbrowser-launcher`
+    * `tree`
+
+    * For Firefox:
+
+      ```
+      sudo apt-add-repository ppa:mozillateam/firefox-next
+      ```
+
+      In addition, a GPG key is needed; this still has to be done and docmented.
+    
+    * For Google Chrome:
+
+      Following http://www.tecmint.com/install-google-chrome-in-debian-ubuntu-linux-mint/ (accessed 20170403).
+      
+      ```
+      wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+      sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+      sudo apt-get update
+      sudo apt-get install google-chrome-stable
+      ```
+
 
  1. Add some basic tools to `~/.bashrc`:
 

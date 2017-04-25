@@ -8,5 +8,6 @@ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /et
 sudo apt-get update
 sudo apt-get install google-chrome-stable
 ```
+(Already included in installation guide for Debian on chrooted Chromebook.
 
 [end]
