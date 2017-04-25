@@ -4,14 +4,7 @@
 
 Tool for comparing graphical libraries: http://www.jsgraphs.com/.
 
- 1. [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) and [SVG.js](http://svgjs.com/). Paul Morris referred me to the Jacob Jenkov [tutorial](http://tutorials.jenkov.com/svg/index.html) on vanilla SVG. I think the best plan is to work in vanilla SVG or a while and then move to SVG.js. Some things encountered the first day:
-
-    * Be careful not to use pure JS methods when special namespaced methods are needed, such as `createElementNS`.
-    * It doesn't appear that the attributes for SVG objects can be populated via CSS.
-    * Where we would normally group things with a `div` element, SVG uses a `g` element that provides more functionality.
-    * It appears (Firefox 45.8) that a "text node" cannot have `getBBox` called on it, while a namespaced SVG text element can.. `getBBox` is important for determining the size of a dynamically changing text element.
-
- 1. [d3.js](https://github.com/d3/d3/wiki). I spent some time examining this library on 20170417, but I think it's more complicated than I want, and certainly than I need as a first step in doing graphics. In one-on-one conversation with James Porter, he said that during his RC batch he was a Python coder trying to learn JS and d3 in particular, and he found it hard to get started with —  he found no resources he could really recommend, and the skills acquired learning it did not translate elsewhere. Since d3.js is an elaborate wrapper around pure SVG, it seems better to me to work with vanilla SVG directly, first.
+ 1. [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG) and [SVG.js](http://svgjs.com/). Paul Morris referred me to the Jacob Jenkov [tutorial](http://tutorials.jenkov.com/svg/index.html) on vanilla SVG. I think the best plan is to work in vanilla SVG or a while and then move to SVG.js. Notes in [separate file](../projects/svg.md).
 
  1. [p5.js](https://p5js.org/get-started/)
 

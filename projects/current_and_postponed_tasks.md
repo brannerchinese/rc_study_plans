@@ -42,6 +42,8 @@ This shouldn't take more than two good days of work.
 
  * [Ｘ] Start reading about major JS graphical libraries of interest, beginning with list made earlier. **Disposition**: Under way with D3.js and SVG/SVG.js. Also, look at Treat.js and Sigma.js.
 
+ * [　] Read about the peer-to-peer browser networking that Be Birchal described in in-person check-ins on 20170424.
+
  * [　] Read the [MDN article-series on Accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility) (note that the second-to-last item has a broken link to the last item)
 
    * [　] (Part of the above). Read about [ARIA](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics).
@@ -80,7 +82,10 @@ This shouldn't take more than two good days of work.
 
 ### **Environment track**
 
- * [　] Post IBus issue about lack of menu control.
+ * [Ｘ] Installed `mate-screenshot` and wrote script for key-binding.
+ * [　] Post IBus issue about lack of menu control. (needed screenshot functional first)
+ * [　] Read the long `strace` discussion under the `mate-screenshot` script https://github.com/mate-desktop/mate-utils/issues/37#issuecomment-252103551.
+ * [　] Read about Plan 9, a strongly file-oriented UNIX successor mentioned by AJ Jordan at in-person check-ins on 20170425.
  
 ### Non-batch work
 
