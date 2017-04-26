@@ -71,6 +71,8 @@ This shouldn't take more than two good days of work.
 ### **RC togetherness**
 
  * [Ｘ] Took part in in-person check-ins.
+ * [Ｘ] Served interview questions to @Lauryn
+ * [Ｘ] Served rubber duckery to @Alistair
 
 ### **Work-search**
 
@@ -87,7 +89,7 @@ This shouldn't take more than two good days of work.
  * [　] Read the long `strace` discussion under the `mate-screenshot` script https://github.com/mate-desktop/mate-utils/issues/37#issuecomment-252103551.
  * [　] Read about Plan 9, a strongly file-oriented UNIX successor mentioned by AJ Jordan at in-person check-ins on 20170425.
  * [　] Find out what sorts of things are stored in `/etc`. Among many others, `/etc/debian_version` is there.
- * [　] Install current Firefox via command line and document process in installation notes. This requires not only a PPA but also a GPG key.
+ * [　] Install current Firefox via command line and document process in installation notes. 
  
 ### Non-batch work
 

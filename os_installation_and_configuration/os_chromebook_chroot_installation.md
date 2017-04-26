@@ -61,7 +61,7 @@
  1. In the Linux chroot, install the following packages:
 
     * `vim git firefox-esr-dev curl`
-    * `software-properties-common`: Includes `apt-add-repository`, needed for adding a Personal Package Archive (PPA).
+    * `software-properties-common dirmngr`: The former includes `apt-add-repository`, needed for adding a Personal Package Archive (PPA). The latter is a dependency of `apt-add-repository`.
     * `mate-desktop mate-desktop-environment*`: Currently chosen desktop and all environment files.
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
@@ -73,6 +73,7 @@
     * For Firefox:
 
       ```
+      sudo apt install pkg-mozilla-archive-keyring
       sudo apt-add-repository ppa:mozillateam/firefox-next
       ```
 
