@@ -44,7 +44,7 @@
 
 ### [NoSQL](https://en.wikipedia.org/wiki/NoSQL)
 
-General overview: [Adam Marcus, "The Architecture of Open Source Applications: The NoSQL Ecosystem"](../materials/Adam_Marcus,_The_Architecture_of_Open_Source_Applications_The_NoSQL_Ecosystem.pdf) (**[external link](http://aosabook.org/en/nosql.html)**).. **Begun**
+Notes being reformed into outline: [Adam Marcus, "The Architecture of Open Source Applications: The NoSQL Ecosystem"](../materials/Adam_Marcus,_The_Architecture_of_Open_Source_Applications_The_NoSQL_Ecosystem.pdf) (**[external link](http://aosabook.org/en/nosql.html)**). **Begun**
 
 #### Document-oriented databases
 
