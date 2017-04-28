@@ -110,7 +110,7 @@ Hard to understand
 
 **5.4 Safety**
 
-> his section completes the Raft algorithm by adding a restriction on which servers may be elected leader.
+> This section completes the Raft algorithm by adding a restriction on which servers may be elected leader.
 
 **5.4.1 Election restriction**
 
@@ -164,7 +164,7 @@ Proof by contradiction:
 
 **8. Client interaction**
 
-> Clients of Raft send all of their requests to the leader. When a client first starts up, it connects to a randomlychosen server. If the client’s first choice is not the leader, that server will reject the client’s request and supply information about the most recent leader it has heard from (`AppendEntries` requests include the network address of the leader). If the leader crashes, client requests will time out; clients then try again with randomly-chosen servers.
+> Clients of Raft send all of their requests to the leader. When a client first starts up, it connects to a randomly chosen server. If the client’s first choice is not the leader, that server will reject the client’s request and supply information about the most recent leader it has heard from (`AppendEntries` requests include the network address of the leader). If the leader crashes, client requests will time out; clients then try again with randomly-chosen servers.
 
 **9. Performance**
 
