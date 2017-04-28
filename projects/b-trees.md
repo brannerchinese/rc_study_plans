@@ -55,7 +55,7 @@
  
     > Because disks operate much more slowly than random-access memory, we measure the performance of B-trees not only by how much computing time the dynamic-set operations consume but also by how many disk accesses they perform. For each B-tree operation, the number of disk accesses increases with the height of the B-tree, but B-tree operations keep the height low.
 
-    The full text of the first edition is on line at [the University of Science and Technoloy of China](http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/toc.htm); the B-tree section is numbered [Chapter 19](http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap19.htm) there.
+    The full text of the first edition is on line at [the University of Science and Technology of China](http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/toc.htm); the B-tree section is numbered [Chapter 19](http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap19.htm) there.
 
  1. Donald Knuth, "Multiway Trees", _The Art of Computer Programming_ (2nd ed.), Sec. 6.2.4 (Vol. 3, pp. 481-9, n.b. exercises pp. 490-1). The main discussion of B-trees ("*B*-trees"; Knuth is very particular about typography\*) specifies (p. 483):
  
