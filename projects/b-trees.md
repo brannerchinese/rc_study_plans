@@ -2,6 +2,8 @@
 
  1. Tricky ideas:
  
+    1. Fundamentally a B⁺-tree is not a tree but a linked list. However, the list-nodes' values are indexed by means of a tree.
+
     1. Pointers needed to create the doubly linked list of leaves are not added in a separate traversal of the tree; they are available immediately at the moments when nodes are ramified from other nodes. Only the "ripple up" (Aho) or "propagation up" (Wirth) of merging and deletion involves some amount of traversal after `search`.
     
     1. "Balancing" of pages can be done during search. This is most clearly discussed in Knuth and Cormen. Wirth describes this:
@@ -23,7 +25,7 @@
     1. "Multiway Tree" (Knuth, Wirth, Aho) is the general type of which a B-tree is a subvariety.
     1. B-tree. Comer (p. 123):
     
-       > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [DPB: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, how- ever, it seems appropriate to think of B-trees as "Bayer"-trees.
+       > The origin of "B-tree" has never been explained by the authors.  As we shall see, "balanced," "broad," or "bushy" might apply. Others suggest that the "B" stands for Boeing [DPB: Bayer and McCreight were Boeing engineers at the time of their 1972 paper]. Because of his contributions, however, it seems appropriate to think of B-trees as "Bayer"-trees.
        
        Gräfe:
        
