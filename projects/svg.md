@@ -78,6 +78,8 @@ Paul Morris referred me to the Jacob Jenkov [tutorial](http://tutorials.jenkov.c
 
  1. Try the more generic [`getBoundingClientRect`](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) and `getClientRects` instead of SVG-native `getBBox`. The SVG-native method has a slightly tighter fit and additional properties (`top`, `right`, `bottom`, `left`), which can be calculated from the others.
 
+    Keys in `getClientRects` have values that are not all of the same time, including a function `item()`, which cannot be coerced to string. So prefer `getBoundingClientRect`.
+
  1. SVG scaling principles.
 
     * [Amelia Bellamy-Royds, "How to Scale SVG"](https://css-tricks.com/scale-svg/)

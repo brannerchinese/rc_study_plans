@@ -68,6 +68,9 @@ This shouldn't take more than two good days of work.
 
 ### **RC togetherness**
 
+ * [Ｘ] In-person check-in.
+ * [Ｘ] Interview-practice for Katie Allen.
+ * [Ｘ] Interview-practice for Lauryn Brown.
 
 ### **Work-search**
 
@@ -101,3 +104,11 @@ My collaborator feels well enough that on 20170407 she began criticizing my Engl
 
 
 [end]
+[?1049h[?1h=[1;36r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[36;1H"one-on-ones/20170501_james_porter.md" 7L, 237C[1;1H[97m[48;5;242m#[m[38;5;224m#[m[38;5;225m One-on-one with James Porter, 20170501[m
+[97m[48;5;242m 
+I[m said that I had lost most of the two weeks since our last meeting to intervieww[4;1H preparation. The one substantial thing I have gotten done since then was readinn[5;1Hg the SVG specification.
+[97m[48;5;242m [m
+[4m                                                                                [m[8;1H[97m[48;5;242m 
+[[mend]
+[94m~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [24;1H~                                                                               [25;1H~                                                                               [26;1H~                                                                               [27;1H~                                                                               [28;1H~                                                                               [29;1H~                                                                               [30;1H~                                                                               [31;1H~                                                                               [32;1H~                                                                               [33;1H~                                                                               [34;1H~                                                                               [35;1H~                                                                               [m[36;63H5,0-1[9CAll[7;1H[?12l[?25h[?25l[36;1HType  :quit<Enter>  to exit Vim[36;32H[K[36;63H5,0-1[9CAll[7;1H[?12l[?25h[?25l[36;63H[K[36;63H5,0-1[9CAll[7;1H[?12l[?25h[?25l[36;63H[K[36;63H5,0-1[9CAll[7;1H[?12l[?25h[?25l[36;53H^M[7;1H[36;53H  [8;1H[7;1H[97m[48;5;242m [m[7;2H[K[8;1H[4m                                                                                [m[36;63H6[8;1H[?12l[?25h[?25l[36;63H[K[36;63H6,0-1[9CAll[8;1H[?12l[?25h[?25l[36;53H^M[8;1H[36;53H  [9;1H[8;1H[97m[48;5;242m [m[8;2H[K[9;1H[4m[46m[[m[4mend[m[4m[46m][m[4m                                                                           [m[36;63H7,1  [9;1H[?12l[?25h[?25l[36;53H^Z[9;1H[36;1H
+[?1l>[?12l[?25h[?1049l
