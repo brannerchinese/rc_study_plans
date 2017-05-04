@@ -69,8 +69,6 @@ This shouldn't take more than two good days of work.
 ### **RC togetherness**
 
  * [Ｘ] In-person check-in.
- * [Ｘ] Interview-practice for Katie Allen.
- * [Ｘ] Interview-practice for Lauryn Brown.
 
 ### **Work-search**
 
