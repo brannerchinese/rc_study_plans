@@ -27,6 +27,7 @@
     * 7: Replace tables with divs. 
     * 8: Move all styling to CSS, experiment with element-widths and `display` styling, remove a supernumerary `div`.
     * 9: Add default values to RGB channel-fields and display their combined color as User adjusts values. 
+    * 10: Place global variables in IIFE. Use CSS `vmin` for circle-dimension.
 
 
     Reference:
