@@ -10,6 +10,18 @@ Primary source: [Diego Ongaro and John Osterhout paper, "In Search of an Underst
 
 I was pleased to see a proof by contradiction in Sec. 5.4.3. I haven't seen one of those since I was in school. I suppose corrupt logs or intentional errors in transmission (evil man-in-middle) could up-end the proof.
 
+Diego Ongaro [explains](https://groups.google.com/d/msg/raft-dev/95rZqptGpmU/cfH4N7reBQAJ) the origin of the name Raft.
+
+> People ask me why it's called "Raft" every now and then, and I didn't have anything public on that until now. I wrote this up earlier in the year in a private email. I want a URL for it, so I'm sending it here and spamming all of you.
+>
+> There's a few reasons we came up with the name Raft:
+>
+> * It's not quite an acronym, but we were thinking about the words 'reliable', 'replicated', 'redundant', and 'fault-tolerant'.
+> * We were thinking about logs and what can be built using them.
+> * We were thinking about the island of Paxos and how to escape it.
+>
+> As a plus, we were using the randomly generated name Cheesomi in the paper before we came up with the name Raft in September 2012. The name appeared just over 100 times in our paper submission back then, so switching to the shorter name actually helped shrink the paper down quite a bit.
+
 **Abstract**
 
 > In order to enhance understandability, Raft separates the key elements of consensus, such as leader election, log replication, and safety, and it enforces a stronger degree of coherency to reduce the number of states that must be considered.
