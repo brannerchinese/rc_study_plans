@@ -16,11 +16,10 @@ Postponed tasks are marked [Ｏ].
 
 #### **[Asynchrony play](https://github.com/brannerchinese/rc_study_plans/blob/master/projects/asynchrony_play.md)**
 
- * [　] Iteration 1: basic structure; use factorization of large numbers as asynchronous task. **Disposition**: Recursive factorization works but large arguments cause stack overflow error; stack-based alternate also written.
+ * [　] Iteration 1: basic structure; use factorization of large numbers as dummy task to be handled asynchronously. **Disposition**: Wrote the random-number portion of the iteration.
 
 #### **[Color-match project](color-match.md)**
 
- * [Ｘ] Color-match iteration 10: Used IIFE to wrap global variables and all functions. Describe dimensions of circle relative to viewport, rather than absolutely. **Disposition**: Done with CSS3 `vmin`.
  * [　] Color-match iteration 11: Can you display hues of individual channel-fields? After this, time to work on actual color-match game.
  * [　] Color-match iteration: Try on other browsers.
 
@@ -44,8 +43,9 @@ This shouldn't take more than two good days of work.
 
 #### Reading and workshops
 
+ * [　] Read the *Async & Performance* volume of the Kyle Simpson JS series. **Disposition**: Began reading yesterday. Very much more useful than the last volumes I've read.
  * [　] Read [W3.org's best practices document](https://www.w3.org/wiki/JavaScript_best_practices).
- * [Ｘ] Start reading about major JS graphical libraries of interest, beginning with list made earlier. **Disposition**: Under way with D3.js and SVG/SVG.js. Also, look at Treat.js and Sigma.js.
+ * [　] Start reading about major JS graphical libraries of interest, beginning with list made earlier. **Disposition**: SVG.js. Also, look at Treat.js and Sigma.js.
 
  * [　] Read about the peer-to-peer browser networking that Be Birchal described in in-person check-ins on 20170424.
 
@@ -73,7 +73,6 @@ This shouldn't take more than two good days of work.
 
 ### **RC togetherness**
 
- * [Ｘ] In-person check-in.
 
 ### **Work-search**
 
@@ -96,6 +95,10 @@ This shouldn't take more than two good days of work.
  * [Ｏ] Install current Firefox via command line and document process in installation notes. **Disposition**: adding the Mozilla PPA failed to change the version numbers of the Firefox candidate for installation.
  
 ### Non-batch work
+
+**Classical project**
+
+**Gothic book**
 
 **"Face" book**
 
