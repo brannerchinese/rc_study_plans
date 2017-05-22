@@ -188,11 +188,11 @@
 
     * `ibus-daemon`
 
-    As long as `ibus-daemon` runs first (and it must run in `Maté`, not in the Chromee terminal tab before `Maté` starts), then IBus is running. You can run `ibus-setup` from thee command line or you can select `System => Preferences => Other => IBus preferences`, to configure. set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
+    As long as `ibus-daemon` runs first (and it must run in `Maté`, not in the Chrome terminal tab before `Maté` starts), then IBus is running. You can run `ibus-setup` from thee command line or you can select `System => Preferences => Other => IBus preferences`, to configure. set "Next input method" to `<Control>space`. IBus is not ideal, because the characters in the selection panel are very small, but it's usable.
     
  1. `Maté` configuration
  
-    The configuration file is in `~/.config/dbus` and can be accessed with `dbus dump <path>` and installed with `dbus load`.
+    The configuration file is in `~/.config/dconf` and can be accessed with `dbus dump <path>` and installed with `dbus load`.
 
 ### Software for Chrome OS
 
