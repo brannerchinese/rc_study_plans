@@ -4,7 +4,7 @@ Postponed tasks are marked [Ｏ].
 
 ### To be done immediately
 
- * [　] Pack mihmaa sheet in bag.
+ * [　] Pack fuller mihmaa sheet in bag.
 
 #### EMACS
 
@@ -20,6 +20,10 @@ Postponed tasks are marked [Ｏ].
  * [Ｘ] Lunch conversation with TwoSigma technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back.
  * [　] Prepare résumé for technical writing positions.
  * [　] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/)
+
+#### VisiData
+
+ * [Ｘ] Reported errors installing VisiData via `git` cloning and via `pip` on Debian. (20170523) On the possibility that the problem is due to my Debian installation, am considering trying an Ubuntu/Python3.4 Vagrant container on my Mac.
 
 ---
 
