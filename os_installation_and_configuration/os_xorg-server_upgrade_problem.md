@@ -1,4 +1,4 @@
-I am running Debian "stretch" in a chroot, populated via Crouton, on a Chromebook. Debian has been loading satisfactorily, and I have been using the Maté desktop without obvious problems.
+I am running Debian release 9.0 "stretch" in a chroot, populated via Crouton, on a Chromebook. Debian has been loading satisfactorily, and I have been using the Maté desktop without obvious problems.
 
 After a recent upgrade of `xorg` and `xorg-server` I find the Maté desktop no longer loads.
 
@@ -44,7 +44,7 @@ Please consult the The X.Org Foundation support
 /usr/bin/xinit: server error
 ```
 
-Normally, running init looks like this:
+Normally, running `xinit` looks like this:
 
 ```
 xinit
