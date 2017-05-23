@@ -8,7 +8,7 @@ Postponed tasks are marked [Ｏ].
 
 #### EMACS
 
- * [　] Look at Clojure for the Brave and True, recommended by Stacey and Logan.
+ * [　] Look at [Clojure for the Brave and True](http://www.braveclojure.com/basic-emacs/), recommended by Stacey and Logan.
 
 #### Environment
 
@@ -17,7 +17,9 @@ Postponed tasks are marked [Ｏ].
 
 #### Jobs
 
- * [　] Lunch conversation with TwoSigma technical writer.
+ * [Ｘ] Lunch conversation with TwoSigma technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back.
+ * [　] Prepare résumé for technical writing positions.
+ * [　] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/)
 
 ---
 
