@@ -13,7 +13,11 @@ Postponed tasks are marked [Ｏ].
 #### Environment
 
  * [　] Learn what the difference between `/dev/tty0` and `/dev/tty` actually is, and why `/dev/tty0` is being sought in the `xorg` upgrade.
- * [　] Install `reportbug` and report the `xorg` issue.
+ * [Ｘ] Install `reportbug` and report the `xorg` issue. (20170523) Done — had to use `-y` option on installation, because `crosh` terminal window suddenly would not accept `CR` to confirm apt installation. 
+
+#### Jobs
+
+ * [　] Lunch conversation with TwoSigma technical writer.
 
 ---
 
