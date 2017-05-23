@@ -31,6 +31,12 @@ Postponed tasks are marked [Ｏ].
  
    * 20170522: Have reached Sec. 4.4, starting at the beginning.
 
+#### Things learned
+
+ * `shred`
+ * `sudo apt list --upgradable`
+ * `sudo apt --only-upgrade install <package>`
+
 ---
 
 ### Done
