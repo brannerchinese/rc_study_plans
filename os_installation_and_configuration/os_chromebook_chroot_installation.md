@@ -65,10 +65,11 @@
     * `mate-desktop mate-desktop-environment*`: Currently chosen desktop and all environment files.
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
-    * `trash-cli` See [installation details](https://github.com/andreafrancia/trash-cli).
+    * `trash-cli`: See [installation details](https://github.com/andreafrancia/trash-cli).
     * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
     * `torbrowser-launcher`
     * `tree`
+    * `reportbug`: Needed to report unexpected behavior on upgrade of`xorg`.
 
     * For Firefox:
 
