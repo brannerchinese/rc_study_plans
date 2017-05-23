@@ -70,6 +70,7 @@
     * `torbrowser-launcher`
     * `tree`
     * `reportbug`: Needed to report unexpected behavior on upgrade of`xorg`.
+    * `emacs`
 
     * For Firefox:
 
