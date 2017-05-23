@@ -9,5 +9,7 @@
  * `usermod`: Add user to group: `usermod -a -G <group> <user`.
 
  * `id`: Show user and group IDs.
+ 
+ * `shred`: Overwrite a file to hide its contents, and optionally delete it.
 
 [end]
