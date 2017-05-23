@@ -40,7 +40,7 @@ Please consult the The X.Org Foundation support
 /usr/bin/xinit: server error
 ```
 
-Running `sudo apt upgradeable` returned
+Running `sudo apt upgradable` returned
 
 ```
 xorg/testing 1:7.7+19 amd64 [upgradable from: 1:7.7+18]
