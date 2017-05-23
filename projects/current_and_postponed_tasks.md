@@ -8,7 +8,7 @@ Postponed tasks are marked [Ｏ].
 
 #### EMACS
 
- * [　] Look at [Clojure for the Brave and True](http://www.braveclojure.com/basic-emacs/), recommended by Stacey and Logan.
+ * [　] Look at the Emacs introduction in [Clojure for the Brave and True](http://www.braveclojure.com/basic-emacs/), recommended by Stacey and Logan.
 
 #### Environment
 
