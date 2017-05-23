@@ -21,7 +21,7 @@ Postponed tasks are marked [Ｏ].
 
 ### Unix knowledge
 
- * Read in Eric S. Raymond, _The Art of Unix Programming_. 
+ * Read in Eric S. Raymond, _The Art of Unix Programming_. [Website](http://www.catb.org/esr/writings/taoup/html/) should allow easy recording of _bon mots_.
  
    * 20170522: Have reached Sec. 4.4, starting at the beginning.
 
