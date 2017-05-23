@@ -2,6 +2,13 @@
 
 Postponed tasks are marked [Ｏ].
 
+### To be done immediately
+
+ * Ask Alex Leeds if he would meet Travis
+ * Get Chinese data suitable for use by VisiData.
+ * Ask Saul about Maté problem.
+ * Retrieve old EMACS notes and find recommended EMACS intro.
+
 ### **JS track**
 
 #### **[B-tree implementation](b-trees.md)**
