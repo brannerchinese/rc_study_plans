@@ -2,7 +2,9 @@ I am running Debian "stretch" in a chroot, populated via Crouton, on a Chromeboo
 
 After a recent upgrade of `xorg` and `xorg-server` I find the Maté desktop no longer loads.
 
-The error message is as below, with the first error line being `parse_vt_settings: Cannot open /dev/tty0 (No such file or directory)`:
+The first error line is `parse_vt_settings: Cannot open /dev/tty0 (No such file or directory)`. Before the upgrade, we already have a file `/dev/tty` but no `/dev/tty0`, so I created a symbolic link from `/dev/tty0` to `/dev/tty`
+
+The error message is as below:
 
 
 ```
