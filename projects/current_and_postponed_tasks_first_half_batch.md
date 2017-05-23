@@ -2,12 +2,7 @@
 
 Postponed tasks are marked [Ｏ].
 
-### To be done immediately
-
- * [Ｘ] Ask Alex Leeds if he would meet Travis (20170522)
- * [　] Get Chinese data suitable for use by VisiData.
- * [　] Ask Saul about Maté problem.
- * [　] Retrieve old EMACS notes and find recommended EMACS intro.
+**Below is from first half of batch**
 
 ### **JS track**
 
