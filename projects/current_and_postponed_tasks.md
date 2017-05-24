@@ -4,23 +4,32 @@ Postponed tasks are marked [Ｏ].
 
 ### To be done immediately
 
- * [　] Pack fuller mihmaa sheet in bag.
-
 #### EMACS
 
  * [　] Look at the Emacs introduction in [Clojure for the Brave and True](http://www.braveclojure.com/basic-emacs/), recommended by Stacey and Logan.
 
 #### Environment
 
- * [　] Learn what the difference between `/dev/tty0` and `/dev/tty` actually is, and why `/dev/tty0` is being sought in the `xorg` upgrade.
+ * [　] Learn what the difference between `/dev/tty0` and `/dev/tty` actually is, and why `/dev/tty0` is being sought in the `xorg` upgrade. See
+ 
+   * https://unix.stackexchange.com/questions/60641/linux-difference-between-dev-console-dev-tty-and-dev-tty0
+   * https://unix.stackexchange.com/questions/229530/how-linux-uses-dev-tty-and-dev-tty0
+
+#### Sphinx
+
+ * [Ｘ] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/tutorial.html). (20170524)
+ * [Ｘ] Begin learning reStructured Text (http://www.sphinx-doc.org/en/stable/rest.html). (20170524)
+ * [Ｘ] Read one of the longer reST doumentation collections. (http://docutils.sourceforge.net/rst.html
+ * [　] Practice reStructuredText.
+ * [　] Choose code to document with Sphinx.
 
 #### Jobs
 
  * [　] Prepare résumé for technical writing positions.
- * [　] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/).
 
 #### VisiData
 
+ * [　] Meet with Saul to discuss things.
 
 ---
 
