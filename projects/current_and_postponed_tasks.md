@@ -13,17 +13,15 @@ Postponed tasks are marked [Ｏ].
 #### Environment
 
  * [　] Learn what the difference between `/dev/tty0` and `/dev/tty` actually is, and why `/dev/tty0` is being sought in the `xorg` upgrade.
- * [Ｘ] Install `reportbug` and report the `xorg` issue. (20170523) Done — had to use `-y` option on installation, because `crosh` terminal window suddenly would not accept `CR` to confirm apt installation. 
+ * [　] Get non-ASCII working on the `debian-test` chroot — it doesn't work at all now.
 
 #### Jobs
 
- * [Ｘ] Lunch conversation with TwoSigma technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back.
  * [　] Prepare résumé for technical writing positions.
  * [　] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/)
 
 #### VisiData
 
- * [Ｘ] Reported errors installing VisiData via `git` cloning and via `pip` on Debian. (20170523) On the possibility that the problem is due to my Debian installation, am considering trying an Ubuntu/Python3.4 Vagrant container on my Mac.
 
 ---
 
@@ -52,16 +50,22 @@ Postponed tasks are marked [Ｏ].
 
 #### VisiData
 
+ * [Ｘ] Reported errors installing VisiData via `git` cloning and via `pip` on Debian. (20170523) On the possibility that the problem is due to my Debian installation, am considering trying an Ubuntu/Python3.4 Vagrant container on my Mac. (Later:) Vagrant now has trouble working with VirtualBox, so that option was not possible. However, I tried using an Ubuntu installation on a remote server and on Mac OS 10.9.5 itself. Neither the version cloned from Git (`develop` or `stable` branches) or the version installed by `pip` worked. Finally, only the `testpypi` version (`pip install -i https://testpypi.python.org/pypi visidata`) worked correctly. 
  * [Ｘ] Get Chinese data suitable for use by VisiData. (20170522-23). 
  * [Ｘ] Issue posted to VisiData GitHub account about the low visibility of `curses.BLUE`. (20170521)
 
 #### Environment
 
+ * [Ｘ] Install `reportbug` and report the `xorg` issue. (20170523) Done — had to use `-y` option on installation, because `crosh` terminal window suddenly would not accept `CR` to confirm apt installation. 
  * [Ｘ] Documented Maté problem, showing that it is the upgrading of `xorg` and `xserver-xorg` from v. 7.7+18 to v. 7.7+19 that causes an error when looking for `/dev/tty0`. (20170522) Learned about using `sudo apt list --upgradable` and then `sudo apt --only-upgrade install <package>` for selective Debian upgrades.
 
 #### EMACS
 
  * [Ｘ] Retrieve old EMACS notes and find recommended EMACS intro. (20170522)
+
+#### Jobs
+
+ * [Ｘ] Lunch conversation with TwoSigma technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back. Discussed some ethical issues with RMKA.
 
 ---
 
