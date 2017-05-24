@@ -19,7 +19,7 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｘ] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/tutorial.html). (20170524)
  * [Ｘ] Begin learning reStructured Text (http://www.sphinx-doc.org/en/stable/rest.html). (20170524)
- * [Ｘ] Read one of the longer reST doumentation collections. (http://docutils.sourceforge.net/rst.html
+ * [　] Read one of the longer reST doumentation collections. (http://docutils.sourceforge.net/rst.html
  * [　] Practice reStructuredText.
  * [　] Choose code to document with Sphinx.
 
