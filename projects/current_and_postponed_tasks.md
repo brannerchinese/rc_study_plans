@@ -13,12 +13,11 @@ Postponed tasks are marked [Ｏ].
 #### Environment
 
  * [　] Learn what the difference between `/dev/tty0` and `/dev/tty` actually is, and why `/dev/tty0` is being sought in the `xorg` upgrade.
- * [　] Get non-ASCII working on the `debian-test` chroot — it doesn't work at all now.
 
 #### Jobs
 
  * [　] Prepare résumé for technical writing positions.
- * [　] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/)
+ * [　] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/).
 
 #### VisiData
 
@@ -56,6 +55,7 @@ Postponed tasks are marked [Ｏ].
 
 #### Environment
 
+ * [Ｘ] Get non-ASCII working on the `debian-test` chroot — it doesn't work at all now. (20160524) Did this using `dpkg-reconfigure locales` and (incompletely) by getting Chinese fonts working. 
  * [Ｘ] Install `reportbug` and report the `xorg` issue. (20170523) Done — had to use `-y` option on installation, because `crosh` terminal window suddenly would not accept `CR` to confirm apt installation. 
  * [Ｘ] Documented Maté problem, showing that it is the upgrading of `xorg` and `xserver-xorg` from v. 7.7+18 to v. 7.7+19 that causes an error when looking for `/dev/tty0`. (20170522) Learned about using `sudo apt list --upgradable` and then `sudo apt --only-upgrade install <package>` for selective Debian upgrades.
 
