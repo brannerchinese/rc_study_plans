@@ -13,6 +13,7 @@ I have been following https://www.blackmoreops.com/2014/07/31/install-fonts-on-l
  
  1. `fc-cache -fv`: Build font information cache files. Confirm that the fonts have been made available using `fc-list`.
  1. `sudo dpkg-reconfigure fontconfig-config`: Allow system to configure fonts.
+ 1. Then reboot.
 
 At this point, I have two slightly different fonts displaying all high and low CJK codepoints I'm aware of, within the terminal running on the Maté desktop, but not in the Crosh shell window.
 
