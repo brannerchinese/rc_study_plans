@@ -64,6 +64,7 @@
     * `software-properties-common dirmngr`: The former includes `apt-add-repository`, needed for adding a Personal Package Archive (PPA). The latter is a dependency of `apt-add-repository`.
     * `mate-desktop mate-desktop-environment*`: Currently chosen desktop and all environment files.
     * `xfce4-terminal`: Apparently provides the best terminal emulator.
+    * `rxvt-unicode-256color`: Recommended by Saul Pwanson for best font-control in a terminal emulator.
     * `xclip`: Copy command-line to/from clipboard.
     * `trash-cli`: See [installation details](https://github.com/andreafrancia/trash-cli).
     * `ibus ibus-qt4 ibus-gtk ibus-chewing ibus-libzhuyin ibus-m17n ibus-pinyin ibus-libpinyin`
