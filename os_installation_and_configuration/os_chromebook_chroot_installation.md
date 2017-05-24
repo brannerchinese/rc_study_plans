@@ -72,6 +72,7 @@
     * `reportbug`: Needed to report unexpected behavior on upgrade of`xorg`.
     * `emacs`
     * `python3 python3-venv`
+    * `debconf`: Make available `dpkg-reconfigure` (which is only accessible with root permissions).
 
     * For Firefox:
 
@@ -108,6 +109,16 @@
     export GTK_IM_MODULE=ibus
     export XMODIFIERS=@im=ibus
     export QT_IM_MODULE=ibus
+    ```
+
+ 1. Keep from dropping SSH connections
+
+    Edit `.ssh/config` and insert:
+
+    ```
+    Host *
+       ServerAliveInterval 300
+       ServerAliveCountMax 2
     ```
 
  1. Configure `/etc/default/keyboard`:
@@ -196,6 +207,35 @@
  1. `Maté` configuration
  
     The configuration file is in `~/.config/dconf` and can be accessed with `dbus dump <path>` and installed with `dbus load`.
+    
+ 1. Chinese fonts
+ 
+    See the [separate page on Chinese fonts in Debian](os_debian_fonts.md).
+
+ 1. Configure locales for UTF-8
+
+    * To `/etc/locale.gen/` add
+
+      ```
+      # This file lists locales that you wish to have built. You can find a list
+      # of valid supported locales at /usr/share/i18n/SUPPORTED. Other
+      # combinations are possible, but may not be well tested. If you change
+      # this file, you need to rerun locale-gen.
+      #
+      # XXX GENERATED XXX
+      #
+      # NOTE!!! If you change this file by hand, and want to continue
+      # maintaining manually, remove the above line. Otherwise, use the command
+      # "dpkg-reconfigure locales" to manipulate this file. You can manually
+      # change this file without affecting the use of debconf, however, since it
+      # does read in your changes.
+      ```
+
+    * Install `locales` with `apt` and run `/usr/sbin/locale-gen` as root.
+    
+    * Run `dpkg-reconfigure locales` and follow the directions.
+
+
 
 ### Software for Chrome OS
 
@@ -216,44 +256,5 @@ sudo mount -o remount,rw /
 # 3. Edit /usr/bin/crosh:
 # Add `cmd_shell` right before the `repl` call.
 ```
-
----
-
-## Improvements 20170329
-
- 1. Keep from dropping SSH connections
-
-    Edit `.ssh/config` and insert:
-
-    ```
-    Host *
-       ServerAliveInterval 300
-       ServerAliveCountMax 2
-    ```
-
- 2. Configure locales for UTF-8
-
-    To `/etc/locale.gen/` add
-
-    ```
-    # This file lists locales that you wish to have built. You can find a list
-    # of valid supported locales at /usr/share/i18n/SUPPORTED. Other
-    # combinations are possible, but may not be well tested. If you change
-    # this file, you need to rerun locale-gen.
-    #
-    # XXX GENERATED XXX
-    #
-    # NOTE!!! If you change this file by hand, and want to continue
-    # maintaining manually, remove the above line. Otherwise, use the command
-    # "dpkg-reconfigure locales" to manipulate this file. You can manually
-    # change this file without affecting the use of debconf, however, since it
-    # does read in your changes.
-    ```
-
-    However, I have no program `dpkg-reconfigure` available.
-
-    Then install `locales` with `apt` and run `/usr/sbin/locale-gen` as root.
-
-    I installed `debconf` and then had `dpkg-reconfigure` available. This should eventually be added to list of packages to add.
 
 [end]
