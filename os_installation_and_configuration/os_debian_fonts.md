@@ -31,6 +31,7 @@ What other fonts should I try to resolve these issues?
  
    * [Quivera](http://www.quivira-font.com/), described here: http://www.metafilter.com/110330/Quivera-a-fairly-complete-Unicode-font)
    * [GNU FreeFont](http://www.gnu.org/software/freefont/). Not for CJK but for most other things.
+   * [Source Han Super OTC](https://github.com/adobe-fonts/source-han-super-otc)
 
  * Fonts available through `apt`:
 
