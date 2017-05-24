@@ -4,6 +4,7 @@
 
 I have been following https://www.blackmoreops.com/2014/07/31/install-fonts-on-linux/ (accessed 20170524).
 
+ 1. First, for clarity, I removed all other CJK fonts.
  1. Copy fonts to `/usr/share/fonts`. I am trying to use the TrueType [HanaMin 花園明朝 fonts](www.fonts.jp/hanazono/), so I have copied them into `/usr/share/fonts/truetype/hanamin`. Other possible locations are
  
     * `/usr/share/X11/fonts`
@@ -13,7 +14,15 @@ I have been following https://www.blackmoreops.com/2014/07/31/install-fonts-on-l
  1. `fc-cache -fv`: Build font information cache files. Confirm that the fonts have been made available using `fc-list`.
  1. `sudo dpkg-reconfigure fontconfig-config`: Allow system to configure fonts.
 
-At this point, I have two slightly different fonts displaying all high and low CJK codepoints I'm aware of, within the terminal running on the Maté desktop, but not in the Crosh shell window. The latter probably requires the font to be added to Chrome rather than the Debian chroot.
+At this point, I have two slightly different fonts displaying all high and low CJK codepoints I'm aware of, within the terminal running on the Maté desktop, but not in the Crosh shell window.
+
+Problems:
+
+ 1. How to get high codepoints to display in the Crosh shell winow? That probably requires the font to be added to Chrome rather than the Debian chroot.
+ 1. High codepoint characters are being displayed in a serifed font that is probably HanaMin, but those in the Basic Multilingual Plane appear in a non-serif font, and the mismatch is noticeable. 
+ 2. Also, it appears that even normal ASCII text is now (20170524) being displayed in the same font as the Basic Multilingual Plane characters, and so there are kerning issues.
+
+What other fonts should I try to resolve these issues?
 
 ### Other
 
