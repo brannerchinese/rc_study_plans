@@ -27,6 +27,11 @@ What other fonts should I try to resolve these issues?
 
 ### Other
 
+ * Fonts to be considered
+ 
+   * [Quivera](http://www.quivira-font.com/), described here: http://www.metafilter.com/110330/Quivera-a-fairly-complete-Unicode-font)
+   * [GNU FreeFont](http://www.gnu.org/software/freefont/). Not for CJK but for most other things.
+
  * Fonts available through `apt`:
 
    * ttf-ancient-fonts
