@@ -1,5 +1,7 @@
 ## Debian and Unicode
 
+This page describes some issues early in installation. I have resolved them, however.
+
 ### Possible xterm problem
 
  * Possibly `xterm` itself doesn't allow non-ASCII input. See http://unix.stackexchange.com/questions/280466/how-do-i-type-arbitrary-unicode-characters-in-xterm (201605). Are there other terminal emulators to use? https://lists.freebsd.org/pipermail/freebsd-questions/2010-March/213717.html suggests rxvt-unicode.
