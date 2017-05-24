@@ -2,7 +2,7 @@
 
 ### Current
 
- 1. [reST and Sphinx](sphinx.med)
+ 1. [reST and Sphinx](sphinx.md)
 
 ### Postponed after first half-batch
 
