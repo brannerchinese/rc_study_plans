@@ -2,6 +2,10 @@
 
 ### Current
 
+ 1. [reST and Sphinx](sphinx.med)
+
+### Postponed after first half-batch
+
  1. [Color match](color-match.md): functionality for "Color-match game". **Disposition**: 20170413: Iteration 9 under way.
  1. [B+ tree](b-trees.md)
 
