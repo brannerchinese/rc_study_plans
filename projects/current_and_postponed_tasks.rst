@@ -126,6 +126,7 @@ Done
 RC people
 ^^^^^^^^^
 
+* [Ｘ] Long conversation with Adriel Arsenault about preparing for jobs. (20170526)
 * [Ｘ] Helped Nicole Orchard with initial Python set-up. (20170525)
 * [Ｘ] Asked Alex Leeds if he would meet Sean Travis Taylor. (20170522) Done, and Alex's details conveyed to Sean.
 * [Ｘ] Signed up for in-person check-ins and mentioned in the Zulip ``checkins`` stream. (20170522). Parthiv and Logan Buckley showed up the first day (20170523) and I described to them something of the history of check-ins and 
