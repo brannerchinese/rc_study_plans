@@ -35,7 +35,7 @@ Testing
 Jobs
 ^^^^
 
-* [　] Prepare résumé for technical writing positions.
+* [　] Prepare résumé for technical writing positions. 20170525: Wrote to RC Jobs to discussion position and whether application should go through RC or not; no response yet.
 * [　] Examine coding practice sites:
  
   * CareerCup
@@ -67,13 +67,14 @@ Sphinx
 Unix knowledge
 ^^^^^^^^^^^^^^
 
-* Read in Eric S. Raymond, :emphasis:`The Art of Unix Programming`. `Website <http://www.catb.org/esr/writings/taoup/html/>`_ should allow easy recording of :emphasis:`bon mots`.
+* Read in Eric S. Raymond, :emphasis:`The Art of Unix Programming`. Existence of `website <http://www.catb.org/esr/writings/taoup/html/>`_ should allow easy recording of :emphasis:`bon mots`.
  
   * 20170522: Have reached Sec. 4.4, starting at the beginning.
 
-Things learned
-^^^^^^^^^^^^^^
+Interesting things learned
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* To put a space in a reST literal, use :literal:`:literal:\`\\\ \``.
 * Although the `Docutils site <http://docutils.sourceforge.net/FAQ.html#what-s-the-standard-filename-extension-for-a-restructuredtext-file>`_ says that the extension for reST files should be ``.txt``, GitHub does not recognize ``.txt`` files as reST, requiring ``.rst`` or ``.rest``.
 * Convert Markdown external links to reST with ``\[([a-z].+?)\]\((.+?)\)`` => ```\1 <\2>`_``
 * reST horizontal rule: four or more section-head characters, but with a blank line before them
