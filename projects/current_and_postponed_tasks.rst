@@ -61,7 +61,7 @@ On-going
 Sphinx
 ^^^^^^
 
-* [　] Practice reStructuredText by rewriting some Markdown content. 
+* Practice reStructuredText by rewriting some Markdown content. 
 
 
 Unix knowledge
