@@ -46,6 +46,8 @@ Jobs
   * HackerRank
   * LeetCode Online Judge
 
+* [　] Find possible pairing partner for interview coding practice.
+
 VisiData
 ^^^^^^^^
 
