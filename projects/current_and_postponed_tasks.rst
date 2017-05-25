@@ -13,6 +13,11 @@ Completed tasks are marked [Ｘ]. Postponed tasks are marked [Ｏ].
 To be done immediately
 ----------------------
 
+(blank)
+
+Upcoming
+--------
+
 EMACS
 ^^^^^
 
