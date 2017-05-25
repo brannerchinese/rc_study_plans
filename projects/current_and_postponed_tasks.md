@@ -28,7 +28,7 @@ Postponed tasks are marked [Ｏ].
 
 #### Jobs
 
- * [　] Prepare résumé for technical writing positions.
+ * [　] Prepare résumé for technical writing positions. (20170524) Wrote to RC about TwoSigma job. No response yet.
  * [　] Examine coding practice sites:
  
    * CareerCup
@@ -38,9 +38,11 @@ Postponed tasks are marked [Ｏ].
    * Project Euler
    * HackerRank
 
+ * [　] Find pairing partner for interview prep coding practice.
+
 #### VisiData
 
- * [　] Meet with Saul to discuss things. 20170524: Saul was too busy to do this today again. He presented his own 
+ * [　] Meet with Saul to discuss things. 20170524: Saul was too busy to do this today again. He presented his own introduction, including a simple ReadTheDocs user guide, at a workshop on 20170524.
 
 ---
 
