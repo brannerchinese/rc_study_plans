@@ -1,7 +1,7 @@
 Current and Postponed tasks
 ===========================
 
-Postponed tasks are marked [Ｏ].
+Completed tasks are marked [Ｘ]. Postponed tasks are marked [Ｏ].
 
 To be done immediately
 ----------------------
