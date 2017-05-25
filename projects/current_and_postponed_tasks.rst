@@ -8,6 +8,7 @@ Completed tasks are marked [Ｘ]. Postponed tasks are marked [Ｏ].
 * `To be done immediately`_
 * `On-going`_
 * `Done`_
+* `Summary of the break between the two halves of my batch`_
 
 
 To be done immediately
@@ -161,7 +162,7 @@ Summary of the break between the two halves of my batch
 
 (From my diary)
 
- I have had a two-week break in the midst of my batch. I gained a lot from it — one thing I did was to transcribe the whole :emphasis:`Tsyrchyuan` of Yang Shuhdar (all the definitions), which meant that I read the whole thing carefully. The other was to put my RC experience in better focus — both the MongoDB interview experience and Nancy's suggestion that I take Myer-Briggs had a big effect on me.
+ I have had a two-week break in the midst of my batch. I gained a lot from it — one thing I did was to transcribe the whole :emphasis:`Tsyrchyuan` of Yang Shuhdar (all the definitions), which meant that I read the whole thing carefully. The other was to put my RC experience in better focus — both the MongoDB interview experience and the changes to RC's self-description have had a big effect on me, and the latter has been building since I worked writing referral letters for RC.
 
 ----
 
