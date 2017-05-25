@@ -17,19 +17,29 @@ Postponed tasks are marked [Ｏ].
 
 #### Sphinx
 
- * [Ｘ] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/tutorial.html). (20170524)
- * [Ｘ] Begin learning reStructured Text (http://www.sphinx-doc.org/en/stable/rest.html). (20170524)
- * [　] Read one of the longer reST doumentation collections. (http://docutils.sourceforge.net/rst.html
- * [　] Practice reStructuredText.
+ * [　] Practice reStructuredText by rewriting some Markdown content.
  * [　] Choose code to document with Sphinx.
+
+#### Testing
+
+ * [　] Write up old PyTest materials. See https://github.com/brannerchinese/pytest_tutorial_project.
+ * [　] Learn about Nose. See http://nose.readthedocs.io/en/latest/testing.html.
 
 #### Jobs
 
  * [　] Prepare résumé for technical writing positions.
+ * [　] Examine coding practice sites:
+ 
+   * CareerCup
+   * TopCoder
+   * GeeksforGeeks
+   * Sphere Online Judge (SPOJ)
+   * Project Euler
+   * HackerRank
 
 #### VisiData
 
- * [　] Meet with Saul to discuss things.
+ * [　] Meet with Saul to discuss things. 20170524: Saul was too busy to do this today again. He presented his own 
 
 ---
 
@@ -55,6 +65,12 @@ Postponed tasks are marked [Ｏ].
 
  * [Ｘ] Ask Alex Leeds if he would meet Sean Travis Taylor. (20170522) Done, and Alex's details conveyed to Sean.
  * [Ｘ] Signed up for in-person check-ins and mentioned in the Zulip `checkins` stream. (20170522). Parthiv and Logan Buckley showed up the first day (20170523) and I described to them something of the history of check-ins and 
+
+#### Sphinx
+
+ * [Ｘ] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/tutorial.html). (20170524)
+ * [Ｘ] Begin learning reStructured Text (http://www.sphinx-doc.org/en/stable/rest.html). (20170524)
+ * [Ｘ] Read two of the longer reST doumentation collections. (http://docutils.sourceforge.net/rst.html) (20170524)
 
 #### VisiData
 
