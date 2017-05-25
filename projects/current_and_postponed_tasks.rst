@@ -81,11 +81,17 @@ Unix knowledge
 Interesting things learned
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+reST
+""""
+
 * "Implicit hyperlink targets" (hyperlinks to section-titles) use a reduced form of the hyperlinking syntax: :literal:`\`Done\`_` rather than :literal:`\`Done <Done>\`_`
 * To put a space in a reST literal, use :literal:`:literal:\`\\\ \``.
 * Although the `Docutils site <http://docutils.sourceforge.net/FAQ.html#what-s-the-standard-filename-extension-for-a-restructuredtext-file>`_ says that the extension for reST files should be ``.txt``, GitHub does not recognize ``.txt`` files as reST, requiring ``.rst`` or ``.rest``.
 * Convert Markdown external links to reST with ``\[([a-z].+?)\]\((.+?)\)`` => ```\1 <\2>`_``
 * reST horizontal rule: four or more section-head characters, but with a blank line before them
+
+Command-line tools
+""""""""""""""""""
 
 ``shred``
   Overwrite a file to hide its contents, and optionally delete it.
@@ -94,7 +100,7 @@ Interesting things learned
   List only packages that are available to upgrade.
 
 ``sudo apt --only-upgrade install <package>``
-  Selectively upgrade individual packages (avoid having to upgrade all packages at cone).
+  Selectively upgrade individual packages (avoid having to upgrade all packages at once).
 
 ----
 
