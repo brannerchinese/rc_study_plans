@@ -15,19 +15,30 @@ To be done immediately
 ----------------------
 
 * [　] Write up VisidData decisions and set up documentation-notes repo.
-* [　] Write up Kaggle tasks.
-* [　] Write to Jobs.
 
 Upcoming
 --------
 
-Kaggle
-^^^^^^
+IPython and Jupyter
+^^^^^^^^^^^^^^^^^^^
 
-* [　] Get practice with Jupyter and current Ipython configuration settings.
-* [　] Read on the kaggle.com wiki.
-* [　] Study the Quora problem privately.
-* [Ｘ] Set up private repo for Kaggle project and invited the four other participants.
+* [　] Get practice with Jupyter and current Ipython configuration settings. See `IPython project page <ipython.rst>`_.
+
+Regular coding practice
+^^^^^^^^^^^^^^^^^^^^^^^
+
+* [　] Examine coding practice sites:
+ 
+  * CareerCup
+  * TopCoder
+  * GeeksforGeeks
+  * Sphere Online Judge (SPOJ)
+  * Project Euler
+  * HackerRank
+  * LeetCode Online Judge
+
+* [　] Find possible pairing partner for interview coding practice. (20170525) Two people I've asked today don't seem to have time. I suspect it will be easier to work on my own and ask for Crit or Code Review feedback. I should aim for more statistical projects.
+
 
 EMACS
 ^^^^^
@@ -59,17 +70,6 @@ Jobs
 ^^^^
 
 * [　] Prepare résumé for technical writing positions. 20170525: Wrote to RC Jobs to discussion position and whether application should go through RC or not; no response yet.
-* [　] Examine coding practice sites:
- 
-  * CareerCup
-  * TopCoder
-  * GeeksforGeeks
-  * Sphere Online Judge (SPOJ)
-  * Project Euler
-  * HackerRank
-  * LeetCode Online Judge
-
-* [　] Find possible pairing partner for interview coding practice.
 
 VisiData
 ^^^^^^^^
@@ -150,6 +150,16 @@ VisiData
 * [Ｘ] Get Chinese data suitable for use by VisiData and send it to Saul. (20170522-23). 
 * [Ｘ] Issue posted to VisiData GitHub account about the low visibility of ``curses.BLUE``. (20170521)
 
+Kaggle
+------
+
+After today's (20170525) Kaggle meeting the five of us agreed that we would work first on an Instagram challenge, leaving a more interesting Quora challenge for private reading. I was to set up a private repository, giving eachmember access (which I did). Other plans for were learn IPython independently and read the kaggle.com wiki independently. There was also supposed to be an additional meeting at 1500h, to review some past challenges, but if it took place then I was never notified. 
+
+Although I would like to learn this material, I think it's too much for the five remaining weeks. Three of us are quite inexperienced and two have somewhat more data-science experience; I think it is infeasible to work on this together productively in the remaining time. I would, however, like to get practice with Jupyter and current Ipython configuration settings, so I will create an item for myself to do that.
+
+It would be a good idea to spend some of my coding time working on simple statistics problems.
+
+
 Environment
 ^^^^^^^^^^^
 
@@ -162,9 +172,15 @@ EMACS
 
 * [Ｘ] Retrieve old EMACS notes and find recommended EMACS intro. (20170522)
 
+Kaggle
+^^^^^^
+
+* [Ｘ] Set up private repo for Kaggle project and invited the four other participants.
+
 Jobs
 ^^^^
 
+* [Ｘ] Wrote to Jobs about Jane Street position.
 * [Ｘ] Lunch conversation with TwoSigma technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back. Discussed some ethical issues with RMKA.
 
 ----
@@ -175,7 +191,5 @@ Summary of the break between the two halves of my batch
 (From my diary)
 
  I have had a two-week break in the midst of my batch. I gained a lot from it — one thing I did was to transcribe the whole :emphasis:`Tsyrchyuan` of Yang Shuhdar (all the definitions), which meant that I read the whole thing carefully. The other was to put my RC experience in better focus — both the MongoDB interview experience and the changes to RC's self-description have had a big effect on me, and the latter has been building since I worked writing referral letters for RC.
-
-----
 
 [end]
