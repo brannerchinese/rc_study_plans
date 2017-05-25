@@ -112,7 +112,7 @@ Sphinx
 
 * [Ｘ] Practiced reStructuredText by rewriting some Markdown content. (20170526) Began with this "Current and Postponed tasks" file. 
 
-  * One nice thing is that GitHub does not reformat ``[　]`` as a checkbox in reST the way it does in Markdown. 
+  * One nice thing is that GitHub does not reformat ``[　]`` as a checkbox in reST the way it does in Markdown. More generally, GitHub does not have a proprietary and arbitrary version of reST, the way it does of Markdown; reST is essentially still a single standard.
   * One unpleasant thing is that marking section headers takes more time and space than in Markdown (which allows just a prefixed :literal:`###\ `, for instance, instead of a separate line of ``#`` at least equal in length to the number of characters in the heading.
 
 * [Ｘ] Begin learning Sphinx (http://www.sphinx-doc.org/en/stable/tutorial.html). (20170524)
