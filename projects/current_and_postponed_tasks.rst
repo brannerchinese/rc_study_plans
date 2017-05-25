@@ -56,6 +56,9 @@ VisiData
 On-going
 --------
 
+Sphinx
+^^^^^^
+
 * [　] Practice reStructuredText by rewriting some Markdown content. 
 
 
