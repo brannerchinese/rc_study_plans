@@ -12,6 +12,7 @@ EMACS
 * [　] Look at the Emacs introduction in `Clojure for the Brave and True <http://www.braveclojure.com/basic-emacs/>`_, recommended by Stacey and Logan.
 
 Environment
+^^^^^^^^^^^
 
 * [　] Learn what the difference between `/dev/tty0` and `/dev/tty` actually is, and why `/dev/tty0` is being sought in the ``xorg`` upgrade. See
  
@@ -22,6 +23,7 @@ Sphinx
 ^^^^^^
 
 * [　] Learn about Docutils. See http://docutils.sourceforge.net/FAQ.html.
+* [　] Read `A Record of reStructuredText Syntax Alternatives <http://docutils.sourceforge.net/docs/dev/rst/alternatives.html>`_
 * [　] Choose code to document with Sphinx.
 
 Testing
@@ -47,7 +49,7 @@ Jobs
 VisiData
 ^^^^^^^^
 
-* [　] Meet with Saul to discuss things. 20170524: Saul was too busy to do this. 20170525: Saul was too busy to do this today again. He gave a workshop today and published a brief user guide, but he never had a chance to work with me on these things as we had planned. 20170526: Made appointment.
+* [　] Meet with Saul to discuss my role in the project. 20170524: Saul was too busy to do this. 20170525: Saul was too busy to do this today again. He gave a workshop today and published a brief user guide, but he never had a chance to work with me on these things as we had planned. 20170526: Made appointment.
 
 ----
 
@@ -58,7 +60,7 @@ On-going
 
 
 Unix knowledge
---------------
+^^^^^^^^^^^^^^
 
 * Read in Eric S. Raymond, :emphasis:`The Art of Unix Programming`. `Website <http://www.catb.org/esr/writings/taoup/html/>`_ should allow easy recording of :emphasis:`bon mots`.
  
