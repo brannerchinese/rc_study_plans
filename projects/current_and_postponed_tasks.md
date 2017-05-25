@@ -18,6 +18,7 @@ Postponed tasks are marked [Ｏ].
 #### Sphinx
 
  * [　] Practice reStructuredText by rewriting some Markdown content.
+ * [　] Learn about Docutils. See http://docutils.sourceforge.net/FAQ.html.
  * [　] Choose code to document with Sphinx.
 
 #### Testing
