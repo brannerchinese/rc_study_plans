@@ -14,10 +14,20 @@ Completed tasks are marked [Ｘ]. Postponed tasks are marked [Ｏ].
 To be done immediately
 ----------------------
 
-(blank)
+* [　] Write up VisidData decisions and set up documentation-notes repo.
+* [　] Write up Kaggle tasks.
+* [　] Write to Jobs.
 
 Upcoming
 --------
+
+Kaggle
+^^^^^^
+
+* [　] Get practice with Jupyter and current Ipython configuration settings.
+* [　] Read on the kaggle.com wiki.
+* [　] Study the Quora problem privately.
+* [Ｘ] Set up private repo for Kaggle project and invited the four other participants.
 
 EMACS
 ^^^^^
@@ -64,7 +74,7 @@ Jobs
 VisiData
 ^^^^^^^^
 
-* [　] Meet with Saul to discuss my role in the project. 20170524: Saul was too busy to do this. 20170525: Saul was too busy to do this today again. He gave a workshop today and published a brief user guide, but he never had a chance to work with me on these things as we had planned. 20170526: Made appointment.
+* [Ｘ] Meet with Saul to discuss my role in the project. 20170524: Saul was too busy to do this. 20170525: Saul was too busy to do this today again. He gave a workshop today and published a brief user guide, but he never had a chance to work with me on these things as we had planned. 20170526: Made appointment. Had half-hour disussion — covered running locally, where to place notes, where to place docs, setting up GitHub organization, DPB's title and use on résumé, Sphinx, Nose or Pytest for testing.
 
 ----
 
@@ -116,7 +126,8 @@ Done
 RC people
 ^^^^^^^^^
 
-* [Ｘ] Ask Alex Leeds if he would meet Sean Travis Taylor. (20170522) Done, and Alex's details conveyed to Sean.
+* [Ｘ] Helped Nicole Orchard with initial Python set-up. (20170525)
+* [Ｘ] Asked Alex Leeds if he would meet Sean Travis Taylor. (20170522) Done, and Alex's details conveyed to Sean.
 * [Ｘ] Signed up for in-person check-ins and mentioned in the Zulip ``checkins`` stream. (20170522). Parthiv and Logan Buckley showed up the first day (20170523) and I described to them something of the history of check-ins and 
 
 Sphinx
