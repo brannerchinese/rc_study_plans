@@ -107,8 +107,8 @@ Sphinx
 VisiData
 ^^^^^^^^
 
-* [Ｘ] Reported errors installing VisiData via ``git`` cloning and via ``pip`` on Debian. (20170523) On the possibility that the problem is due to my Debian installation, am considering trying an Ubuntu/Python3.4 Vagrant container on my Mac. (Later:) Vagrant now has trouble working with VirtualBox, so that option was not possible. However, I tried using an Ubuntu installation on a remote server and on Mac OS 10.9.5 itself. Neither the version cloned from Git (``develop`` or ``stable`` branches) or the version installed by ``pip`` worked. Finally, only the ``testpypi`` version (``pip install -i https://testpypi.python.org/pypi visidata``) worked correctly. 
-* [Ｘ] Get Chinese data suitable for use by VisiData. (20170522-23). 
+* [Ｘ] Reported errors installing VisiData via ``git`` cloning and via ``pip`` on Debian. (20170523) On the possibility that the problem is due to my Debian installation, am considering trying an Ubuntu/Python3.4 Vagrant container on my Mac. (Later:) Vagrant now has trouble working with VirtualBox, so that option was not possible. However, I tried using an Ubuntu installation on a remote server and on Mac OS 10.9.5 itself. Neither the version cloned from Git (``develop`` or ``stable`` branches) or the version installed by ``pip`` worked. Finally, only the ``testpypi`` version (``pip install -i https://testpypi.python.org/pypi visidata``) worked correctly. But this will not allow me to work on the project — that has to be done via Git.
+* [Ｘ] Get Chinese data suitable for use by VisiData and send it to Saul. (20170522-23). 
 * [Ｘ] Issue posted to VisiData GitHub account about the low visibility of ``curses.BLUE``. (20170521)
 
 Environment
