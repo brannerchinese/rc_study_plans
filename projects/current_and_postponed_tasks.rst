@@ -130,6 +130,8 @@ RC people
 Sphinx
 ^^^^^^
 
+* [Ｘ] Installed `sphinx` in order to have access to `rst2html.py` for converting reST to HTML. (20170527)
+* [Ｘ] Converted all my in-progress notes on Chao wenyan grammar from Markdown to reST. (20170527) This allows me to render my markup locally; `grip` for GitHub-Flavored Markdown involved a call to GitHub itself.
 * [Ｘ] Practiced reStructuredText by rewriting some Markdown content. (20170526) Began with this "Current and Postponed tasks" file. 
 
   * One nice thing is that GitHub does not reformat ``[　]`` as a checkbox in reST the way it does in Markdown. More generally, GitHub does not have a proprietary and arbitrary version of reST, the way it does of Markdown; reST is essentially still a single standard.
