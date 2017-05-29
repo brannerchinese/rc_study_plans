@@ -148,6 +148,11 @@ VisiData
 * [Ｘ] Get Chinese data suitable for use by VisiData and send it to Saul. (20170522-23). 
 * [Ｘ] Issue posted to VisiData GitHub account about the low visibility of ``curses.BLUE``. (20170521)
 
+Grammar
+^^^^^^^
+
+* [Ｘ] Chao Grammar: added notes for sections involving inversion of object or subject: 2.3.2, 2.10.8, 5.4.7, 8.1.2.2. (20170528)
+
 Environment
 ^^^^^^^^^^^
 
