@@ -15,10 +15,19 @@ Completed tasks are marked [Ｘ]. Postponed tasks are marked [Ｏ].
 To be done immediately
 ----------------------
 
-* [　] Write up VisidData decisions and set up documentation-notes repo.
 
 Upcoming
 --------
+
+VisiData
+^^^^^^^^
+
+* [　] Meet with Saul Pwanson to learn about current process-based testing workflow and then begin documenting it.
+* [　] Meet with Saul Pwanson to learn about coloring tools and then begin documenting them.
+* [　] Play with unit tests and document how to write them.
+* [　] Write fresh pull-requests on some of the small TODO items in the docstring commits.
+* [　] Clean up code in `addons` directory. Submit these as discrete pull-requests.
+* [Ｏ] Write up VisidData decisions and set up documentation-notes repo.
 
 IPython and Jupyter
 ^^^^^^^^^^^^^^^^^^^
@@ -37,8 +46,9 @@ Regular coding practice
   * Project Euler
   * HackerRank
   * LeetCode Online Judge
+  * [Exercism](exercism.io)
 
-* [　] Find possible pairing partner for interview coding practice. (20170525) Two people I've asked today don't seem to have time. I suspect it will be easier to work on my own and ask for Crit or Code Review feedback. I should aim for more statistical projects.
+* [Ｏ] Find possible pairing partner for interview coding practice. (20170525) Two people I've asked today don't seem to have time. I suspect it will be easier to work on my own and ask for Crit or Code Review feedback. I should aim for more statistical projects. (20170605) This seems pointless — the people I've approached tentatively seem to want other things. I am on my own.
 
 
 Environment
@@ -65,13 +75,6 @@ Testing
 Jobs
 ^^^^
 
-* [　] Prepare résumé for technical writing positions. 20170525: Wrote to RC Jobs to discussion position and whether application should go through RC or not; no response yet.
-
-VisiData
-^^^^^^^^
-
-* [Ｘ] Meet with Saul to discuss my role in the project. 20170524: Saul was too busy to do this. 20170525: Saul was too busy to do this today again. He gave a workshop today and published a brief user guide, but he never had a chance to work with me on these things as we had planned. 20170526: Made appointment. Had half-hour disussion — covered running locally, where to place notes, where to place docs, setting up GitHub organization, DPB's title and use on résumé, Sphinx, Nose or Pytest for testing.
-
 ----
 
 On-going
@@ -88,6 +91,7 @@ Unix knowledge
 
 * Read in Eric S. Raymond, :emphasis:`The Art of Unix Programming`. Existence of `website <http://www.catb.org/esr/writings/taoup/html/>`_ should allow easy recording of :emphasis:`bon mots`.
  
+  * 20170605: Am finished with Sec. 5.2.6. It remains interesting, but it's also clear how little adhereance there is to Unix values in the field generally.
   * 20170522: Have reached Sec. 4.4, starting at the beginning.
 
 Interesting things learned
@@ -117,11 +121,12 @@ Command-line tools
 ----
 
 Done
---------
+----
 
 RC people
 ^^^^^^^^^
 
+* [Ｘ] Two long rounds of corrections to prospective Python blog-post by Katie Allen. (20170604-5)
 * [Ｘ] Long conversation with Adriel Arsenault about preparing for jobs. (20170526)
 * [Ｘ] Helped Nicole Orchard with initial Python set-up. (20170525)
 * [Ｘ] Asked Alex Leeds if he would meet Sean Travis Taylor. (20170522) Done, and Alex's details conveyed to Sean.
@@ -144,6 +149,10 @@ Sphinx
 VisiData
 ^^^^^^^^
 
+* [Ｘ] Eight commits, adding about 300 docstrings and some other miscellaneous changes, to the VisiData add-ons and to the `vd.py` file. (20170602-5) Discussion with Saul Pwanson about principles of this work and next steps. (20170605)
+
+* [Ｘ] Meet with Saul to discuss my role in the project. 20170524: Saul was too busy to do this. 20170525: Saul was too busy to do this today again. He gave a workshop today and published a brief user guide, but he never had a chance to work with me on these things as we had planned. 20170526: Made appointment. Had half-hour disussion — covered running locally, where to place notes, where to place docs, setting up GitHub organization, DPB's title and use on résumé, Sphinx, Nose or Pytest for testing.
+
 * [Ｘ] Reported errors installing VisiData via ``git`` cloning and via ``pip`` on Debian. (20170523) On the possibility that the problem is due to my Debian installation, am considering trying an Ubuntu/Python3.4 Vagrant container on my Mac. (Later:) Vagrant now has trouble working with VirtualBox, so that option was not possible. However, I tried using an Ubuntu installation on a remote server and on Mac OS 10.9.5 itself. Neither the version cloned from Git (``develop`` or ``stable`` branches) or the version installed by ``pip`` worked. Finally, only the ``testpypi`` version (``pip install -i https://testpypi.python.org/pypi visidata``) worked correctly. But this will not allow me to work on the project — that has to be done via Git.
 * [Ｘ] Get Chinese data suitable for use by VisiData and send it to Saul. (20170522-23). 
 * [Ｘ] Issue posted to VisiData GitHub account about the low visibility of ``curses.BLUE``. (20170521)
@@ -163,7 +172,9 @@ Environment
 Jobs
 ^^^^
 
-* [Ｘ] Wrote to Jobs about Jane Street position.
+* [Ｘ] Submitted a number of technical writing samples to Jane Street, at their request. (20170531)
+* [Ｘ] Prepare résumé for technical writing positions. 20170525: Wrote to RC Jobs to discussion position and whether application should go through RC or not; no response yet. 20170530: Résumé prepared and submitted to RC Jobs.
+* [Ｘ] Wrote to Jobs about Jane Street position. (20170530)
 * [Ｘ] Lunch conversation with TwoSigma technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back. Discussed some ethical issues with RMKA.
 
 ----
