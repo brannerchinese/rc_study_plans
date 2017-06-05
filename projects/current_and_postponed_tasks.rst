@@ -29,11 +29,6 @@ VisiData
 * [　] Clean up code in `addons` directory. Submit these as discrete pull-requests.
 * [Ｏ] Write up VisidData decisions and set up documentation-notes repo.
 
-IPython and Jupyter
-^^^^^^^^^^^^^^^^^^^
-
-* [　] Get practice with Jupyter and current Ipython configuration settings. See `IPython project page <ipython.rst>`_.
-
 Regular coding practice
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -46,7 +41,7 @@ Regular coding practice
   * Project Euler
   * HackerRank
   * LeetCode Online Judge
-  * [Exercism](exercism.io)
+  * `Exercism <exercism.io>`_
 
 * [Ｏ] Find possible pairing partner for interview coding practice. (20170525) Two people I've asked today don't seem to have time. I suspect it will be easier to work on my own and ask for Crit or Code Review feedback. I should aim for more statistical projects. (20170605) This seems pointless — the people I've approached tentatively seem to want other things. I am on my own.
 
@@ -71,6 +66,11 @@ Testing
 
 * [　] Write up old PyTest materials. See https://github.com/brannerchinese/pytest_tutorial_project.
 * [　] Learn about Nose. See http://nose.readthedocs.io/en/latest/testing.html.
+
+IPython and Jupyter
+^^^^^^^^^^^^^^^^^^^
+
+* [　] Get practice with Jupyter and current Ipython configuration settings. See `IPython project page <ipython.rst>`_.
 
 Jobs
 ^^^^
