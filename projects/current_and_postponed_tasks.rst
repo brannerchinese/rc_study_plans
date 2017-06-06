@@ -22,6 +22,7 @@ Upcoming
 VisiData
 ^^^^^^^^
 
+* [　] Begin converting VisiData documentation to Sphinx, using `ReadTheDocs <https://docs.readthedocs.io/en/latest/getting_started.html>`_
 * [　] Meet with Saul Pwanson to learn about current process-based testing workflow and then begin documenting it.
 * [　] Meet with Saul Pwanson to learn about coloring tools and then begin documenting them.
 * [　] Play with unit tests and document how to write them.
@@ -59,7 +60,6 @@ Sphinx
 
 * [　] Learn about Docutils. See http://docutils.sourceforge.net/FAQ.html.
 * [　] Read `A Record of reStructuredText Syntax Alternatives <http://docutils.sourceforge.net/docs/dev/rst/alternatives.html>`_
-* [　] Choose code to document with Sphinx.
 
 Testing
 ^^^^^^^
@@ -84,7 +84,6 @@ Sphinx
 ^^^^^^
 
 * Practice reStructuredText by rewriting some Markdown content. 
-
 
 Unix knowledge
 ^^^^^^^^^^^^^^
@@ -135,6 +134,7 @@ RC people
 Sphinx
 ^^^^^^
 
+* [Ｘ] Choose code to document with Sphinx. Try VisiData. (20170605) Moved to under VisiData heading.
 * [Ｘ] Installed `sphinx` in order to have access to `rst2html.py` for converting reST to HTML. (20170527)
 * [Ｘ] Converted all my in-progress notes on Chao wenyan grammar from Markdown to reST. (20170527) This allows me to render my markup locally; `grip` for GitHub-Flavored Markdown involved a call to GitHub itself.
 * [Ｘ] Practiced reStructuredText by rewriting some Markdown content. (20170526) Began with this "Current and Postponed tasks" file. 
