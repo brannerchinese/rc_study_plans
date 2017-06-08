@@ -23,10 +23,9 @@ VisiData
 ^^^^^^^^
 
 * [　] Begin converting VisiData documentation to Sphinx, using `ReadTheDocs <https://docs.readthedocs.io/en/latest/getting_started.html>`_
-* [　] Meet with Saul Pwanson to learn about current process-based testing workflow and then begin documenting it.
-* [　] Meet with Saul Pwanson to learn about coloring tools and then begin documenting them.
+* [　] Document process-based testing workflow.
+* [　] Document coloring tools.
 * [　] Play with unit tests and document how to write them.
-* [　] Write fresh pull-requests on some of the small TODO items in the docstring commits.
 * [　] Clean up code in `addons` directory. Submit these as discrete pull-requests.
 * [Ｏ] Write up VisidData decisions and set up documentation-notes repo.
 
@@ -148,6 +147,10 @@ Sphinx
 
 VisiData
 ^^^^^^^^
+
+* [Ｘ] Meet with Saul Pwanson to learn about coloring tools and then begin documenting them. (20170607)
+* [Ｘ] Meet with Saul Pwanson to learn about current process-based testing workflow and then begin documenting it. (20170606)
+* [Ｘ] Write fresh pull-requests on some of the small TODO items in the docstring commits. (20170606)
 
 * [Ｘ] Eight commits, adding about 300 docstrings and some other miscellaneous changes, to the VisiData add-ons and to the `vd.py` file. (20170602-5) Discussion with Saul Pwanson about principles of this work and next steps. (20170605)
 
