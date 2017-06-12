@@ -22,9 +22,8 @@ Upcoming
 VisiData
 ^^^^^^^^
 
-* [　] Begin converting VisiData documentation to Sphinx, using `ReadTheDocs <https://docs.readthedocs.io/en/latest/getting_started.html>`_
 * [　] Document process-based testing workflow.
-* [　] Document coloring tools.
+* [　] Document coloring tools. (Wait until Saul is ready.)
 * [　] Play with unit tests and document how to write them.
 * [　] Clean up code in `addons` directory. Submit these as discrete pull-requests.
 * [Ｏ] Write up VisidData decisions and set up documentation-notes repo.
@@ -57,8 +56,6 @@ Environment
 Sphinx
 ^^^^^^
 
-* [　] Learn about Docutils. See http://docutils.sourceforge.net/FAQ.html.
-* [　] Read `A Record of reStructuredText Syntax Alternatives <http://docutils.sourceforge.net/docs/dev/rst/alternatives.html>`_
 
 Testing
 ^^^^^^^
@@ -82,13 +79,12 @@ On-going
 Sphinx
 ^^^^^^
 
-* Practice reStructuredText by rewriting some Markdown content. 
-
 Unix knowledge
 ^^^^^^^^^^^^^^
 
 * Read in Eric S. Raymond, :emphasis:`The Art of Unix Programming`. Existence of `website <http://www.catb.org/esr/writings/taoup/html/>`_ should allow easy recording of :emphasis:`bon mots`.
  
+  * 20170611: Am finished with Sec. 7.2.2.4. It's rather bogged down, what with all the case studies. Soon I will be reading Classical Chinese on my commute, though.
   * 20170605: Am finished with Sec. 5.2.6. It remains interesting, but it's also clear how little adhereance there is to Unix values in the field generally.
   * 20170522: Have reached Sec. 4.4, starting at the beginning.
 
@@ -133,8 +129,11 @@ RC people
 Sphinx
 ^^^^^^
 
+* [Ｘ] Begin converting VisiData documentation to Sphinx, using `ReadTheDocs <https://docs.readthedocs.io/en/latest/getting_started.html>`_ (20170606-11) One very time-consuming issue was that in order for Read the Docs to go to the correct branch of a repository, it must be declared the default branch on both GitHub (settings => branches) and Read the Docs (admin => advanced options). Since I didn't know that that was the problem, I tried a great number of other fixes first. I documented how Sphinx and Read the Docs have to be set up in order to work together, and included that in the new documentation. I also rebased my branch in order to have the most readable commit history, and finished with a pull request.
 * [Ｘ] Choose code to document with Sphinx. Try VisiData. (20170605) Moved to under VisiData heading.
 * [Ｘ] Installed `sphinx` in order to have access to `rst2html.py` for converting reST to HTML. (20170527)
+* [Ｘ] Learn about Docutils. See http://docutils.sourceforge.net/FAQ.html. (20170528)
+* [Ｘ] Read `A Record of reStructuredText Syntax Alternatives <http://docutils.sourceforge.net/docs/dev/rst/alternatives.html>`_ (20170528)
 * [Ｘ] Converted all my in-progress notes on Chao wenyan grammar from Markdown to reST. (20170527) This allows me to render my markup locally; `grip` for GitHub-Flavored Markdown involved a call to GitHub itself.
 * [Ｘ] Practiced reStructuredText by rewriting some Markdown content. (20170526) Began with this "Current and Postponed tasks" file. 
 
@@ -175,10 +174,12 @@ Environment
 Jobs
 ^^^^
 
-* [Ｘ] Submitted a number of technical writing samples to Jane Street, at their request. (20170531)
+* [Ｘ] Had conversation with D and sent assorted writing samples (20170609)
+* [Ｘ] Sent technical writing samples to T and requested information about their writing rules (20170608-9)
+* [Ｘ] Submitted a number of technical writing samples to J, at their request. (20170531)
 * [Ｘ] Prepare résumé for technical writing positions. 20170525: Wrote to RC Jobs to discussion position and whether application should go through RC or not; no response yet. 20170530: Résumé prepared and submitted to RC Jobs.
-* [Ｘ] Wrote to Jobs about Jane Street position. (20170530)
-* [Ｘ] Lunch conversation with TwoSigma technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back. Discussed some ethical issues with RMKA.
+* [Ｘ] Wrote to Jobs about J position. (20170530)
+* [Ｘ] Lunch conversation with T technical writer. (20170523) Relatively more technical contracting position may be available right now; will hear back. Discussed some ethical issues with RMKA.
 
 ----
 
